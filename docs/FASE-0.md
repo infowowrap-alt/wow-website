@@ -45,3 +45,11 @@ Scritta il 28/10/2026 dopo aver letto `CLAUDE.md`, `docs/BRAND.md`, `docs/CONTEN
 3. **Veicoli 3D**: c'è un budget per modelli realistici royalty-free (4 mezzi, indicativamente 30-150 € l'uno, li scelgo io e te li faccio approvare), o parto con CC0 stilizzati da sostituire dopo? La mappa delle mesh rende il cambio indolore.
 4. **Logo viola e palette Garage**: mi mandi il logo WOW viola? I colori Garage li confermi così (`#21152D` / `#7C0ED7` / `#E5FF00`) o li ricavo dal logo?
 5. **Volti**: chi posso mostrare in grande? Tu (immagino di sì) e i clienti che compaiono nei reel, per esempio la proprietaria della KTM.
+
+## 5. Risposte di Paolo (28/10/2026)
+
+- **Proposta**: mix A+C. Hero col taglio a 45° tra i due mondi; il gesto è l'angolo di pellicola sollevato che si afferra e si tira (anche nell'interruttore di mondo); transizione spatola + stacco con il retro siliconato.
+- **Materiale**: i domini non si possono sbloccare. Foto e video arrivano dalla galleria del telefono tramite la pagina privata "Materiale WOW" (https://claude.ai/artifact/GPgPzJtK23GuwpAarBCzRC): Paolo carica per mondo e progetto, Claude scarica e mette gli originali in `materiale/<mondo>/<progetto>/`.
+- **Budget**: 0 €. Veicoli 3D solo CC0 (o CC-BY con credito); niente acquisti.
+- **Loghi vettoriali**: arriveranno più avanti. Fino ad allora si usano i PNG.
+- **Ancora aperte**: logo WOW viola e conferma dei colori Garage; chi si può mostrare in volto (nel frattempo: Paolo sì, clienti riconoscibili mai in grande finché non c'è l'ok).

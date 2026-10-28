@@ -4,7 +4,7 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 
 ## Dalla lista iniziale (`docs/CONTENUTI.md` §7)
 
-- [ ] Logo WOW viola (Big Sun Garage) e loghi in vettoriale (SVG/PDF/AI), favicon.
+- [ ] Logo WOW viola (Big Sun Garage) e loghi in vettoriale (SVG/PDF/AI), favicon. (I vettoriali arrivano più avanti: per ora PNG.)
 - [ ] Foto originali in alta risoluzione dei progetti (soprattutto Cigarette, barche, flotte, cucine).
 - [ ] Video originali (non quelli scaricati da Instagram) per hero e casi studio.
 - [ ] Foto del campionario finiture (una foto per finitura, luce diffusa, dritta) e nomi/codici veri delle finiture.
@@ -20,10 +20,10 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 
 ## Aggiunti nella Fase 0
 
-- [ ] **Accesso al materiale.** Nel tuo Instagram ci sono 218 post (444 foto e video), ma la rete di questa sessione blocca il download da Instagram (`*.cdninstagram.com`) e da Adobe (`*.adobe.io`, `at.adobe.com`). Due strade: sblocchi quei domini nelle impostazioni dell'ambiente, oppure mi carichi gli originali in chat come zip, come hai fatto con il kit.
+- [ ] **Carica foto e video** dalla galleria del telefono con la pagina "Materiale WOW": https://claude.ai/artifact/GPgPzJtK23GuwpAarBCzRC (una cartella per progetto; priorità: video originali, officina con i LED, Cigarette, Sea-Doo, cucine, mobili, campionario).
 - [ ] **Logo WOW viola**: esiste (lo vedo sulla targa della BMW E92 e nei reel delle flotte). Mi serve il file originale, meglio se vettoriale.
 - [ ] **Colori Garage** (`#21152D`, `#7C0ED7`, `#E5FF00`, oggi "da confermare"): li confermi o li ricavo dal logo WOW viola quando arriva?
-- [ ] **Modelli 3D dei veicoli**: budget per modelli realistici royalty-free (auto coupé/berlina, SUV, furgone, moto), oppure si parte con modelli CC0 stilizzati da sostituire dopo.
+- [x] **Modelli 3D dei veicoli**: budget 0 €, si usano modelli CC0 (o CC-BY con credito). Si possono sostituire in seguito grazie alla mappa delle mesh.
 - [ ] **Volti**: chi si può mostrare in grande (tu e i clienti che compaiono nei reel, per esempio la proprietaria della KTM).
 - [ ] **Officina**: una foto frontale delle pareti con i LED a chevron, le misure a occhio della stanza e quanti chevron ci sono, per ricostruirla in 3D uguale.
 - [ ] **Catalogo pellicole auto**: marca, codice e nome dei colori e finiture che vuoi nel configuratore Garage (altrimenti mostro solo "esempi" senza codici).

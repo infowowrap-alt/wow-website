@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Token provvisori dalla Fase 1: il design system completo arriva nella Fase 2
+   (brand/tokens.json resta la fonte). */
+@theme {
+  --color-interior-blue: #044b94;
+  --color-interior-red: #c01818;
+  --color-interior-paper: #f5f2ec;
+  --color-interior-ink: #0d1b2a;
+  --color-interior-stone: #d9d4cb;
+  --color-garage-night: #21152d;
+  --color-garage-violet: #7c0ed7;
+  --color-garage-fluo: #e5ff00;
+  --color-garage-graphite: #38343e;
+  --color-garage-black: #111111;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-interior-paper);
+  color: var(--color-interior-ink);
+}
