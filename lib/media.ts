@@ -42,6 +42,7 @@ export type MediaItem = {
   color?: string;
   blur?: string;
   variants?: number[];
+  webp?: number[];
   clips?: MediaClip[];
 };
 
@@ -53,12 +54,12 @@ export function getMedia(id: string): MediaItem {
   return item;
 }
 
+// AVIF in tutte le misure; WebP (riserva per i browser senza AVIF) fino a 1280.
 export function srcSet(item: MediaItem, format: "avif" | "webp"): string {
-  return (item.variants ?? []).map((w) => `/media/${item.id}/${w}.${format} ${w}w`).join(", ");
+  const widths = (format === "avif" ? item.variants : item.webp) ?? [];
+  return widths.map((w) => `/media/${item.id}/${w}.${format} ${w}w`).join(", ");
 }
 
 export function fallbackSrc(item: MediaItem): string {
-  const variants = item.variants ?? [];
-  const w = variants.find((v) => v >= 1280) ?? variants.at(-1);
-  return `/media/${item.id}/${w}.webp`;
+  return `/media/${item.id}/${(item.webp ?? []).at(-1)}.webp`;
 }

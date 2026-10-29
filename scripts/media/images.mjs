@@ -7,13 +7,14 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import sharp from "sharp";
 import {
   ROOT, MATERIALE, OUT, IMAGE_EXT, loadCatalog, saveCatalog, walk, placeOf, slug, sourcesOf, hashOf, uniqueId, uploadInfo,
 } from "./catalog.mjs";
 
 const WIDTHS = [640, 1280, 1920, 2560];
-const PIPELINE = 1; // da incrementare quando cambiano qualità o misure
+const PIPELINE = 2; // da incrementare quando cambiano qualità o misure
 const force = process.argv.includes("--force");
 
 const catalog = loadCatalog();
@@ -41,13 +42,24 @@ for (const abs of walk(MATERIALE)) {
 }
 
 // 2. Elaborazione.
+// sharp non decodifica HEIC (HEVC) né DNG: per quelli passa da ImageMagick.
+const VIA_MAGICK = new Set([".heic", ".heif", ".dng"]);
+function open(file) {
+  const abs = path.join(ROOT, file);
+  const head = fs.readFileSync(abs).subarray(4, 12).toString("latin1");
+  const heif = head.startsWith("ftyp") && /hei|mif1|msf1/.test(head.slice(4));
+  if (!heif && !VIA_MAGICK.has(path.extname(file).toLowerCase())) return sharp(abs).rotate();
+  const png = execFileSync("convert", [abs, "-auto-orient", "-depth", "8", "png:-"], { maxBuffer: 1 << 30 });
+  return sharp(png);
+}
+
 async function render(item) {
   const files = sourcesOf(item, byId);
   let img;
   if (item.derive?.type === "hstack") {
     const height = item.derive.height ?? 1250;
     const panels = await Promise.all(
-      files.map((f) => sharp(path.join(ROOT, f)).rotate().resize({ height }).toBuffer({ resolveWithObject: true })),
+      files.map((f) => open(f).resize({ height }).toBuffer({ resolveWithObject: true })),
     );
     const width = panels.reduce((s, p) => s + p.info.width, 0);
     let x = 0;
@@ -60,7 +72,7 @@ async function render(item) {
       .composite(composite).png().toBuffer();
     img = sharp(buf);
   } else {
-    img = sharp(path.join(ROOT, files[0])).rotate();
+    img = open(files[0]);
   }
   if (item.crop) {
     const [left, top, width, height] = item.crop;
@@ -72,10 +84,12 @@ async function render(item) {
   return { buf, width: meta.width, height: meta.height };
 }
 
-function widthsFor(w) {
-  const list = WIDTHS.filter((x) => x < w);
-  if (w <= WIDTHS.at(-1)) list.push(w);
-  else list.push(WIDTHS.at(-1));
+// AVIF fino a 1920 (2560 solo per le foto da hero e copertina); WebP è la riserva
+// per i pochi browser senza AVIF, quindi basta fino a 1280.
+const HERO_USES = /^(hero|case-cover)/;
+function widthsFor(w, max) {
+  const list = WIDTHS.filter((x) => x < w && x <= max);
+  list.push(Math.min(w, max));
   return [...new Set(list)];
 }
 
@@ -87,9 +101,11 @@ async function processItem(item) {
     console.warn(`! ${item.id}: file mancanti ${missing.join(", ")}`);
     return;
   }
-  const hash = hashOf(files, { derive: item.derive, crop: item.crop, trim: item.trim, PIPELINE });
+  const hero = (item.uses ?? []).some((u) => HERO_USES.test(u));
+  const hash = hashOf(files, { derive: item.derive, crop: item.crop, trim: item.trim, hero, PIPELINE });
   const dir = path.join(OUT, item.id);
-  const complete = item.variants?.every((w) => fs.existsSync(path.join(dir, `${w}.avif`)) && fs.existsSync(path.join(dir, `${w}.webp`)));
+  const complete = item.variants?.every((w) => fs.existsSync(path.join(dir, `${w}.avif`)))
+    && item.webp?.every((w) => fs.existsSync(path.join(dir, `${w}.webp`)));
   if (!force && item.hash === hash && complete) {
     skipped++;
     return;
@@ -97,14 +113,12 @@ async function processItem(item) {
   const { buf, width, height } = await render(item);
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir, { recursive: true });
-  const variants = widthsFor(width);
-  await Promise.all(variants.flatMap((w) => {
-    const base = sharp(buf).resize({ width: w, withoutEnlargement: true });
-    return [
-      base.clone().avif({ quality: 52, effort: 3 }).toFile(path.join(dir, `${w}.avif`)),
-      base.clone().webp({ quality: 80, effort: 4 }).toFile(path.join(dir, `${w}.webp`)),
-    ];
-  }));
+  const variants = widthsFor(width, hero ? 2560 : 1920);
+  const webp = widthsFor(width, 1280);
+  await Promise.all([
+    ...variants.map((w) => sharp(buf).resize({ width: w, withoutEnlargement: true }).avif({ quality: 52, effort: 3 }).toFile(path.join(dir, `${w}.avif`))),
+    ...webp.map((w) => sharp(buf).resize({ width: w, withoutEnlargement: true }).webp({ quality: 78, effort: 4 }).toFile(path.join(dir, `${w}.webp`))),
+  ]);
   const blur = await sharp(buf).resize({ width: 24 }).webp({ quality: 45 }).toBuffer();
   const { dominant } = await sharp(buf).stats();
   const hex = "#" + [dominant.r, dominant.g, dominant.b].map((v) => v.toString(16).padStart(2, "0")).join("");
@@ -115,6 +129,7 @@ async function processItem(item) {
     color: hex,
     blur: `data:image/webp;base64,${blur.toString("base64")}`,
     variants,
+    webp,
     hash,
   });
   done++;
@@ -122,12 +137,25 @@ async function processItem(item) {
 }
 
 const queue = catalog.items.filter((i) => i.kind === "image" && i.export !== false);
+const failed = [];
 const workers = Array.from({ length: Math.max(1, os.availableParallelism() - 1) }, async () => {
-  while (queue.length) await processItem(queue.shift());
+  while (queue.length) {
+    const item = queue.shift();
+    try {
+      await processItem(item);
+    } catch (e) {
+      failed.push(item.id);
+      console.warn(`✗ ${item.id}: ${String(e.message).split("\n")[0]}`);
+    }
+  }
 });
 await Promise.all(workers);
+if (failed.length) process.exitCode = 1;
 
-// 3. Cartelle di output senza voce nel catalogo.
+// 3. Uscite delle voci non più pubblicate, e cartelle senza voce nel catalogo.
+for (const item of catalog.items.filter((i) => i.export === false)) {
+  fs.rmSync(path.join(OUT, item.id), { recursive: true, force: true });
+}
 if (fs.existsSync(OUT)) {
   const ids = new Set(catalog.items.map((i) => i.id));
   for (const clip of catalog.items.flatMap((i) => i.clips ?? [])) ids.add(clip.id);

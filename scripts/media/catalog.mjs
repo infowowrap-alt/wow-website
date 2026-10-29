@@ -9,7 +9,7 @@ export const CATALOG = path.join(ROOT, "content/media.json");
 export const MATERIALE = path.join(ROOT, "materiale");
 export const OUT = path.join(ROOT, "public/media");
 
-export const IMAGE_EXT = new Set([".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".avif"]);
+export const IMAGE_EXT = new Set([".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".avif", ".heic", ".heif"]);
 export const VIDEO_EXT = new Set([".mp4", ".mov", ".m4v", ".webm"]);
 const WORLD_ORDER = ["interior", "garage", "officina", "campionario", "eventi"];
 

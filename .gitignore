@@ -7,3 +7,16 @@ next-env.d.ts
 *.tsbuildinfo
 .cache/
 screenshots/
+
+# Originali pesanti: restano nell'album iCloud e nella pagina "Materiale WOW"
+# e si riscaricano con npm run album / npm run import:uploads (vedi README).
+materiale/interior/**
+materiale/garage/**
+materiale/officina/**
+materiale/campionario/**
+materiale/eventi/**
+materiale/video/**
+!materiale/*/**/
+!materiale/**/.gitkeep
+!materiale/**/_caricamenti.json
+!materiale/**/note.txt

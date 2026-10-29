@@ -25,6 +25,28 @@ Il catalogo media si vede in `/styleguide/media/` (solo sviluppo, non indicizzat
 
 ## Come arriva il materiale
 
+Gli originali pesanti (foto e video dei lavori) non stanno in git: restano nell'album
+iCloud condiviso da Paolo e nella pagina di caricamento, e si riscaricano quando servono.
+In git ci sono il catalogo (`content/media.json`), la selezione dall'album
+(`content/album-icloud.json`) e le versioni ottimizzate in `public/media/`.
+
+### Album iCloud
+
+`content/album-icloud.json` assegna ogni foto dell'album a un progetto e contiene le
+foto scelte per il sito, con alt e classificazione scritti a mano.
+
+```sh
+npm run album      # scarica le foto scelte, le copia in materiale/ e le mette nel catalogo
+npm run media
+```
+
+Per rivedere tutto l'album: `NODE_USE_ENV_PROXY=1 node scripts/media/icloud-album.mjs <link> <cartella> --thumbs`
+scarica le anteprime di ogni foto e video. Sul computer servono anche ImageMagick e il
+plugin HEVC di libheif per aprire le foto HEIC dell'iPhone (`apt install libheif-plugin-libde265`
+su Linux; sul Mac `brew install imagemagick libheif`).
+
+### Pagina di caricamento
+
 Paolo carica foto e video dalla galleria del telefono nella pagina privata
 [Materiale WOW](https://claude.ai/artifact/GPgPzJtK23GuwpAarBCzRC), scegliendo mondo,
 progetto, fase e volti. Claude scarica le schede e i file, poi:

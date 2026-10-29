@@ -31,7 +31,11 @@
         640,
         720
       ],
-      "hash": "e7b627eeba0eae54"
+      "hash": "843da82d37b7b97c",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-bigodino-controluce",
@@ -62,7 +66,663 @@
         640,
         720
       ],
-      "hash": "cec895ebdc4846a2"
+      "hash": "1bc5fb4b64cd8c2d",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "interior-bigodino-vetrina-dopo",
+      "world": "interior",
+      "project": "bigodino-doro",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/bigodino-doro/icloud-0537-img-4612.heic",
+      "phase": "dopo",
+      "alt": "La vetrina del Bigodino d'Oro: il volto di donna e la scritta in pellicola oro intagliata.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 537,
+        "takenAt": "2026-09-10T14:43:14.548Z",
+        "originalName": "IMG_4612.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#d8e8f8",
+      "blur": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4IDABAACwBgCdASoYACAAPt1gp04opaMiMBgIARAbiWgAuzMxb47bmoJMGlm+9DVxjIsT47V0FczDmEbKY/RoldAK0ADJdh6nDjlHk+5vmDh6bQSymr483GO7khCMIPx0nDLLMWz0YZka1qwANicJq58r7S68di+vBt4N7OzRU5iTgmJGpboBUMFHZF/YrHbtO+RqN+wktVGNz5tWJ23xIt5Srevekphqn3QV8pa3SWpY27tQsPwrOUEJhF9WMhWQBS8SdUW7I7XR7H9c9vWIsHodpNjav4RrXEXQfYVh+KWhPU4VDTh6Y1RnkPRPTJURaQyqaRsYYKcj3IqJTVJyWmIEWe8bzZziMlX8qFzZuzrdOhOvBZaTB4eejHuH+IYgir17aZyk4uGP6c8plqOiAtq1AAAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "e4719892e526dcd3",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-bigodino-ingresso",
+      "world": "interior",
+      "project": "bigodino-doro",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/bigodino-doro/icloud-0536-img-4613.heic",
+      "phase": "ambiente",
+      "alt": "L'ingresso del salone nel centro di Brindisi.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 536,
+        "takenAt": "2026-09-10T14:43:16.660Z",
+        "originalName": "IMG_4613.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#d8d8c8",
+      "blur": "data:image/webp;base64,UklGRggBAABXRUJQVlA4IPwAAADQBQCdASoYACAAPt1epkyopSOiMAgBEBuJZQDE2YyyrKLBH/45dgDcfVg5LGeG5PhxZkiZ2ngAAP7nQGkSvoitwDgWM+tJRxCe5hD93wUDGWWXl6dYtRz+dFeYEWGWOHREzJR9SCF1hTFZ0X2dEPdeqsIA6DneyPavS47bRFyjpre+ZOEoHWx/OucbbLKv7LAwSUsT9Nseiej/8zOgAWV1AGFYHLq5qC+kODiw4AXUWdHL3LS4D2Z7o5eOTZ3FoPfa4Iy+0We9MjK8wDeF9/4U2kYt7k4luXzstOI/WBpoCYaQnwWOP88GgvlJjc4TDXQYI0UXTNCRY/yAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b855291f8b173d41",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-chiosco-vetrata",
+      "world": "interior",
+      "project": "chiosco-grande-onda",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/chiosco-grande-onda/icloud-1351-img-1922.jpg",
+      "phase": "dopo",
+      "alt": "La vetrata del chiosco sul mare con la grande onda giapponese applicata in pellicola.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "hero-wide",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1351,
+        "takenAt": "2026-05-23T09:24:01.625Z",
+        "originalName": "IMG_1922.DNG"
+      },
+      "width": 8064,
+      "height": 6048,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#787878",
+      "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAADwBQCdASoYABIAPt1mq1EopSOiqAgBEBuJYwCdMoM6DCABnynwQ7YLuaH86OMnhxhKi/K4fFZ+gAD9UAdp3/dBURJZDwG8iJxGJWILNN0Eg+llQzpFKVjDGii09p/TvcqyDxVW3UXveSKPBfEU2PU7zejG9bScxP+uG5YvjiHylzIU0T1ywH3IDtdNVn3iizw6KOGqquoLBTVfheYdmFae0Z5zAurAryWTrPCFy4BgESbMSdnVPCPO8Izc8cifNqjnOyS+sqVHUAAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "648afd45b6be8f88",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-chiosco-esterno",
+      "world": "interior",
+      "project": "chiosco-grande-onda",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/chiosco-grande-onda/icloud-1353-img-1919.jpg",
+      "phase": "dopo",
+      "alt": "Il chiosco in legno sul lungomare con l'onda sulle vetrate.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Si legge l'insegna del locale: TODO-PAOLO conferma se si può nominare.",
+      "ai": false,
+      "album": {
+        "n": 1353,
+        "takenAt": "2026-05-23T09:23:50.895Z",
+        "originalName": "IMG_1919.DNG"
+      },
+      "width": 8064,
+      "height": 6048,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#88b8f8",
+      "blur": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACQBQCdASoYABIAPt1aqU6opKOiMBgIARAbiWIAnTNowWK0jiMzwDJirS52lYh0/W0W6KpQAAD+YAd3sPqw/nh05yRsIyEApjfG+KwN9Kr0KdOVh3NS2Jaj3HzVgcmQa/jLqdwDPNG5daQHwDP9QJbJxA5bE/KsfVB9mqcO+kUS4CLKuawJk/fwHLWcFixaXdmBPFziVeknm/LfHD6tTugC1LT8eP89/+CA8MC9JAjfpj2o6wjk3/jixmI65crHi1AAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "c14e9ae837cb868b",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-chiosco-parete",
+      "world": "interior",
+      "project": "chiosco-grande-onda",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/chiosco-grande-onda/icloud-1355-img-1917.jpg",
+      "phase": "dopo",
+      "alt": "La parete interna rivestita con l'onda blu e bianca che si arriccia fino al soffitto.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1355,
+        "takenAt": "2026-05-23T09:20:34.304Z",
+        "originalName": "IMG_1917.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#d8c8b8",
+      "blur": "data:image/webp;base64,UklGRkIBAABXRUJQVlA4IDYBAACQBgCdASoYACAAPtVWoUyoJKMiMAwBABqJaACdIC5DghHtXYhI8aTb2QcwqM9mrTlvX1mTIqedp/Jsy5nEAP7qj9niGOJrCx1ym7/q9Xs/Ogab2g3KD3oTwI23Xxp418cuqK9ZqG3LpN1eQPccsCubPWEuts+qNUQxoM1uZlJZf2+fgxDjTqdmepMll713p+ZvEbSCGM2TxsK/Oue/kvmYZNXl1mJ9cVyzho3AvFXfM1p+vDHpQoeLhq/Z+SN+6FxKr+3u2a41Pai3J98wKPTtO6fsPtrR6dTN1IVkg2gUTcmeh8I9cKn9OPuDdNLo7b6dy5beGk1rkpkK0EyrAMAc8FYp3T6qHB+QWCm4y91+w7pt3FT4Hc8uFmGc4IIBQDoqHRg9eODoUYxj+XD7oWAGXxpw6gAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "0bf9c551908d988b",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-chiosco-prima",
+      "world": "interior",
+      "project": "chiosco-grande-onda",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/chiosco-grande-onda/icloud-1397-img-1871.jpg",
+      "phase": "prima",
+      "alt": "La stessa parete del chiosco prima: bianca e rovinata.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1397,
+        "takenAt": "2026-05-23T07:09:51.549Z",
+        "originalName": "IMG_1871.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#a89888",
+      "blur": "data:image/webp;base64,UklGRj4BAABXRUJQVlA4IDIBAABQBwCdASoYACsAPt1qq1GopaOipWmZEBuJYwCsMw7OK7WGu5W4Bhou7t81JUT7fORDm/NZw5Gy2dipAezTezf+JWOAAP7nPqPH7fKNjhHtx7vOuWaashRTCAVJf3qPu5lA79bCBDuAuM5HXoF6rDZjQ6F6smMzkSJ4UARQ3DktFtlDCzD4Fx0Dl6qhpDuyKy/Fk1/nhYcth1OND9rJ7raGSONDSsA/6TFuQMYq1hpebhHC4NJv/3GJEk7Iev1W207GMiBUWki2HFkNJhy+jBFZrP2YE5Y2rAXKOEHd67edi+jmp/QHSfH0HOnxZGVOkWNmAO2gbVkOTOT0T2UPvimoOkzptvcpvRSr+x+KugeoQEVLa3Sptwp/aZOufB1YQi5kf4T5KDk3aLYpVPo41hJFAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "9c179217931176e7",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-chiosco-posa-parete",
+      "world": "interior",
+      "project": "chiosco-grande-onda",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/chiosco-grande-onda/icloud-1381-img-1889.jpg",
+      "phase": "durante",
+      "alt": "Applicazione dell'onda sulla parete interna del chiosco.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo",
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1381,
+        "takenAt": "2026-05-23T07:42:33.838Z",
+        "originalName": "IMG_1889.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#987858",
+      "blur": "data:image/webp;base64,UklGRkIBAABXRUJQVlA4IDYBAABQBwCdASoYACsAPtFSn0yoJKKiNVv8AQAaCWgAnTK973SZnOBSsKf5fxzhBiA7gEgxzUJnlk8OSU/07+H/yO9RaU4AAP6Y870bHuNWt+TcO7RB7ihIsIgwC3d+VYaqKDZzQsEhOEju7qIV2+LS7zJJZBPs7rldnU0wheB74TY+Xz108Y28FPzv8uE6t9/OMDv9KoTATeI26PaEi7WSV0xYtyDSGnEsz7u66ZLTauIdnSotG4lWXKWOAQ19QfkLKsLhkGCCAlgmhGTeJ8dI/dqu7RgHIWV2xV0iH2sobvVImSwnBYwBsp5fEAgP3CjN/EFtBZQ7p/ppWpl1fTZhHStcWXCIBUvKPfSE9v5NRasjb6FvdCqJOqv1izbbILX2g1v+4GtqsvwcgUjB/PqRy8mwk3AbPAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b13f06a4541b8fd2",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-chiosco-posa-vetrata",
+      "world": "interior",
+      "project": "chiosco-grande-onda",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/chiosco-grande-onda/icloud-1365-img-1906.jpg",
+      "phase": "durante",
+      "alt": "In ginocchio con la pistola termica, a rifinire l'onda sul bordo della vetrata.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1365,
+        "takenAt": "2026-05-23T08:44:23.958Z",
+        "originalName": "IMG_1906.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRlIBAABXRUJQVlA4IEYBAACwBgCdASoYACAAPtlWoEyoJKMiMAwBABsJbACdMoJYAj8BpXaSnSW5FPt/DpZ2ZxqBhhxXQIIeJsRGEbdFAAD+Vhfh1Z41nluqhmV6HvnX57njAJG3uN2cDmo+xY7EKQLumk/x7cG+mZO9VZQwOEcO1T7VDKbAMRrOx1pwc35SkAPrd2aGRvXSo+Jh7/osZKEmBtMK8kwmiwj0LC+38SvFq3cSb+BJdvV7HYLboagp1ckcg/3+QbhCglhrHwFfAbV3oXXRiBEIRvQZdtNzj1dsR6/h2h62F2LS01ktv+7EH2ViguHsoERg6XAZfomkmNHOChLdVXx/ssA/PbTHN77y5mP0BOT1E6x3OZAJwwybjHXGrNeq9OmJ7q6BpGl+d4Sj4uJbuAzKZR2M3gauTKsKWNIkB7a4KdCC+vh70uwR02cq9BoAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "ad0e07e9681582ab",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-dance-prima",
+      "world": "interior",
+      "project": "dance-studio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/dance-studio/icloud-1183-img-2493.heic",
+      "phase": "prima",
+      "alt": "La vetrina della scuola di ballo prima: vecchi pannelli viola e foto sbiadite.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1183,
+        "takenAt": "2026-06-25T13:55:36.466Z",
+        "originalName": "IMG_2493.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#685858",
+      "blur": "data:image/webp;base64,UklGRjgBAABXRUJQVlA4ICwBAAAwBwCdASoYACAAPt1iq08opaQiKAqpEBuJZgCdMt16JmzUsUoDcA0nzShJ/Cy4D/ZjRcvtnpJ8tWQ0++tZYqRTGIAA/sj/6oQWywKRCVOX9DJiPy+R1w88/woBvfd9qTGNmv79V8vmJlGCk9Hq77d6pg8C+rJfAS+1oSPdmfzrC4loabSmdSFCZXX4yFfL9flhSro7B+RagTOM65jvUn2n5x/gqot87bunXWuPm+6NSuhr/z4cr74NV/pw1lkbM+5tZBOkXTI+/ciVGz83ZLqtzjbXW22xjf6Y+ZrN34+Q8AqJ/k6WrSz12S1Ffs3HBfSbNSg/Ubq9Mwdff9Riv1Hr4D/0B/uPccJgrqYNFwPDpP/RF+NutGf0SVLI/a6clgsHcDgdYSwiqTEAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "52c2a036b8fd6e40",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-dance-dopo",
+      "world": "interior",
+      "project": "dance-studio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/dance-studio/icloud-1177-img-2566.heic",
+      "phase": "dopo",
+      "alt": "La facciata della scuola di ballo dopo: vetrine rivestite in nero con tipografia gialla e bianca.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1177,
+        "takenAt": "2026-07-02T08:40:48.527Z",
+        "originalName": "IMG_2566.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#6898d8",
+      "blur": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABQBQCdASoYACAAPt1epkyopSOiMAgBEBuJYgCdMzLtInMAKozGBeA+oZtUfuF5GbdKKlAA1u+0ZpcUATHq8z1A7CxaQ0wks/IrM2TrTFZkz8XXpu+meKN1T0WSBzMZCKj59BBHTNlnGDZFdqq29emNs8LboGBnide6co0d3WPW/g/T6kjTQEQBIzKinuOhSwAoUZrQDcRMejlmZxtlgNUN1dlVY+7+SrFhDR3p8S76BrPlQ9g/xY2hdgJsC496tflxrjexIlJf7ZtgAAA=",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "84e04284159aefc0",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-dance-posa",
+      "world": "interior",
+      "project": "dance-studio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/dance-studio/icloud-1163-img-2601.heic",
+      "phase": "durante",
+      "alt": "Posa della grafica nera sulla vetrina, con la scala accanto.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1163,
+        "takenAt": "2026-07-06T09:15:42.811Z",
+        "originalName": "IMG_2601.HEIC"
+      },
+      "width": 5712,
+      "height": 4284,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#686868",
+      "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADwBACdASoYABIAPt1mq1EopSOiqAgBEBuJYwDGQlzoNHcDkdU+YLIL+7/CGRsNSAAA/rezuM1UGyY1pC5u8WoKwm6G9kW6T7tlvONHM+oHge+KTIbJ2I5/OcKC3bMQ3YptfXUiXrboY7avVRWrJAzujFaz/tXLpI3/N6riNuWGy0Ua96fqXkfyWc3CP1ckAcdgCcWUWS+K6mZjnb+OC3pddaMVZXOS8+qF0QR/KY2igsVAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "d768e9f977a5aed7",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-dance-dettaglio",
+      "world": "interior",
+      "project": "dance-studio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/dance-studio/icloud-1164-img-2600.heic",
+      "phase": "dettaglio",
+      "alt": "Dettaglio della grafica: i nomi dei balli in giallo e bianco su fondo nero.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1164,
+        "takenAt": "2026-07-06T09:15:32.198Z",
+        "originalName": "IMG_2600.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080818",
+      "blur": "data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAACQBQCdASoYACAAPtVaokyoJSMiMAwBABqJYgDChaglIUv+9FhAxO/XuumkLVuXNESzUR7XAAD+WmncYncOKdBDIW5+sSV/Tpd09xsN7NejoZx+HXH45lE9tkX9kyfpVgXv64+9bTYo9/HJub6rdmDsNZLGuPpfM9ZOYltAjicmQfQinWXWadqX4z3d9+cbV49TthdiF7X59nCRs+RNwtfsvNRmJPfGJrUttyKWJy8fizZh/3Qa7kTLkQxINqKXf+VSj9kZ+eu+E2B20ALF6N7Ikwfm4Y/qy1cyPSL6+BJI57wfhfDUe6nS7XhRlkHy8xivJPjC5O+9jOkghJFn5DoqRDb3WSygfomHMAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a4e681415d8f82d2",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-dance-progetto",
+      "world": "interior",
+      "project": "dance-studio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/dance-studio/icloud-1158-a9840772-de75-42f1-a599-bb5917975ffb.jpg",
+      "phase": "dettaglio",
+      "alt": "La grafica della vetrina sullo schermo, mentre si progetta.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1158,
+        "takenAt": "2026-07-06T12:55:17.066Z",
+        "originalName": "A9840772-DE75-42F1-A599-BB5917975FFB.jpg"
+      },
+      "width": 3840,
+      "height": 2160,
+      "aspect": 1.778,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAACwBACdASoYAA4APt1apkyopSOiMAgBEBuJQACIW+PdMrHl6FwjbsqgvOiUWP4AAP6+g6eIXeYBTpcaUDrogs7Xw+KftZ/iAXXav7Cy9L0TwoMvRdo2jkSGT+kJlve466vfmOeolurDCX60EKi3auWEZV4F6EOEaXL/4fLCNz5HbeSUPX4/o6qOwV3WbNHdhlqbxPQqylS8UZQ5wni5b263lYMCsv9H/SbMRTOUgPhUc14eLoXBq+QMxoma8ORl25xSOEAY80Trkenv8ydvVKIAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "13f932d23cd4b6fc",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-edil-rollo-posa",
+      "world": "interior",
+      "project": "edil-rollo",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/edil-rollo/icloud-1413-img-1840.jpg",
+      "phase": "durante",
+      "alt": "Posa della vetrofania a fasce colorate sulla vetrina di un'impresa edile.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo",
+        "card"
+      ],
+      "note": "Cliente non confermato: TODO-PAOLO se si può nominare.",
+      "ai": false,
+      "album": {
+        "n": 1413,
+        "takenAt": "2026-05-21T16:11:02.075Z",
+        "originalName": "IMG_1840.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#a8c8d8",
+      "blur": "data:image/webp;base64,UklGRkABAABXRUJQVlA4IDQBAABQBwCdASoYACsAPt1qrVIopaQipWgBEBuJaACzoQC7m5/88AZcwSwvWCsazUbLk2ehaABKwgk68Krqac9vfha+ZBjAAP7nl3UIfitpF6AcDu9EruDOh7kEESS63m4VVSysLKUAaykoBa55cm98bXJkQTeeLYZup4QSi2PpfYHyQdr5WIXNfREI0q+LI0GqIBlWro0YuuGcaCv9C1FegC0lD+Fv5pVlbLg8XMhEscPiUVHYnsfRaVXeqYN47PRSnc7fFPq7xbUQ8JflBQxd0FG0U5u37ZE+4JlzpWHE7q5Y0D50jDOQ58N1WL5lT+oyGqk+zJiYVgCdNsgt7YockCFQ4R0xF25GR+Yjd8Pp1jcGGIPJfs20grqusbEBlJ/J94U3nJ9v2rLL1mCqtLXhp+FI+gAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "9d23c87f5c112ff9",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-edil-rollo-facciata",
+      "world": "interior",
+      "project": "edil-rollo",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/edil-rollo/icloud-1415-img-1838.jpg",
+      "phase": "dopo",
+      "alt": "La vetrina finita con le scritte dei servizi su fasce di colore.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1415,
+        "takenAt": "2026-05-21T16:10:49.421Z",
+        "originalName": "IMG_1838.JPG"
+      },
+      "width": 2268,
+      "height": 4032,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#c8e8f8",
+      "blur": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAADwBQCdASoYACsAPt1oq1GopaOipWmZEBuJYwCzgFzajqB/8g+dlp5uPWwpKUVN6WIe1dxaGvuCAAD+9wRu/WUG3gvTEtWkXrXsror7qN1kwo8HtAXPLco3u2UCet97looynJqQOgNlYXNR5YyuGB3Bdh30WlgxbhXejBo58+JCTzd/EDlrXxFITuwd9OkNL8XxC8jzKvecMh8KneVugCUAKSBCdJozaRj5veN0gTpgIowyl7Nk79USb5J5k8TXTMtYNOmizmgLLnXLvHd7RLZRfjG9MteCwXx1fmw5dio6WCI7uHtqnTosKfatFjRlBwa26uuu3TeSQAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "98e4278031e066a8",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-edil-rollo-logo",
+      "world": "interior",
+      "project": "edil-rollo",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/edil-rollo/icloud-1417-img-1835.jpg",
+      "phase": "durante",
+      "alt": "Il logo applicato sulla vetrata interna, rifinito con la spatola.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1417,
+        "takenAt": "2026-05-21T13:34:37.727Z",
+        "originalName": "IMG_1835.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#787868",
+      "blur": "data:image/webp;base64,UklGRiwBAABXRUJQVlA4ICABAACQBwCdASoYACsAPt1aqU8opKOiKrgMARAbiWYAxNsy5eKWy00KKg4USdz577Xg8lZ8DEGzaLGmd0nSD4Ci6b9qRlseMgAA/tfFsnNXXA8KhDl/lHdp1HQwKV/AIMSUNOgQ1VuoEskGzs5omNHEPHGjqdUC9F9kDgX6G6n7jySqL6Fj75O8f1wvLn2tFgZKxoMsfycmTcfVsey4AA9BuedLU52MJg68qmYQnmshfElSyj12e3sVjSdEYGd4qJSjMqRMZK0oEb1QinoS0PpPROcsPiBqw8/VzNJS453+d15+SI62R4LJx1KPPjTLbVGjA2RPwbETppSEnEMVEOlrfWqJmMbng3vjD9BWnLnRmG1Q0cKxgacPzR6hlTMqnYS4AAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "868070c2dccc515c",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "interior-jova-container-rimorchio",
@@ -94,7 +754,11 @@
         640,
         720
       ],
-      "hash": "cf3bebaef826e422"
+      "hash": "3db9e9f09760d886",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-jova-container-menu",
@@ -125,7 +789,11 @@
         640,
         720
       ],
-      "hash": "0f992474da453835"
+      "hash": "ba3c56e62fe4c8e0",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-jova-container-fianco",
@@ -156,7 +824,174 @@
         640,
         720
       ],
-      "hash": "883019ee0665ad33"
+      "hash": "4537fb35a2a956a4",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "interior-jova-container-pini",
+      "world": "interior",
+      "project": "jova-summer-party-container",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/jova-summer-party-container/icloud-0868-img-3927.heic",
+      "phase": "dopo",
+      "alt": "Il container del Jova Summer Party sul rimorchio, rivestito a macchie blu, gialle e nere, sotto i pini.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 868,
+        "takenAt": "2026-08-16T10:15:07.255Z",
+        "originalName": "IMG_3927.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRlABAABXRUJQVlA4IEQBAACQBgCdASoYACAAPt1cpkyopSOiMAgBEBuJZgCdIKw7/S5h4AygTnYrSkHVAydvPqoy3G5kkZRrYvmLQdOgAMuNW/Bq70CggYNQLxgZ8FvNFQkVKp+qq+H6FFkNkz+rzdv06sNS0llkPMif4IonAPErqYE6zLlBVYVwEmASRe8j5czKc9z6l5r2HdwfhZVXl+a/g1O14BJQdr4dQkq352Q0dgeFV+TZ3RsrnvG+0IOIqE9HlwzsiFxTGnLFhP2d8NIjs0teAMDZ3I/c95lrc2BkmPSgAgfT/FXiNpp3o0+jMzallRL+rQyPIqsvUwSVOx6fom0WM+UQx+hcI0lX59j0x6L1iDNGnYbM3wTQ90Xsn4PQ4UkgXLZ8T/oWv2H74O8zqg33Chr1u7BG/GN+nrAsSWCrFu7bOfC/yTo25DSAVvcAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "d5fe0b29e9f16c94",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-jova-container-lato",
+      "world": "interior",
+      "project": "jova-summer-party-container",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/jova-summer-party-container/icloud-0869-img-3926.heic",
+      "phase": "dopo",
+      "alt": "Il container-bar visto di fianco, con le fasce rosse dei servizi.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 869,
+        "takenAt": "2026-08-16T10:14:44.610Z",
+        "originalName": "IMG_3926.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRlABAABXRUJQVlA4IEQBAACwBgCdASoYACAAPt1ip04opaOiMBgIARAbiWoAs6BxicB4AyxQYJoEiedrFLGOHVhcDe+MbofA996yYtOHIACdshzjK50wTzeM0qp/DUMGHhktrH/wbQ0vBpIKGSpi+M0ew5vCxgTG5ZvUjeu+FIL8pq6VYmNzhRlb3q8qMsKJpMmayf3+TwY1A2HeDVRhKKO5A7gmb/CviPm+8H/LCJJePxHHOfWmL7ZjLE+RGSD7wm7h11fcbJB0aevKnI/87pY/7WmykBPnVZ016eWxYgJj/6BuR1+dIlZvcFvWcFbe9NYiT6UztNPlxeWHrwRh3a4hkn9FewDAx/Yc2/gnCreTosCKClpSA/IbMkjt7QQ3Sqj7gw76Nsiu/H37pBEVWeySSRnVbYcuPIW7B4EqI5ZhEdcnDxmp0IoCMGUZZ2w2dF+AAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "08aef000b6b9740b",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-jova-container-posa",
+      "world": "interior",
+      "project": "jova-summer-party-container",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/jova-summer-party-container/icloud-0877-img-3916.heic",
+      "phase": "durante",
+      "alt": "Posa della grafica sul container, con le braccia alzate a stendere la pellicola.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 877,
+        "takenAt": "2026-08-16T10:01:38.445Z",
+        "originalName": "IMG_3916.HEIC"
+      },
+      "width": 5712,
+      "height": 4284,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRjYBAABXRUJQVlA4ICoBAAAwBgCdASoYABIAPt1iqk8opSOiKAqpEBuJbACdMs8fFJnzyVk5kR6FWA/f8kqS1eh9POXJpaHLjOrAAP5BJGQmGXGuuEikCtT9lILFGTUgyYLlp4AAULxMw2remeol/YWkvt+FfxCnlJKYJ0FtIIqjHx9IPSwaIZN57Q6SWszxbISjMzXeHp7pOen/x73vAAGNEWAh+DjyY2Ly6aY5bMXUx7hwa4xrUsoxunX2ve9NXV+agqKNVno6I0aLwJh9lcF5blkavUKzYtuFqLNLozb/K6knGNcrRalP6uVn6V/IlPOS3PHEexzI6P+rmJYPZ8M2/4zFMTa0fvZ39/cKl6eN0N+8jexsGO4a3cqI3qHpi/4obQ9EvbnHT0GE5g2avAaJTvAPG6r/NAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "7bc6de513ee56106",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-jova-container-grafica",
+      "world": "interior",
+      "project": "jova-summer-party-container",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/jova-summer-party-container/icloud-0880-img-3912-anteprima.jpg",
+      "phase": "durante",
+      "alt": "Davanti alla grafica appena applicata sul container.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 880,
+        "takenAt": "2026-08-16T10:01:28.463Z",
+        "originalName": "IMG_3912.HEIC"
+      },
+      "width": 1536,
+      "height": 2048,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRlYBAABXRUJQVlA4IEoBAABwBgCdASoYACAAPt1ep02opSOiKA1REBuJbACACHAo/7NAq1cMEz6XiZDoUWhT22Ysu8AlxICU3MyT69gA/an8hi3t12qHlst85vT6DWSdQAG8Q5aFXZTblK/+FDdjCz2RH897exZvfI+VujGNd5SiWbPXARAdsSdDA2P3QkyWgKY4pK/5a2XO7Ms4xzh0kbDD5to9b5H3sAR4N9i4nUf7pssFOjDMpAmABfUR/gqMBjTFFL9HWHJIYrIhoRjsRIr7zhAUZRnQXZMmEDYGL/uQsDTLTnmLqedVaPPC/lA4fVv0pHwZIX+c0r5ZXHHtRtYDUe7eno/0o/sOIXx2r+5x6Dt/5Exsc1kwxdsag2YHOoME51ZOl2FWCxw1Aqv/gG2TzrN3V8m0Ewf+kX8KQbeEeiuxFNvu8saLpZ6lYGy82cFRv6AjM/wAAAA=",
+      "variants": [
+        640,
+        1280,
+        1536
+      ],
+      "hash": "b59f63f88077b7be",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "interior-marangio-prima-scaffali",
@@ -188,7 +1023,11 @@
         640,
         720
       ],
-      "hash": "9fec7c7d6fc025ec"
+      "hash": "f1a64c207d136d9a",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-prima-angolo",
@@ -220,7 +1059,11 @@
         640,
         720
       ],
-      "hash": "b37b96b0da3d05d3"
+      "hash": "e5f797f1e55309aa",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-ingresso",
@@ -251,7 +1094,11 @@
         640,
         720
       ],
-      "hash": "2a16f06e4094ff7f"
+      "hash": "bb53828eafb011d1",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-lavori",
@@ -284,7 +1131,11 @@
         640,
         720
       ],
-      "hash": "f656cb48c2a2287b"
+      "hash": "01a71d0f1e5cca2f",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-dopo-banco",
@@ -324,7 +1175,11 @@
         640,
         720
       ],
-      "hash": "abc1caded4b8a0a4"
+      "hash": "4dde10bfe7129629",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-dopo-scaffali",
@@ -357,7 +1212,11 @@
         640,
         720
       ],
-      "hash": "e49ba278d3c73de3"
+      "hash": "1745482eaff4069b",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-dopo-porta",
@@ -388,7 +1247,11 @@
         640,
         720
       ],
-      "hash": "5cfd3b37c5e94ed9"
+      "hash": "1b2f19eb905eef19",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-marangio-focaccia",
@@ -419,7 +1282,904 @@
         640,
         720
       ],
-      "hash": "f087d63baf22ffcf"
+      "hash": "6e2e45fb9ff48478",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "interior-marangio-prima-bancone",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-1528-img-1363.jpg",
+      "phase": "prima",
+      "alt": "Il Panificio Marangio prima: bancone e scaffali tutti in legno color miele.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "timeline-7-giorni"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1528,
+        "takenAt": "2026-05-04T15:37:37.786Z",
+        "originalName": "IMG_1363.JPG"
+      },
+      "width": 8064,
+      "height": 4536,
+      "aspect": 1.778,
+      "orientation": "orizzontale",
+      "color": "#381808",
+      "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAACwBACdASoYAA4APt1apkyopSOiMAgBEBuJYgCdMoR3CSAAyjhu/KKFbrgUE1YAAMoLbsFCvtsVK1LsWaovXUDST/K05Rt75mQVK1fGoORtMcO7uRtjxaF8zIGyqhxQsop4VtOJQcTHvAi/8Ujzr2OiwQxlF/JvHVjmqwzUsmVTXYDPz2eiF0aRMdJnKW0Jf4NEyuUtoJqzeKiyUncHHJ1zXtM/d3+gAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a1847ad5ff7b676e",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-prima-panoramica",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-1516-joy-20260504-174710-841-photo.jpg",
+      "phase": "prima",
+      "alt": "Panoramica dell'area vendita prima del lavoro, con gli scaffali in legno pieni di prodotti.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1516,
+        "takenAt": "2026-05-04T15:47:10.864Z",
+        "originalName": "JOY_20260504_174710_841_photo.jpg"
+      },
+      "width": 3014,
+      "height": 2574,
+      "aspect": 1.171,
+      "orientation": "orizzontale",
+      "color": "#a8a8a8",
+      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAACQBQCdASoYABQAPt1mp1AopaMiqAqpEBuJQBOmXEYOBCyYj0tBHtA/FyJN/tjTUuBj0EExAAD+U/IsQirYtTWlNuBdQssRfBSQ66q/nkHLYY84x/RZSVQQtDUqqsziMX3IrqNleQpeKI5DsMWN7KsgPayTiqm57uiLSab2UtVICjzRdzC18/UpQmuDPaE5Qppm4Fwsqwib2jqs6/9UBzU19T3U6sWCtq8EkyKaoVf5gizPWuHPV4gvO0AAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "ca04cfbc880d59dc",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-prima-scaffali-vuoti",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-1540-img-1351.jpg",
+      "phase": "prima",
+      "alt": "Gli scaffali in legno svuotati, pronti per il rivestimento.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "timeline-7-giorni"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1540,
+        "takenAt": "2026-05-04T15:31:48.663Z",
+        "originalName": "IMG_1351.JPG"
+      },
+      "width": 8064,
+      "height": 4536,
+      "aspect": 1.778,
+      "orientation": "orizzontale",
+      "color": "#d8d8c8",
+      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABQBACdASoYAA4APt1apkyopSOiMAgBEBuJbACdABYy9Uf4ca2K0cepRwcAAP3SgSvJ6ZwElgFRBl0ub4bqqQG4tm8jLVM77TrAZyYYkGL4ALK/l7Wl7d0UtF9xgEMvUyh0EDQzA+/9i848xSEK41OKXAiV5fwZB4aWcM/dVrnFWOgNjkHx7wBxkUDquLuXE16JmrFAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "3f1aeb91ec8a665a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-prima-scaffale",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-1563-img-1328.jpg",
+      "phase": "prima",
+      "alt": "Uno scaffale curvo in legno del panificio, prima del lavoro.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1563,
+        "takenAt": "2026-05-04T15:25:33.141Z",
+        "originalName": "IMG_1328.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#682808",
+      "blur": "data:image/webp;base64,UklGRjoBAABXRUJQVlA4IC4BAAAQCACdASoYACsAPt1cqE8opKOiKrgMARAbiWYArDlBVX5AkAQJMEWJQOCSUvUUOhab2Rv+aVvFv4ZpyQ5KtUy85oNQqw4rJMwAAP7B5tDFoYsiWO0uUrXqLGyEw1VnFHf8ZMaw94IwOS2z36/NlB1I5HLABPsn674D4SOPww0pNiy9b3qyrbiKNq8L80XAtalgcsLDCOdbBuR8Fn05WC0tZXtkVbJjLkQqcAUzNih2NQbbJQ0we5Y3G8X3JXHVqqQG43iwHkiaxl5JLCi3u7SoKBh0CDrgWnEZpqhcsorORnH8OLL4FFqFsgK2aIBuTypBwldOQSJD0innWU2sGLkh9z+fdIahx82/JaY4F9/6MwCgdTyye6ArRBVPqzBTd0M7gMYA/dNgWjEAZIAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "8c2debbe1a751890",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-vetrina-prima",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-1537-img-1354.jpg",
+      "phase": "ambiente",
+      "alt": "La vetrina del Panificio Marangio sulla strada, con la scritta del forno.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1537,
+        "takenAt": "2026-05-04T15:33:25.147Z",
+        "originalName": "IMG_1354.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#d8c8b8",
+      "blur": "data:image/webp;base64,UklGRjoBAABXRUJQVlA4IC4BAADQBgCdASoYACsAPt1gq1EopKOiqrgIARAbiUAYHt5tv/gPttFGuEZtXezfVjZoo3FjH/IxEDlLT2gU/i1gBAAA8i2ldZFTgyQ+Iy4I4DnGzClQlCnvFI/8ggVyBnE7KO/RLr8+4SfZUL4oqSWsECe9YqkrKTNJgdNJYhtAQfirolZPKMBSlzuHEYh+yRuedwvAVVwABaDzrKTOPfTEmb5gXsZw7P5ZwW85Q052HzCePxGfBARLupBYmjjV+hFBBC7n2AjH9mKzGjcUOzEbHJ++C3QiKCdIdIk4bxEIXrOCF2Sz9tz9gcZvQhMbLWg0BwfFdRSU2ohOLf8InhUNjI3x7Zy+dvKCKluDCi6M1DtDDoaPh0lOjVnMfg/NiNaW/A2TcNXUP7Jd+R0wN/0QAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "4f30c3440980a415",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-curve-mezzo-mezzo",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0602-img-4621.jpg",
+      "phase": "durante",
+      "alt": "A metà lavoro: le colonne curve già rivestite di bianco accanto ai pannelli ancora in legno.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "timeline-7-giorni",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 602,
+        "takenAt": "2026-09-03T11:18:28.050Z",
+        "originalName": "IMG_4621.JPG"
+      },
+      "width": 3456,
+      "height": 5184,
+      "aspect": 0.667,
+      "orientation": "verticale",
+      "color": "#f8f8f8",
+      "blur": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAAAwBgCdASoYACQAPtlYpUyoJSOiNVgIAQAbCWQArk9PatwwkMFUuCrLCrZJ9btZ+cTzWBhuTl0inboAAP7xzOrEvszwocUy2H6VVbwVhOYuOMCmUaB8gdmvOZQeN5NFiC/gjd04bXsjb7RKEpi6+YvoFIPUAhgUbLkbM9Fqtw0X6JeujXSPTPVcZjuVxz1ML28wdhoyfdZ9k7rzmjqOXV4d4QKcGG5Bb9sFgRECDZux0zp3L9gsDrgzz0gF3BCFuQLvcXlepYqv52mkPfMCwOOyQ+eKGXzmuVGdRXzHXlB3zj6g/Oc66gEdv+/hIXesYPSzSh3fQAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "c852592b9be53f83",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-curva",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0589-img-4637.jpg",
+      "phase": "durante",
+      "alt": "La colonna curva rivestita di bianco segue la forma del mobile, senza giunte.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 589,
+        "takenAt": "2026-09-03T11:21:52.500Z",
+        "originalName": "IMG_4637.JPG"
+      },
+      "width": 3456,
+      "height": 5184,
+      "aspect": 0.667,
+      "orientation": "verticale",
+      "color": "#e8d8b8",
+      "blur": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAADQBgCdASoYACQAPslQpEynpKOiNVv8APAZCWQAuzLtBG3/+6AAPYg2Q5OaisWjItRJAnmoQbCJ7eSUHECPOIAA/t2cQ+WC8viFsM9Ox1xxbsV8pHSkk3wB+74TxVV7ykkGqd4ZtlkO126A3UFjF60/LIFLGT/Msvud6+ZT07okkVEVsjh+e/lLC45hDaksexQZyHuPeTY6YN2GqTJH4zzg55b/J+0OjasQifmqep7gyMz7IwGDliEbvM+HFELgfDMuYXOvCB+aJZWebXMblp0fPhkESqEdBjSdXCn4gsWdaE3Uahha/lV/DLlh+Fd9dfI3aXZvwftLdpRVU2H7v4AA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "4b12601f4110fa56",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-posa",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0596-img-4627.jpg",
+      "phase": "durante",
+      "alt": "Applicazione della pellicola bianca sui pannelli della scaffalatura.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 596,
+        "takenAt": "2026-09-03T11:19:37.310Z",
+        "originalName": "IMG_4627.JPG"
+      },
+      "width": 3456,
+      "height": 5184,
+      "aspect": 0.667,
+      "orientation": "verticale",
+      "color": "#d8b898",
+      "blur": "data:image/webp;base64,UklGRhABAABXRUJQVlA4IAQBAAAQBwCdASoYACQAPtlgqUyoJiQiMBqqqQAbCWYAnTNY/+QsBZD4KGAL0F7vNYnbQKSETZMt7tbnJ8TYuVzG7QucwADLS4FX6ZD9hzMCreug2Q6XyOXUi7Lay5Lvpmurot8akasbfZx6glvk59xusMTThHk7R+ztHrHKgnpkwTIXyAoMJKNMCob2aBIdPScVIowFFVb6PagPMDFE6FHXS3lu2eaSpgkbh1NUj6Gm5urdJ7dLzdGd08BmcL1RN6KGYnBVBzSiPvqr2KOPJPoEspI5Xc7fKhzi4AZCThGMgG2sikX7eLBpE9zh6HyKy1SWpFBA1GythSmAQGf7olwFgE2hTMAgAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "0296e81496d15a8a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-rotoli",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0640-img-4309-anteprima.jpg",
+      "phase": "durante",
+      "alt": "Lavori in corso nel panificio: rotoli di pellicola sul bancone e scaffali a metà.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "timeline-7-giorni"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 640,
+        "takenAt": "2026-09-02T05:30:31.975Z",
+        "originalName": "IMG_4309.HEIC"
+      },
+      "width": 1536,
+      "height": 2048,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#989898",
+      "blur": "data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAAAQBgCdASoYACAAPt1kp1AopSMiqAqpEBuJaACsMs86Jn/BV14dab4Ow048qfUXOw1urMQXFrFMeUAA/pwkHMt8dki7Ajl5+IT/qgkiGg2ahRvO3hqCUDZKKKMRMRw9nPQm1CBk/3qeXzaE0GqLULnsGdA4ofAM09w+k8YEGUvUQp99iHCs8HmaSxtU3TPwt5sbQKshJxPwKk3ZiGuWx5OFa4nRwEv18458Ih4nabce1In/3tBNT/jrSW8IfAeUx+q6mSIHM+iWstCN/deMFyDr1btt0hXTsUPNoFgh+x5d/40Qo7SfCSU0xyKmZMYqoebyoXqJ3eYrRTv1GfpmSHxhmZHLNpxtutEgQAAA",
+      "variants": [
+        640,
+        1280,
+        1536
+      ],
+      "hash": "ec18577a9fbe9edb",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-lavori-2",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0683-img-4274-anteprima.jpg",
+      "phase": "durante",
+      "alt": "Si riveste la parete di fondo, un pannello alla volta.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 683,
+        "takenAt": "2026-09-01T12:29:51.368Z",
+        "originalName": "IMG_4274.HEIC"
+      },
+      "width": 1536,
+      "height": 2048,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#c8d8d8",
+      "blur": "data:image/webp;base64,UklGRjgBAABXRUJQVlA4ICwBAACwBgCdASoYACAAPt1mq1CopSOiqAgBEBuJaAC1GuovtngB3AuGkco1EUfqW8W3zRZD75n8hvoqklMKO2NFAAD+9Tz3biGNlRhqe3Cx3Frfho8VNnrWQGm5KaW+atvoOab36fhWMR+ecloN//pjvhLMIxR0brJ7XRrX2nxXXTge5lEc6g3SBY9JNuYgeLLepTweFldcOH825Jpll0U1Wxk1e9UDeiHFK80SwiyzNDUJG7+8awN0L4ZRB6QD3wo9lto3bLWKhC8alif9oIhGWTnttM9UYBLDVDG/Ll5W9tlpK8zBwS6JmGj4pnIriF/jj9154UxaZVhFdGxSOBJUXaDRgKbAZNL4Ww6KbMV9Ds26eOHJ1m9mItVO9Ok/kad5NlRh6KsBwrMbRLLa9gA=",
+      "variants": [
+        640,
+        1280,
+        1536
+      ],
+      "hash": "94d315c7d0a7a570",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-dopo-negozio",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0555-img-4582.heic",
+      "phase": "dopo",
+      "alt": "Il panificio dopo: pannelli bianchi e scaffali di nuovo pieni di prodotti.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo",
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 555,
+        "takenAt": "2026-09-09T14:02:12.228Z",
+        "originalName": "IMG_4582.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#382818",
+      "blur": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAACwBQCdASoYACAAPtlaoUyoJSMiMAwBABsJZgCdMoBnABi1ne0hCMHrBJ53yfLWk41BUnYjaWAAzjCDnQKRSz3lgT5NLug2m63oZ2qEqKJNkAT6wmD8U+HxSdZe8XLGWaGY4v2c/3I10vsnAQixFa/UzxFdec+uELSFam6FCWlDEq59BIQx5/Now39NpzhhuwuxXbCL5b5XuD7FGL1R0HgkgAQxc36NfWPtjlm44nF+qnVhx+6wASuIKI8AdsHkWM441x/ilVv95S0wWn139vYSN2BzoJiA/cERtLxdC1tHhwKvh6Ps+UnBQ6Vtao7U/Q7h3zcgrVHtYtRZD4AAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "1d2a2eba70bc8519",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-vetrofania",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0447-joy-20260911-165631-950-photo.heic",
+      "phase": "dopo",
+      "alt": "La vetrina del Panificio Marangio con la vetrofania del fornaio con la pala e il pane, e il logo del forno.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 447,
+        "takenAt": "2026-09-11T14:56:31.749Z",
+        "originalName": "Joy_20260911_165631_950_photo.heif"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#585858",
+      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAACQBQCdASoYACAAPtVWo0yoJKMiN/VYAQAaiUAWcLaIFycLuTtYBVmrAo0wzXeOJ8YVaCESwADhZ7bsDbywb1D/vfBwWr5ImG9TAXc9o9ZivOhqua1FkbS2wLMHjNx9Ms7VOr6kVBf2Lk+OHQTRaVqqebhmXYWxnQOZltxrVPY0aYAeeUQ2ODfzTc/VDSxgWgY4CE8Y7CR/SA/H+aveS6mdHYh4AFNRxRbUaizzoshrcx0FxPeJKxdzzsCDvgmxwgGcBHvYJq57tYmCewU1wAAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "8c05b826922cbd45",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-marangio-sette",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0568-img-4562.jpg",
+      "phase": "persone",
+      "alt": "Davanti all'ingresso del panificio, con la mano aperta: sette giorni.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "chi-siamo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 568,
+        "takenAt": "2026-09-08T09:44:35.000Z",
+        "originalName": "IMG_4562.JPG"
+      },
+      "width": 1206,
+      "height": 2118,
+      "aspect": 0.569,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRmoBAABXRUJQVlA4IF4BAAAQBwCdASoYACoAPt1or1EopaQipWmZEBuJYgCkoKoD/7V5F7j2zkfRHXJJyUvRtnmhsEQL2rnXtw09CXrq7kEzAAD+6NCx8Bj7TljTO5K1amfLVlr1HaW+YK497vnwh+HzvsBmK8kIEMERBJMfXe3T8xPm/3rwXYsFcT8/I7euJW5Bg7yKHFGkobEZbFSbfsxb5rj/EwtXPrcUux0vKbcPezern8A2hkLCM7hq6fLLZETJ5OG4bhQ/hcGKnYjO9YI5K7tHkv3558T1+2mqnsNXuuXH1BRYUqIr95cXWY72m0KZd6+0vTwQMA94eGbylUrYwp4O1r8lzSP9acWKVzEdWZhPjbLWebWiUBOKOj7gRQDsRuG6t/NRRqMpQES4x2TF/dFdzyDvgz9WuHdZOQaVvZeaAF3r4D64WWZydXrES+x/v4L2YgEYe41uN4WHhODVEBsEjabWM1qQHB4AAA==",
+      "variants": [
+        640,
+        1206
+      ],
+      "hash": "4659c8bbbe594c0c",
+      "webp": [
+        640,
+        1206
+      ]
+    },
+    {
+      "id": "interior-porta-prima",
+      "world": "interior",
+      "project": "porta-ingresso-effetto-pietra",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/porta-ingresso-effetto-pietra/icloud-0025-img-5820.jpg",
+      "phase": "prima",
+      "alt": "La porta d'ingresso blindata prima: pannello effetto legno noce.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 25,
+        "takenAt": "2026-10-06T18:10:50.013Z",
+        "originalName": "IMG_5820.JPG"
+      },
+      "width": 2959,
+      "height": 3946,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#784808",
+      "blur": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAADwBQCdASoYACAAPtVYokyoJSMiN/VYAQAaiWwArk80QP8EPAAFb6nJ51SLN9NdRD8itmlyB6tD4AD+k4OxNeDMwB8RWjEUqIY9HEvkUarystsJ82V1SnI/mDTKtYyvqHpt24O7Hyiy1Pi1uLpY4aR8Gzo5XPLVpDNem3za1SKq4aPkkCr92VPxt7LDWr9ylHBzhH6Y50GcuFoq/Vgw1yeH3kCR8OuHt4h7bRZaBicbJTiSZJQmw9fSeTtm4OSSO9ELc6tDlmufLAapJm9s6UAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "54c3678135ace525",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-porta-dopo",
+      "world": "interior",
+      "project": "porta-ingresso-effetto-pietra",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/porta-ingresso-effetto-pietra/icloud-0015-img-5835.jpg",
+      "phase": "dopo",
+      "alt": "La stessa porta dopo, rivestita con una finitura effetto pietra grigia.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "case-cover"
+      ],
+      "ai": false,
+      "album": {
+        "n": 15,
+        "takenAt": "2026-10-06T22:28:31.414Z",
+        "originalName": "IMG_5835.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#989888",
+      "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBACdASoYACAAPsVQn0ynpKMiN+gA8BiJZQDLLCPVMlNQ62L64IdgKy8JsaocAAD5TTiyBeIEnHAyX0i+DHAxG4FVOqtAANYmlVFEHzFlreXSiLmlWpHgKjkcxPh342DqK9ZS7ZGhpFiGPsuK4KhgSklXF6kpMg5MR6retAQ2qARvW5qkbwlOKou/11T1RRxnBMMAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "8ed25902f5f96ae4",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-porta-bordo",
+      "world": "interior",
+      "project": "porta-ingresso-effetto-pietra",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/porta-ingresso-effetto-pietra/icloud-0017-img-5833.jpg",
+      "phase": "dettaglio",
+      "alt": "Il bordo della porta: la pellicola effetto pietra rifinita sullo spigolo.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 17,
+        "takenAt": "2026-10-06T22:28:05.511Z",
+        "originalName": "IMG_5833.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#a8a898",
+      "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACwBACdASoYACAAPs1WokynpSMiN/qoAPAZiWcAADooMYdMXI4djFzAV8pObzUAAKjxXgqW7gsZfd9a1nm2uevd0xVZD1tHQxbjm5D/nHcT7FJZo2htvRCxoitwWBK/Y8iV7yuhjOp4jotiroOAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "edd58b013c39e022",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-porta-maniglia",
+      "world": "interior",
+      "project": "porta-ingresso-effetto-pietra",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/porta-ingresso-effetto-pietra/icloud-0018-img-5832.jpg",
+      "phase": "dettaglio",
+      "alt": "Maniglia e serratura dorate sulla porta rivestita effetto pietra.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 18,
+        "takenAt": "2026-10-06T22:27:53.662Z",
+        "originalName": "IMG_5832.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#989888",
+      "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBACdASoYACAAPt1iqE4opaOiMBgIARAbiWcAt7gO6uDbIKA0+MASFg6s64AA/FyG3KtQVmPMdFnLmZqfzPnuZ2YC/kHfLsaaZHGOTwC/t9sCuElADa3LqjFfxsFIzaHeoZzQC6uq+GtTgrnjWF/w78HyFJ9seP2iOkgwyhXph6AA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "0da9a575b15de706",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-porta-texture",
+      "world": "interior",
+      "project": "porta-ingresso-effetto-pietra",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/porta-ingresso-effetto-pietra/icloud-0016-img-5834.jpg",
+      "phase": "dettaglio",
+      "alt": "Primo piano della finitura effetto pietra intorno allo spioncino.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "texture-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 16,
+        "takenAt": "2026-10-06T22:28:14.739Z",
+        "originalName": "IMG_5834.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#989888",
+      "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQBACdASoYACAAPt1eo0yopSMiMBgMARAbiWcAzcA0aGpILY8lP7NWFPgAAPy9ESfOh7qd0wGqBm0RFqrDgHIPYnh+ynBtS5SCSa1NRPXnctsPvgNjug0AAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "5f31106fd2dbb10d",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-airone-vetrata",
+      "world": "interior",
+      "project": "vetrofania-airone",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/vetrofania-airone/icloud-0853-img-3958.heic",
+      "phase": "dopo",
+      "alt": "Le porte vetrate di una scuola di arti marziali con l'airone, il serpente e i fiori di loto in vetrofania.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 853,
+        "takenAt": "2026-08-18T09:39:01.014Z",
+        "originalName": "IMG_3958.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#787868",
+      "blur": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4IPgAAABwBQCdASoYACAAPt1epkyopSOiMAgBEBuJZQC2+1YnABymQyyp9FZ6z2z1eAi6j5Szx0rgAM4xzdeMhxTY83pQjnU/ki+b9yq0lgDKfvuuV9BSd+8w6RCJOHhvMDQZpV3btfWaKKX2f9UcHxAUDWdX9QdBJWq9bpfPtwqxQkr0Dl93BX5mjJ1fpcPH6MeJm/U0/0s8hEnwv1YAIyGA6wa+KIbL8OP0Iclc1eI2jlg65RGJioFcSHcajs3rSk9sACFguDwa/0hF/jsTsD55zvZReohStJnfTOxRRDEkT29o4E0hKBf92AzDKAbkZ/+2BzxRon7BY0E0AA==",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "81ac72f86374acc8",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-airone-dettaglio",
+      "world": "interior",
+      "project": "vetrofania-airone",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/vetrofania-airone/icloud-0856-img-3955.heic",
+      "phase": "dettaglio",
+      "alt": "Dettaglio della vetrofania: l'airone ad ali aperte e il serpente tra le foglie di loto.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 856,
+        "takenAt": "2026-08-18T09:36:59.629Z",
+        "originalName": "IMG_3955.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#787878",
+      "blur": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAADwBQCdASoYACAAPt1mq1EopSOiqAgBEBuJZwDOdy+wfFpQ84KVKvvn8k+YW4KP/yZ6MMbaI1fcAAD8j/bPkvp1QT9XkdY72xiIwmvUyi8zVmzd8btPJ+dMH1boe6f6aMsj3A0iRG9XQyTy8ZTLcCpC8To3T3wdIS6KKLYr+up/K3zRNhJbq/wsmFHBImdX1P1xAVMKbkLosTFQ6prbGfc4RrWnFqm2zweHTPckCsKqrXXdFvB3oyTvNzqEXZTa3fVU4gcMV/FEfkMG1P/emqK+BmVsSyHcWntEO4suzAAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "353b67636e8a1110",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-airone-ingresso",
+      "world": "interior",
+      "project": "vetrofania-airone",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/vetrofania-airone/icloud-0851-img-3960.heic",
+      "phase": "dopo",
+      "alt": "L'ingresso con la vetrofania sulle porte e il logo della scuola accanto.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Cliente non confermato: TODO-PAOLO se si può nominare.",
+      "ai": false,
+      "album": {
+        "n": 851,
+        "takenAt": "2026-08-18T09:39:10.191Z",
+        "originalName": "IMG_3960.HEIC"
+      },
+      "width": 5712,
+      "height": 4284,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#787868",
+      "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBQCdASoYABIAPt1kp0+opaMiKAqpEBuJZQC2yYyUZcUaZST9mzRE5g90Hu8rKcFqBJgAAP68kTYvYxZqE6enmJ2Giiledu1KlWP7Nr6wmThPKisiZnYdlgScOPe6m1V+l7T5OGx7Gw5OPgkRdOlCgb6ovj5hVxrbki7McbhraxCNBTm1ZaHgQhi4OTLvUQPY/88+CWj5/tGWN6UN6V3YZggUYICp0viv93czBmAwAAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b63ab46e10ef9d4b",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-airone-anta",
+      "world": "interior",
+      "project": "vetrofania-airone",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/vetrofania-airone/icloud-0858-img-3953.heic",
+      "phase": "dettaglio",
+      "alt": "Un'anta con l'airone e il serpente disegnati al tratto sulla pellicola satinata.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 858,
+        "takenAt": "2026-08-18T09:36:18.133Z",
+        "originalName": "IMG_3953.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#888878",
+      "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAAAwBQCdASoYACAAPt1orFCopaQiqAgBEBuJZwAD5jMikGzV98KLNJczDUY+ORNy/0JaAADyJp4LXNY6AStbqaYjehJ6RVpyYsHSg/lKGumfrSQ79jePfby4McQJJa2ALFm1kVHaNxJUZOghsnCXnLIsv361RH8rFvTiEmpUsJotdn8xnv0IJ2pi9Ogg26ooVZlA3ncHzR6zgrMoSgFitI8iW7usF1lX/qx5gyTbZsZl2tbMNw9gvWvf3WfCs4Rculi1hMLF/7s20BgA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "56a2a8eac00b1d8a",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "interior-infissi-campionario",
@@ -451,7 +2211,11 @@
         640,
         720
       ],
-      "hash": "1103f747e695b560"
+      "hash": "ab2652b7dbbb8ddd",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-infissi-approved",
@@ -483,7 +2247,11 @@
         640,
         720
       ],
-      "hash": "144634362ab3a630"
+      "hash": "e002225e17b8cf2d",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "interior-infissi-spiegazione",
@@ -515,7 +2283,379 @@
         640,
         720
       ],
-      "hash": "cc1ce86439c6f9b2"
+      "hash": "f84f4a0692b90d37",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "interior-infissi-portafinestra",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0797-img-4124.heic",
+      "phase": "dopo",
+      "alt": "Una portafinestra rivestita con pellicola effetto legno, vista dalla stanza.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "servizio-infissi",
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 797,
+        "takenAt": "2026-08-26T13:32:27.570Z",
+        "originalName": "IMG_4124.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#e8c898",
+      "blur": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAACwBQCdASoYACAAPt1irU8opaSiKAqpEBuJQBOmZDCVw40lSHhqULh3YpPdGK0/GNcSpsnrDKgA/uFQM5qZrXpst5l2SFyHoLKB85ayZVmPoiVdNK4wCszcodNQT1Td4qR+KnzbZcoNSE87CsgZIO2l9IVxhf9KC3XYZub+6lNZ0/L/rC+/JV+XOz+7SN7MTCOSeUQ8NHyiB5pEtMQeUbkERhLj8e2zaTBPnN09g2q44bVNdEMph4SigGXJpfDpKoX24Ukl03Od71e8eHTgCPf4dU1HZLUHY4YXNPbYzA+Sam4sWtpyYmMkSTggx3JrQGBCMXRAedbF4AAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "f2fc5cbd817fcc18",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-profili",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0805-img-4116.heic",
+      "phase": "dettaglio",
+      "alt": "I profili della portafinestra con la venatura del legno, davanti alla tenda a righe.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "servizio-infissi",
+        "texture-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 805,
+        "takenAt": "2026-08-26T13:30:20.010Z",
+        "originalName": "IMG_4116.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#f8d888",
+      "blur": "data:image/webp;base64,UklGRvIAAABXRUJQVlA4IOYAAAAwBQCdASoYACAAPt1mqlCopSOiqAgBEBuJQBOkEr/YALKq1BiOvVhGTAno+5Nq10yoAAD+5yjSnrxcDZ+SjEv98k8KB/KhkNGM7sxBDZm/kGZa5PIDMwTQ0OISMXqy/ar5w78LWnLr4SN0n6Gsz8dfUNpz1KSKAgm36EsLxn+pq/BV9/D1dUyFdMA3qg27wy9UhDtVEfFbQBB/OK3EGPXmFpCdZtXYKREH4bWRCJvtqxKomrd7HpwqGKjTUEKE78gqTWg2l1QE1hzLjXoC+A+7GyACSKEqM4YylYSLmuhfPmrSQAAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "e99f9b17c31534e1",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-portafinestra-2",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0808-img-4112.heic",
+      "phase": "dopo",
+      "alt": "La portafinestra effetto legno chiusa, con il balcone dietro i vetri.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 808,
+        "takenAt": "2026-08-26T13:29:55.594Z",
+        "originalName": "IMG_4112.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#e8b868",
+      "blur": "data:image/webp;base64,UklGRiYBAABXRUJQVlA4IBoBAABwBgCdASoYACAAPt1gqU4opaOiMBgIARAbiWYAnTKDMYbKpV5jTI6O30MBVJDAS+b0yHkMEybpGPLlcgAA9mDLsuMdP9MjrFEVRoPEIeOLqSBRlA1AwXHn5xwlWXcGZv3hUQ8FOvSQVqzn91y4rAuF91w7mukmizf1OAKj0Ze0ZzYqZ62xL4IdK8ED76W/Yqj33v7TXT2t2TLdPd4/NYrPNogIeteeX1hdOG9+gJSeCOR+Vds1mb1pdshfb1mvu2vKJi4Wfe2xAW7aeksZkRTkFb6eEJWOgzZGdPqKiyPWMgt8Bu47FTO//isqyXlrVfM5NhkMaoTyTIyOX+mGoAarxMrzOz5TCyF/TDueB/1JZNJI62Wp9ZuYAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "8c7c2ace96c7e744",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-montante",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0830-img-4086.heic",
+      "phase": "dettaglio",
+      "alt": "Dettaglio del montante rivestito: la venatura corre continua sul profilo.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 830,
+        "takenAt": "2026-08-26T07:00:30.933Z",
+        "originalName": "IMG_4086.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#e8b878",
+      "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABwBQCdASoYACAAPt1iqU+opSOiKAqpEBuJQBWDa/+gD//iQ/wfu8tgaEMMfGhhCtZjyF8AAP2hBr3dakh/pGa4s/H8CU1aSJO74d705tKTELrtpRnZ063pOWM1ctssITAypxq8r2lfVZ7B1yu5a+UXDIL4RlpuVBg6LYh1mbvyVz19JIRVYQH8TgAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "bf8753ba3244e000",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-aperta",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0833-img-4083.heic",
+      "phase": "dopo",
+      "alt": "La portafinestra aperta: esterno effetto legno, interno bianco.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 833,
+        "takenAt": "2026-08-26T06:59:39.339Z",
+        "originalName": "IMG_4083.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#d8a878",
+      "blur": "data:image/webp;base64,UklGRuoAAABXRUJQVlA4IN4AAABwBQCdASoYACAAPt1irE8opaSiKAqpEBuJQBOnKAALaFrPa6YLzad6/F4y2AAtTv+tu49wAP7jci9iyrRfdudazAqxIILU6MEFBabHAQUe6at5v12t6oIvBEbEo79kbXPY5MPdNwNPGdAGY8aVXkgI8beQYRp5XmPxmUUYVLscciviv0fs5Sb5NZdFLfGlqhXju4u94HyrpMXfAeXCZ84wmtUeSMJ08LTk+K4F4TmTySTd6Vf+sk4cg1zyDbckS1QU2A6I7ITFYfQ0LpcyUk5YEdrlxtesfa5Fx4IAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b9d227c657e75425",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-posa",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0784-img-4138.heic",
+      "phase": "durante",
+      "alt": "Applicazione della pellicola sul telaio di una finestra, direttamente a casa del cliente.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo",
+        "servizio-infissi"
+      ],
+      "ai": false,
+      "album": {
+        "n": 784,
+        "takenAt": "2026-08-26T14:12:18.244Z",
+        "originalName": "IMG_4138.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#786858",
+      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABQBQCdASoYACAAPt1epkyopSOiMAgBEBuJZQC07bAlQM+Dp3yV1tEuKH7++dBnsIQbXoQA/Ro7DI6ynrPl2cb2YBmVc76at7I+3mTcOCYHlu5Gw7xZaCufFiluTtB8TOTdV5zG1cUBww7WTelbC/w/we+aXmslkxLedg9Du8kwVNfKhW4e9sdcDd83mvFdoW3QOwIqwBDtIyHFzuHr5Mhn2PB+of+LUBR136QLYqu++LKEtxJlTG6ZwncAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "feba206be7f0715a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-taglio",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0795-img-4126-anteprima.jpg",
+      "phase": "dettaglio",
+      "alt": "Il taglio di precisione della pellicola sul profilo della finestra.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 5,
+      "uses": [
+        "processo"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 795,
+        "takenAt": "2026-08-26T13:42:54.222Z",
+        "originalName": "IMG_4126.HEIC"
+      },
+      "width": 1536,
+      "height": 2048,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#482818",
+      "blur": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAADQBQCdASoYACAAPt1eqE2opSQiKA1REBuJYgCdL8ekAUoJc1AAwXz9/8ju3dn1fjbXxWBKwZVAAP7uVjC3GAS8Rpi4LzIzh8L3u92varMVE7zDvtX6OEA6tCVAQFCVEr6N9Xle8VM1QWox09GzxxCv9Lup/rvwhsCmlhCWlfAbBqn271PXDippUpAxJ55fM90plWt5nC+/aYCvd9nXDDdO7G1snjIyONyfV7lZC2taRcWyfc4ylQ+rl38DSlOB2/Wf+4E+4soT6QHNJeqP6CItVSAAAA==",
+      "variants": [
+        640,
+        1280,
+        1536
+      ],
+      "hash": "fee4530257e1ce7a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "interior-infissi-telaio",
+      "world": "interior",
+      "project": "wrapping-infissi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/interior/wrapping-infissi/icloud-0790-img-4131-anteprima.jpg",
+      "phase": "durante",
+      "alt": "Si riveste l'anta della finestra, un profilo alla volta.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 790,
+        "takenAt": "2026-08-26T14:10:50.613Z",
+        "originalName": "IMG_4131.HEIC"
+      },
+      "width": 1536,
+      "height": 2048,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#584848",
+      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAACwBQCdASoYACAAPt1gp04opaMiKA1REBuJQBWGcdgnqncExzNRXSpcAAn93nYNv+HMIOw+iAAA/WkLsM3IPCx0WF+Rqci2vgbPcCF4Rko9564xIZeLswylVCiQat3X41tMeOUI01e+hG6Zw1IURg6rEvwKDmSfNRJybGLoTicp8BUx1mb5bCwHYg0dYlrKcmmM57U20hrCgosWBIuv8VMfWs+fpjYg7iN4Xw5Lt9vfNc30dRftZK/8s1nDtmWnndrl+c9toQ3bC/hZ+7+lfaVoGl2bcTIWqwAAAA==",
+      "variants": [
+        640,
+        1280,
+        1536
+      ],
+      "hash": "082db94a4624713a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-x3-officina",
+      "world": "garage",
+      "project": "altre-auto",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/altre-auto/icloud-0129-img-5460.heic",
+      "phase": "ambiente",
+      "alt": "Un SUV nero sotto la griglia di LED dell'officina WOW, durante un lavoro.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "officina-ref"
+      ],
+      "note": "TODO-PAOLO: che lavoro è (oscuramento, PPF)?",
+      "ai": false,
+      "album": {
+        "n": 129,
+        "takenAt": "2026-09-29T08:04:57.217Z",
+        "originalName": "IMG_5460.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAAAwBgCdASoYACAAPt1iqE4opaOiMBgIARAbiWcAzvAIAJlO+kV+lmvI7HBLrXXblKaM0GHSflVyyjmgAP68SwKP/OLlS0C5mHQiCxE+BxLZJqMEoGriULS5v78IB3Qa276WXG5kRDkC5UYp0V7ZYzRvECvfRu+JA9fSA2wpUWRHqv5FXTTkUXwodrMKEU/Ef726gH3hXMYSofA91iQG7HY33UtCq5b1BHF8yICAe+zDDkXTnhI6EblEX5faPj0QqEzA5q4traGvl7stfpBIgLbEcno2v3sP3n+Ktz/H+jo0BPwRJdW1zNeGw3TMorgEqAAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "6598a584fe561cc8",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-bmw-e92-anteriore",
@@ -571,7 +2711,11 @@
         1920,
         2260
       ],
-      "hash": "36f812238704645c"
+      "hash": "bacaa535ed24cca6",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-bmw-e92-cofano",
@@ -613,7 +2757,11 @@
         640,
         670
       ],
-      "hash": "a6ffdd4ce5f601cf"
+      "hash": "10b54fc04b069836",
+      "webp": [
+        640,
+        670
+      ]
     },
     {
       "id": "garage-bmw-e92-fiancata",
@@ -659,7 +2807,11 @@
         1920,
         2188
       ],
-      "hash": "9265f5156051145f"
+      "hash": "7c4925a3d4d95515",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-bmw-e92-fianco-posteriore",
@@ -702,7 +2854,11 @@
         1280,
         1382
       ],
-      "hash": "473a1ffd0f4d4cbf"
+      "hash": "be69019b63f6b6eb",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-bmw-e92-posteriore",
@@ -747,7 +2903,11 @@
         1920,
         1960
       ],
-      "hash": "281bf95a76b2de85"
+      "hash": "ebc74c5568542996",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-bmw-e92-cerchio-reel",
@@ -785,7 +2945,11 @@
         640,
         720
       ],
-      "hash": "1a37985288051cde"
+      "hash": "8cc31508e26e8c7c",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-bmw-e92-stunt-reel",
@@ -815,7 +2979,1578 @@
         640,
         720
       ],
-      "hash": "faa92827cd071164"
+      "hash": "d51653b1c3c0e510",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-prima-fianco",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0401-img-4803.heic",
+      "phase": "prima",
+      "alt": "La BMW E92 com'era prima: coupé nera di serie, vista di fianco in strada.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 401,
+        "takenAt": "2026-09-14T13:38:18.863Z",
+        "originalName": "IMG_4803.HEIC"
+      },
+      "width": 5712,
+      "height": 4284,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#889898",
+      "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwBACdASoYABIAPt1cqE6opKOiMBgIARAbiWcAxNgMgtNxj63BdMpkkg39RdmAAPz7AI9N6d4cLXWgULNFBF0Q1ewAOD73QcL83PsIwrKv9I7+OZP5kwASuYeJPsdoGG4gNZF3/3CLT3DhPVThPcSponEi+Wb/gkaasFNm1oIfa6RDC9mpH+4SMRh1J86S1MEXBS4zfgkh0vMDAQCRAAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "d8652697a547bf5a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-prima-anteriore",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0398-img-4806.heic",
+      "phase": "prima",
+      "alt": "La BMW E92 nera prima del wrap, vista di tre quarti anteriore.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo",
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 398,
+        "takenAt": "2026-09-14T13:39:01.298Z",
+        "originalName": "IMG_4806.HEIC"
+      },
+      "width": 4032,
+      "height": 3024,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#181828",
+      "blur": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAQBQCdASoYABIAPt1kp0+opaMiKAqpEBuJZQDA3YyAJwf6XVt4m6/x8ZOglN3o6FdAAPz0iujxGXh+MKk5u046se7dpVcF8EIBA8q8xrI08oPs7In9Td4UttpjQ1uN6HxR9EwpOsoe+r+Gbph5SEh2Hm1s0pt1xKRkl1Qu9fDj4OKsDU6FDwxqGaL/mKyGpvymHhOt5iCAkeC/gYRwc20u/PuLMrhxrX6ba1PJyoOaNAR0X64lokXmsgA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "c8d5624e49535bf9",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-stampa-tavolo",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0249-img-5135.heic",
+      "phase": "durante",
+      "alt": "In laboratorio, la grafica della livrea appena stampata stesa sul tavolo di taglio.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo",
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 249,
+        "takenAt": "2026-09-23T12:28:48.370Z",
+        "originalName": "IMG_5135.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#e8e8e8",
+      "blur": "data:image/webp;base64,UklGRiQBAABXRUJQVlA4IBgBAABwBgCdASoYACAAPt1ipk6opaMiKA1REBuJYgCdBbAW2JocqdMbKnDsszoUJ+NZdSfo15P0ZTfKb3fg8AAA/sVifbhdEnghLiEQXHA3zTRGgKUKG1GmDWAtzojdWn2BuvSsU2pHpt3uAdJiMrHg6DSJzz1goIXchDsjOwU5/BuqjPCp4y+vfGjci0JGj9gs0KoK7sD/u7IwOKAwJdMDc9tQeGAhmuDYx6Yo1MFXfzVgQB7Xiuc4niHlgvd0hcpg5SQs7QOsRjAIvbkHeYutXs6SdSMPxhouy+S9KhlioJFFjamu0wfbD3qZsNz8AGNHYSspv+6fp3jtNBoqLgAl1q3v51HsI8YqdDN46OMjfCwpFhbcsUKX4AAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a0c04beedeb3df47",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-stampa-dettaglio",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0247-img-5137.jpg",
+      "phase": "durante",
+      "alt": "Il numero 95 con la saetta e le fiamme, stampato su pellicola prima dell'applicazione.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 247,
+        "takenAt": "2026-09-23T12:28:58.988Z",
+        "originalName": "IMG_5137.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#c8c8c8",
+      "blur": "data:image/webp;base64,UklGRkABAABXRUJQVlA4IDQBAAAQBwCdASoYACAAPt1apEyopSOiMAgBEBuJbACdMoR1AP53ckqJpsIjgX79yHaYnUNwbQJDPJUhYU+ECyuxAnrkgAD+6YzC8ZAKz65AXpXGfDWqgeC4T2eQB0wsSkARom/JTk0oJNVwMnwSeuSl4D7Om3hVQhJ+u/dCQbJdT9NvQv5YqsYikyQAo5NgWmbcYArULyHWqez5CPUI87xn07vSj18vC5ICChP66GA9eFGUdFcySd6rWncMSp4DwnFLF/eYB0UwAL5uKnURp1a9ypjqWwa8abd5yoPN+41ln49Qf2Xt3xgeciFeT6m0LaOBovSBnPF7fcIU+Wi02ctYHUdV9+li5ixeT7Fu0rXhEOOKFzfE382uTfFuAMZMyvDWey4Mdhpw2by4115/1db132AYi/YAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "dd3f2148d28e7dc3",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-officina",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0173-c21bba98-9578-4c35-b708-16afd40cace6.jpg",
+      "phase": "dopo",
+      "alt": "La BMW E92 finita nell'officina WOW, sotto i LED bianchi a chevron sulle pareti nere.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "case-cover"
+      ],
+      "ai": false,
+      "album": {
+        "n": 173,
+        "takenAt": "2026-09-24T09:10:08.573Z",
+        "originalName": "C21BBA98-9578-4C35-B708-16AFD40CACE6.jpg"
+      },
+      "width": 2160,
+      "height": 3840,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#282828",
+      "blur": "data:image/webp;base64,UklGRmQBAABXRUJQVlA4IFgBAACQBwCdASoYACsAPt1gpU6opSMiKqoBEBuJQBlAtcyocSvWsDF51E9ldcEtyb7PuY3UKFu3NLByBCaCYYrE91hLaUBl0zAAzIzYl8N5q6/oZrd/LqkSKACm9EQL5xbQcVe0O0cuzGi48o6G6dwl+RwJiBJ9TB1hub70wNJfMnywmoyGz6cCf0GmC9T30OG9cf0l+KRZYFrmVCfOviKzWTVJw4IobEJYFMVMl/PAOJA9t9LFoweYwIb/MaD911Rq4owgynJMzDUPx91ZLzL+bAaUbJj+Exc5A/JcCqUf07TwNEUbGWHbAdAs6JRclmnBlZLuIOJCG5OU6jMnu4fUo/eBOU/3FsWDSPglKjmJQQVXf7iCWxSpxEf7QZArFwodFthEkTXVBsdAnyrIKij/d8SAerg9ilERQ8Nbyzta2NwtpMt6fiwO4e3dCoQv5nHwENqnVv1yhlOAAA==",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2160
+      ],
+      "hash": "c7dc4e095d621817",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-fiancata-cielo",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0097-img-5628.jpg",
+      "phase": "dopo",
+      "alt": "BMW E92 rossa ripresa dal basso contro il cielo blu: la saetta gialla e il 95 sulla fiancata.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 97,
+        "takenAt": "2026-10-03T13:46:13.827Z",
+        "originalName": "IMG_5628.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#78a8d8",
+      "blur": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAACwBQCdASoYACAAPt1iq08opSOiKAqpEBuJbACsL3ZszBvAuG5OmkbFhT1gn023NVXoY9kNzoAA/q9w0HLky9+OMUpHosZhk8J+nLCtextJ1l8aNZkh1humzcwBK2/6P72E4rTsFf3R1aLEsfH/gCJ1QKuX4+WB99e7nN/YxkHTF8FAF//smFCYv1Z6LYkdG7GkTiZVSU8PTpy1jcw8aDLvb2cvlrTvpVL90pJ5Jm9QSOMYQlJ8rDUeLsCHb/+YjeE4oUF68U3kOGRPFNtHprU6zzLzlk1uqUFH7/iDv/toVMM0VZMMXTbZVMWHcnulUcx6mlaGMlQv/52nKznNZtwWWmSf4gAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "42b0df3647faa626",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-anteriore-cielo",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0096-img-5629.jpg",
+      "phase": "dopo",
+      "alt": "Il muso della BMW E92 con la livrea rossa e gialla, sotto il cielo terso.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 96,
+        "takenAt": "2026-10-03T13:46:23.157Z",
+        "originalName": "IMG_5629.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#98c8e8",
+      "blur": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAABQBgCdASoYACAAPt1mq1EopSOiqAgBEBuJbACdMoM8znVPADGfR0oC1VDF3xXRJ6SbPdwCf3Ceb4P+SAD+6tfuFFAQFONINMIGqS/i8rpD/JA9/JBV/RaMj2goD6VJ7MwmD8qCyPsLly1e2B+/b10BtRMz6+1eqx3TsOQ27+AntvY1HskaubnVTyJSdfGN57HgInrVD/b9oRHBuOu/aLNKeAy143QJYAddb3tBKBr2fKZsAn8AYVwVbEAGpYOg8Ol/VNO+OVc2Xt0di5r8oIUPcZjH2vnVRwxfXbix5LcRjuNYOqnB2PG71QR5cxm0P+8l87LSFgiNZ08b9tAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "384d8c1c724c7d1f",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-frontale",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0095-img-5630.jpg",
+      "phase": "dopo",
+      "alt": "BMW E92 vista di fronte su un piazzale sterrato, cofano e paraurti con la livrea.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 95,
+        "takenAt": "2026-10-03T13:46:37.336Z",
+        "originalName": "IMG_5630.DNG"
+      },
+      "width": 8064,
+      "height": 6048,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#98d8f8",
+      "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABQBQCdASoYABIAPt1grE8opSSpqAqpMBuJYgCsMzLrZCFuWQakeRzyXIfg7oylEKoFvYAA/ueTT919f7wU0p7WaR4hpg1UOZs8DUFqkpxNbzwHYMBQLJgPxciyDcW8v3Hnj4YZPg+hKOR04tsA+Tk+f/XvfIna5fkP7/sVO2wKX2MQXr+G8Z7S9z7zBNVbh6dYscD8tR+TJKZDGroI8Mvqt8hGP9sXQWcZ8aKor4xeTew/CAAWWIAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "8753e772309211a4",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-posteriore-piazzale",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0092-img-5634.jpg",
+      "phase": "dopo",
+      "alt": "La BMW E92 di tre quarti posteriore su un piazzale vicino al mare.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 92,
+        "takenAt": "2026-10-03T13:48:22.906Z",
+        "originalName": "IMG_5634.DNG"
+      },
+      "width": 4032,
+      "height": 3024,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#4878b8",
+      "blur": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAQBQCdASoYABIAPt1iqU+opSOiKAqpEBuJZgC/ZwIkD+QAHGyRC8fFcE/lC3X7Sw40APFySp7r+h9Uhdu1f7tsfqeGyrNaINMTikGOOHPCbj0oxhXd1tXon8bf4pCn5C2V3A6rSpb0JFq1R+sPZy2/dggQGx3Ac5UYO+bkcbHEhxXgni3ROmOvA47ub2w4/dTa4YAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "cce06a3f09478265",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-fiancata-raduno",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0156-dsc0013.jpeg",
+      "phase": "dopo",
+      "alt": "Fiancata intera della BMW E92 al raduno: saetta gialla, 95 e fiamme lungo tutta la portiera.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-wide",
+        "prima-dopo",
+        "card"
+      ],
+      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore (forse ph @_denicola.simone_ o @desalvatorealan).",
+      "ai": false,
+      "album": {
+        "n": 156,
+        "takenAt": "2026-09-27T12:17:27.370Z",
+        "originalName": "_DSC0013.jpeg"
+      },
+      "width": 6000,
+      "height": 4000,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAADwBACdASoYABAAPt1apkyopSOiMAgBEBuJbACdMoHgA5/8B6FUu7woZyEhrcoanQAA99oUQHS5utx7yy4KDpMQK5kmi8N0pGhkFwT54eRTf7DRp7FALBooP3GTxY6WZw8YGUg/twjS6V87Hj++GX/BvC6qtE8FL5P2jr7E3zKFG8tSlbb0qRDa0BLR3G8vJJHmXNb5+38erId3DC/Tu5st3Lh6dZ/j++Wnn390lU6Rx9G1+kizEP3GU3GN+tU2d6je2vWaf/QAAAAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "54f14b518e6cdb88",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-raduno-tre-quarti",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0162-dsc0007.jpeg",
+      "phase": "dopo",
+      "alt": "La BMW E92 di tre quarti nel paddock del raduno, tra le altre auto.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore.",
+      "ai": false,
+      "album": {
+        "n": 162,
+        "takenAt": "2026-09-27T12:17:03.200Z",
+        "originalName": "_DSC0007.jpeg"
+      },
+      "width": 6000,
+      "height": 4000,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAADwBACdASoYABAAPt1apkyopSOiMAgBEBuJbACdMoMYPYABXOhlShFdDAbX0F5vqEAA/oOXtAESoViY0eHOXqQxoE7Q4RvtMtgI3SL3uoirZYCJcUBcA42oklS9wYe159Id4qd71vm3vlhr1vieodqugp4u0jTP7t//GM8GN+n7HPg/VSg0WXtI9aEqnquKtUwKTY5kkaYeZsWQWnpDt7S+SaC2q1rM7LudSkUFdj1dcAev0y0xal3HgIqooQfA5kvwrToUXAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "df055e908db8b256",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-portiera-95",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0137-dsc0036.jpeg",
+      "phase": "dettaglio",
+      "alt": "Dettaglio della portiera: il 95 giallo con le fiamme, applicato sui profili della carrozzeria.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore.",
+      "ai": false,
+      "album": {
+        "n": 137,
+        "takenAt": "2026-09-27T12:19:01.177Z",
+        "originalName": "_DSC0036.jpeg"
+      },
+      "width": 6000,
+      "height": 4000,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#f8f8f8",
+      "blur": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABwBACdASoYABAAPt1apkyopSOiMAgBEBuJbACdMoR4GCfr3sqdqJgPi5iBsAD+6J32DjTa8vrJg6ZuATDRumS9jOhuxlkWE9dm1yBR4zlyAA6qC/aFxcEVe2SSFmXmamBauFyG/RmAblo/y/5aQi+eFwDbhl4L1kLbT5p+EzpB4NDJU2r1FWb/NRxbO7JKw1x0flY+AOWUK+liJ22t+spolFkP0sQveLsxJytiban7hlGQH92sRfFzuETsjoWtXkJbK9C4K731b4YAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "232b101c4a0d5544",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-cofano-cerchio",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0094-img-5632.jpg",
+      "phase": "dettaglio",
+      "alt": "Dettaglio del cofano e del cerchio della BMW E92 con la livrea.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 94,
+        "takenAt": "2026-10-03T13:46:58.337Z",
+        "originalName": "IMG_5632.DNG"
+      },
+      "width": 8064,
+      "height": 6048,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#d84848",
+      "blur": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAAAwBgCdASoYABIAPt1iqk+opSOiKAqpEBuJbACdMoSA/9Hh/gHqyvPdoFk5ggszbYy/yhegcEOABYPAAP7nTvuGch551Iz2h2YjEchC5pqmv4kNg/Yb7Ni7Ffsz/scOiLBpwVTOlrbahwtxacPhRBMs32VVZW2Wodpe4ZykgLe41p/AbDa9tRE8U3B3ZtST4GFwHLBo6BLohreWm3Lcw6/brNzJHZGtuzz+3vZv+JGfeYE/DoLNeK5iPNqPzH6aUwdqJxtFmfhyxxQP0e4Gr5o1c6AtUwL3H4OE4D2AYI4nNArSwAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "122951e636e3b834",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-bmw-e92-officina-caricamento",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/c21bba98-9578-4c35-b708-16afd40cace6.jpeg",
+      "phase": "dopo",
+      "alt": "La BMW E92 finita nell'officina WOW.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 0,
+      "uses": [],
+      "note": "Caricata dalla pagina Materiale WOW: è la stessa foto dell'album (garage-bmw-e92-officina).",
+      "export": false,
+      "ai": false
+    },
+    {
+      "id": "garage-cigarette-drone",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-0242-582016fb-c500-440e-a086-e617985f394d.png",
+      "phase": "dopo",
+      "alt": "Lo scafo Cigarette visto dall'alto in mare aperto: ponte bianco con la grafica rossa e nera.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "case-cover"
+      ],
+      "ai": false,
+      "album": {
+        "n": 242,
+        "takenAt": "2026-09-23T16:08:02.715Z",
+        "originalName": "582016FB-C500-440E-A086-E617985F394D.png"
+      },
+      "width": 941,
+      "height": 1672,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#083838",
+      "blur": "data:image/webp;base64,UklGRhABAABXRUJQVlA4IAQBAADQBgCdASoYACsAPt1iq0+opSOiKrgKARAbiWIAygAitwFOP9EJKui+LdT/EpjDcOFoJ5z0GMQxAgZYhRV/r2AA/uNA1XFqr8wGVVuiuFlGsgulyMJPGSNS+8/LnvKJNGUb/ER5yIERvqkcyLWC17ehdVEwofr1VWmYpxxQpOHAFLAZzQRmB+nCiZL1YWEV8Z2qxqfoTZTFo+1EsIKwSdNI/hFl2oC40t8GPiOxQQRP/4qK+A5VxEmQst7h0RwOcPTklPCGncGJ7Shh+okdauU8tO3ymzSxG5aZxHxOCda600UxfSKSQdV+E0BsHRDucBNO42xmwZccVXP+yd9ZbpWmfmXAAA==",
+      "variants": [
+        640,
+        941
+      ],
+      "hash": "41d253e5ebdfe3f1",
+      "webp": [
+        640,
+        941
+      ]
+    },
+    {
+      "id": "garage-cigarette-porto",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-0764-img-4330.png",
+      "phase": "dopo",
+      "alt": "Lo scafo Cigarette ormeggiato nel porto di Brindisi, con la grafica rossa sul ponte bianco.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-wide",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 764,
+        "takenAt": "2026-08-28T13:28:14.000Z",
+        "originalName": "IMG_4330.PNG"
+      },
+      "width": 5184,
+      "height": 3456,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACwBACdASoYABAAPt1apkyopSOiMAgBEBuJZQC7BHAIAEX0uTdeL/YkA3MffKgAAN2weMAUKjaVV44vIcH0rmhlROA3l9ies3zemTfbX6SRsmbsXILsgHRz1fBGPQD19dHDnD9Pl/kO8TjlTwauOZGj565CoRvLUfmp2scXjGuFu0e/2bIPnzrQNqjBpHG/HEgzXqyxmR9h6YAIe/gJuAzvyDAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "33ebff06eafd4e72",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-ponte",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-0768-img-4328.png",
+      "phase": "dopo",
+      "alt": "Il ponte del Cigarette visto da prua: scritta rossa al centro ed esagoni grigi ai lati.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 768,
+        "takenAt": "2026-08-28T13:22:07.000Z",
+        "originalName": "IMG_4328.PNG"
+      },
+      "width": 5184,
+      "height": 3456,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#d8d8d8",
+      "blur": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBACdASoYABAAPt1apkyopSOiMAgBEBuJYgCdAYxOmo3nt7sRIzuK2AD5qndkLzok1ZHneKaiX7bAG3mwleWhq/kdaKKxl7Fs8JsehZMXorCoaRCbWy8Zz+yLeJ4JudhEjw+rGtWVu9a2rC4s4372snnYPD029Y//QVrN5fO3WBbVEd18qdffWe3j6T/jGEWh96rg4AZCSMTVv8+fUtBw/vMZu/RbHSkPzOYvNLgAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "6ab4220b9a59a413",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-logo",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-0766-img-4460.png",
+      "phase": "dettaglio",
+      "alt": "Dettaglio della grafica sul ponte del Cigarette, con il logo e la scritta rossa.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 766,
+        "takenAt": "2026-08-28T13:25:57.000Z",
+        "originalName": "IMG_4460.png"
+      },
+      "width": 5184,
+      "height": 3456,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#788898",
+      "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwAwCdASoYABAAPt1apkyopSOiMAgBEBuJQBOgBH9xH6qrp1gZRPegAP5zA3Efc8DUWBlrt8A6kZkNvU6hyyG+qRj1AvWABblGUclfYIfZr36e9FzYHR3rj3u5HdptL5T02s+CixwCB6df4RfBsdmf8oMELeotzsYoVPTYwic9Lg5ZzbQJBCZfG2UIhBQA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "79da3f23d7103f39",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-ormeggio",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-0763-img-4331.png",
+      "phase": "dopo",
+      "alt": "Il Cigarette all'ormeggio, visto dal molo.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 763,
+        "takenAt": "2026-08-28T13:28:19.000Z",
+        "originalName": "IMG_4331.PNG"
+      },
+      "width": 3456,
+      "height": 5184,
+      "aspect": 0.667,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAACwBgCdASoYACQAPt1ipk+opSMiKrgMARAbiWMAy2wIDl/oNpogbqlwucLk+Dzl23WzKCyzyuxDLAMotTVPIgD9eNcwvuNpbTbmBeYjBhd0jCzC9IipEA8uO2xLWt43WZiG+E60VsrdWfg9ZOFVl33kB4FGSuqDiojh+wqrsNH8UgJ+JCzzvU920oH05KlyV7OsZifiD+KgTZ2FVQrl3ncCfAgWT4eeOS/Q+d04ScrFasuvOvFQQdAPQm7E/USe8b7gRR1w/UEeVGq+ASwp/QBJVHqzSSYYdNCy/KzTDum0rdCqTHHSR7HTheU+0XoVP4OWXFOty+UcY94Z8ttU2OyeHb/AAAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "fa8e5203ee87b9eb",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-calandra-motore",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-1007-img-3481-anteprima.jpg",
+      "phase": "dettaglio",
+      "alt": "La calandra del motore fuoribordo rivestita in nero con la grafica Racing 350 e le frecce rosse.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 1007,
+        "takenAt": "2026-08-03T11:48:02.199Z",
+        "originalName": "IMG_3481.HEIC"
+      },
+      "width": 2048,
+      "height": 1536,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBQCdASoYABIAPt1mqFAopaOiqAqpEBuJZQC06A9PkNqNCDyxP5X0PfKbzGm8zzV6XfAA/s+BzWyNdJ+Y6UXmLWpwZgFtOJalqLwTLxIgYA7T276wsmxjLcuiWM8wGVp4oT5DUxxBVwrFO3/PFUyA8UpbkZfrqRfYVrBeco40mkKnMDMjT0Vvj8yveXrJb0ZQflPnNPkFZzkFv4nJPAAAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "bc6df25742366ad0",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-capannone",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-1296-joy-20260608-104020-504-photo.jpg",
+      "phase": "durante",
+      "alt": "Lo scafo nel capannone durante il lavoro: carena nera lucida e ponte ancora bianco.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery",
+        "hero-wide"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1296,
+        "takenAt": "2026-06-08T08:40:20.533Z",
+        "originalName": "JOY_20260608_104020_504_photo.jpg"
+      },
+      "width": 5032,
+      "height": 2154,
+      "aspect": 2.336,
+      "orientation": "orizzontale",
+      "color": "#f8f8f8",
+      "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYAAoAPt1cpkyopSOiMAgBEBuJZQCsACBYF2gEp5Z3tY3hgAD9455vabhrg5wyenCGzO7zUOGbtKCLWZ+YmgC+uYU7XPaYIakNWLhe0oCU9znXl+SD/LstqWGwIIeTy8nNeUILIQ91bkiDi4yKpiME4MiBryBxrAA=",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "ccbc8609d7e5f8a2",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-capannone-2",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-1316-img-2087.jpg",
+      "phase": "durante",
+      "alt": "Lo scafo Cigarette sui cavalletti nel capannone, a metà dell'applicazione.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1316,
+        "takenAt": "2026-06-08T06:50:26.511Z",
+        "originalName": "IMG_2087.DNG"
+      },
+      "width": 8064,
+      "height": 6048,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#484848",
+      "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBACdASoYABIAPt1eqE2opSQiKA1REBuJZQC3uBE8pRxywNsE5F2PPXwm0uQA/mixr4j+TSC71QwG2XXL0WAKBCH1bfR20eCYCRiAncwsgqxp5r6nHjoP0mJAay3vseed3zFo72y+0tdaSAS7407cOmCF49cCR5PCgd1r72ChxD1ne9JSSYWLVqM4QoD0X8BKA28IAmk+zdSo7sRCZljLKpxQJMAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a02855c99bdcc86d",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-ponte-lavoro",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-1298-img-2106.jpg",
+      "phase": "durante",
+      "alt": "In piedi sul ponte bianco dello scafo, con gli attrezzi pronti per la posa.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1298,
+        "takenAt": "2026-06-08T08:26:06.248Z",
+        "originalName": "IMG_2106.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#989898",
+      "blur": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAAAQBQCdASoYACAAPt1apE0opKMiMBgMARAbiUAWI+QwNS5NFqnyPQqS54+RpPMdS8gAAP7HKcA+t3NZ/uiYX+Gn0qeXx0CgiNviJ/E8hJq6ibfrEMx/4dcMq2Xkg5uB+mz2x8pU06a1/zJA+zktWcEJS2mAWqJylyEXKEcGCL2X0Oeh0kbbKa/66PUoDOo5GfYxfk3BAGudt8dGD1+HP17rAz8ITKylW/yhY+hk9UWyPP1UXVAF9HF1xiclXxiidPZFRos7vX5n3neBPVllmkwZTMQCQAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a65a370f26e94050",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-cigarette-prima",
+      "world": "garage",
+      "project": "cigarette",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/cigarette/icloud-1280-img-2130.jpg",
+      "phase": "prima",
+      "alt": "Il ponte del Cigarette prima del wrap, bianco e segnato, visto da prua.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1280,
+        "takenAt": "2026-06-08T08:50:50.313Z",
+        "originalName": "IMG_2130.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#585848",
+      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAACwBQCdASoYACAAPt1aqEyopSQiMBgMARAbiWMArAAR5dMLWQjGadXft5Env1Aph5vI1MH3GAAA90zamDI5ekXnJskuNxehu+JV/lbaqpe64ljVhsCcwaXyZYlh3wamAR/ZUfmvGj+1C4gpWrgFbFMAon5z4YnyhbDPvFYm6/KLBnsvWhNfXouPYR9F0M7e3K+Pa1gL5stGTiW5Bt5P1lF6WV9QtoWlw+Ui6dAGGgy/t4CqEnabwEDGT4AAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b3582bc038379109",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-croce-amica-officina",
+      "world": "garage",
+      "project": "croce-amica",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/croce-amica/icloud-1403-img-1858.jpg",
+      "phase": "dopo",
+      "alt": "Un'auto di soccorso con la livrea bianca, arancione e tricolore, nell'officina WOW sotto i LED.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "note": "Cliente (Croce Amica) non ancora confermato: TODO-PAOLO se si può nominare.",
+      "ai": false,
+      "album": {
+        "n": 1403,
+        "takenAt": "2026-05-22T15:33:42.122Z",
+        "originalName": "IMG_1858.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#181818",
+      "blur": "data:image/webp;base64,UklGRmABAABXRUJQVlA4IFQBAADwBwCdASoYACsAPt1kq1CopSOiqrgIARAbiWUAvWn/6lu1NGEVu3Ptz33Y2lW+RGo04VQTMgOyP5ousUr/SQ/p3guxhgr7tXAA/uVGDLBBx96W3TPaxjUx0mhR24sa6R0aqpP7xZrIHBuEbchZSJ2ELOPOvb2c5RMZ7NM3FJNLBIbp+ivQcsSc6esM/t/LQQUh2zU3Xliq7o1wen1ZZjS/eoRnvmivnqm72dwRStt7plQTroZlxguBblAjxT3N5OGKYbXlATdOfGosrIoVKZfzbb4QKgawrg6oAjcOqed6fO8N3G8Mrf7Vn6gByX0fnCOBWY/89unsVnCvZ73BDpF4x22XBh4+GFsEruzHemukrNh2Nc2xabu4dS9HDUUE8jC3wXGUcmJBfGgx49Ee5MaZfaf6jr2vVQJvCh9y1llNs7g7qnMrjuJpH2R5fiTEzoCqJ5wA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "16c72ae90d4f3d1a",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-croce-amica-tre-quarti",
+      "world": "garage",
+      "project": "croce-amica",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/croce-amica/icloud-1401-img-1860.jpg",
+      "phase": "dopo",
+      "alt": "L'auto di soccorso di tre quarti: fasce arancioni, onda tricolore e stella della vita sulla portiera.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1401,
+        "takenAt": "2026-05-22T15:33:46.555Z",
+        "originalName": "IMG_1860.JPG"
+      },
+      "width": 2268,
+      "height": 4032,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#282828",
+      "blur": "data:image/webp;base64,UklGRnABAABXRUJQVlA4IGQBAABQCACdASoYACsAPt1eqU6opKOiKqoBEBuJaAC+0ft2Sc+V/eKxDFzp9cEo0YhUrz2JfiFrguKZ9upcDFh52jtZ7siqncSib1cbCEAA/ld90Paj3RTR8NjA+Ldp8z3itxwRPu89c+ZMTBOb18MLqieZdHWcWJxcWTe/sF/ojw/K5BFQOZGHT405UYPAMr1e7QLB2aszyv+G/HwCBnoVULJ0bAFyHJ5zeHyrrY9H0WcbXBziRWk78Jt65XFDeRWvgZmp22jxBxEFblc+RyH9e0lOoqOqB6zoKpykOXYafc1EQCWmbnCZdtELM/oYyemL5YWLmn/sm9dUe6WHKfMLTleeFvy/kUFDNZuFKJFOno5taCUADx4xDMw+V/xEgHzrFoZwnd+XMdabMnBbbIxJ6RqwDApH1VGH4d/haPBttCg38Em90v0RKuHg1E0ceAMnWLRT5ZiyQdC8x8uQKxZoRZV4lNAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "6b847fad40b24f06",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-croce-amica-frontale",
+      "world": "garage",
+      "project": "croce-amica",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/croce-amica/icloud-1402-img-1859.jpg",
+      "phase": "dopo",
+      "alt": "Il frontale dell'auto di soccorso con la livrea, sotto i LED a chevron.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1402,
+        "takenAt": "2026-05-22T15:33:44.007Z",
+        "originalName": "IMG_1859.JPG"
+      },
+      "width": 2268,
+      "height": 4032,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#282828",
+      "blur": "data:image/webp;base64,UklGRpYBAABXRUJQVlA4IIoBAABwBwCdASoYACsAPt1kq1CopSOipWsxEBuJQBkqb4MaOtY3iTCVLPHu8MWjjS6dU2Ktp6c4Qq+2e+1LxykwMNumQUBEAAD+eQZhHSUz30Uoz6tgaq943fk9Kun5wwNJwcPew+qwoUCshcuU2SIeV/4auYl0cMrv1NjOb2+YNyOIcY8DlVqVLSDimqbklERrsUG+HYgXDAis7IWy3rUz21A3H5Qs4AMHhs0RL92XHOSp7zXAkNTGdJB8y804tZ4y8KySHv7Bs6z2/tsX1HLAnBoEoCFHyjacFn9tPn4rCbymMtjiLkWUHzo72zIET/cTYDD2AISJEZU/IfVptKXWzgLTi2rM9kMUDuRY8xHXTlJUAXoCsgbrNAF+JHbjpzVM1qzIol76nVoLhfmf5hoPqR9czciiDsAg74kgod+BkaI8GHxSbNLP7+R3elaG6JnQWba2MJXYNPqn8s9TjeHPmyCkSAwhwGSNN5KXtR4jYZJqWfIyb2WLncjEL6/vYgbCNBDvlGl40Y2n0AAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "e98944ebc4b2c5de",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-croce-amica-retro",
+      "world": "garage",
+      "project": "croce-amica",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/croce-amica/icloud-1399-img-1863.jpg",
+      "phase": "dettaglio",
+      "alt": "Il portellone con il logo dell'associazione e il numero verde applicati in pellicola.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1399,
+        "takenAt": "2026-05-22T15:34:17.075Z",
+        "originalName": "IMG_1863.JPG"
+      },
+      "width": 2268,
+      "height": 4032,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#c8c8c8",
+      "blur": "data:image/webp;base64,UklGRrIBAABXRUJQVlA4IKYBAABwCQCdASoYACsAPt1kqU+opaOiJWzJEBuJaAC7M5H6OHH+kFzk6YA127QIBKVWN9TJdOoG0TIgk02CDiNBerXNPf4TqIz8kuWmJOg/FWAXvtpX1yAA/vLoYKP5H8LV7KqxD2yaEooXSh/JiwdmEfgVvS8yFcDh52jGc4nhZG2+SH9CVbHU4d0GS8/AODffEutZxWlA2yIHP3Mp1StvfRJ3tJhwTyZmQaFGATUOqg8FpgIKmrRmuOF5oVvX/s5XXIciwZLVwRq2qF24jgWVs/kHM9a+HozuO4kqzKAx4Yqywwdqz0aY7MN5+9sXl5CBJLA0PSCAZVqBdoEvhZhmazokmgfCqVmhYSJvk1nXEXfEs8rQz7ZHxkeCAyEAPByyeIsadz93hut5XDJS6kbNop05bKXQU0FCc4+frd+d1bbhPdVlBnlXRwA6vvjVPdaRNYMXzHNz3Yn6RS7930UzH8I8WXAfCjprLxiQulQWg6ZPv0n9anI2JNHHfUI15g60H+MU1joKLmYU6r9OUt67QARJoKedQap5KUpn1N0RwKGW86z+HwAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "89673bcaf6dee6e1",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-mezzo-mezzo",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1346-img-1947.jpg",
+      "phase": "durante",
+      "alt": "Le porte posteriori di un furgone a metà lavoro: un'anta ancora bianca, l'altra già rivestita di rosso.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "hero-garage",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1346,
+        "takenAt": "2026-05-26T09:40:57.700Z",
+        "originalName": "IMG_1947.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#a8a8a8",
+      "blur": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAABwBQCdASoYACAAPt1cqUyopSQiKA1REBuJbACw7dwLiL2kdse7nFrAp6o9D+IOEHoWF+lkAP7KVaLoqE8kOK2ysnA7FfP8srHn8DKyN4Q8y7HnP9QA6ccWuecalc4SGZgHnFFZv1grr/OugpnKMBcqgG36XULO91kFwZZxrXg/JdKwSdKFfKxz5NbfLNAOpSX6cTM7i8GB07YYzL2//A8bwuIn6C+lrxsb1+qCNott0SJdo9zWIovyrfFs8PX8KTTyGwkVNfjB6m98RmRxKnHNA18r5AGwnbatYLlze+9VQOp9S0UNt1u5/MtVrhpvSEvrzO2fakZTT8asB2VlcKhYjvoi4AAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "8e3b20632ee9a93b",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-ducato-prima",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1343-img-1954.jpg",
+      "phase": "prima",
+      "alt": "Un furgone bianco della flotta prima del rivestimento, visto da dietro nel capannone.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1343,
+        "takenAt": "2026-05-27T07:10:14.744Z",
+        "originalName": "IMG_1954.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#888888",
+      "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAACwBQCdASoYACAAPt1cp06opKMiMBgIARAbiUAVHo1CABRo1ttDCC1PBNEDxqxEaOJu+TNaD0AA/vo8Hpq2qhfaYWmR+9KyEJ3zSutOkIvwc1hj7p5ckbySvO4X2+pUktOCyrnQkMlQB1xdC897OKkEQLR/UmfpeMumBmzoGAwvc0LB9e7+PVdmDpuQFlyf0wRh5oi1FFpswfFppBdMyPMSR3CWhaHoi7xz/slTYOt8s7L5teMClyu8l3GxF4lrAJZ05qsgfGSTmkEpPFT+exoBPlaUPE15CZGuL0AA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b34eb5f3ccd1048c",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-ducato-dopo",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1341-img-1956.jpg",
+      "phase": "dopo",
+      "alt": "Lo stesso furgone dopo: porte posteriori rivestite in rosso lucido.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1341,
+        "takenAt": "2026-05-27T11:52:25.613Z",
+        "originalName": "IMG_1956.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#c80808",
+      "blur": "data:image/webp;base64,UklGRigBAABXRUJQVlA4IBwBAABQBgCdASoYACAAPt1irE8opaSiKAqpEBuJbACdL47K5wgFVDTU4bYrywTXmXFPKxIguEzyDEgIJ/OIAAD+V9TXZWHJvnlvHmserExR1N9vtkBKtx+JALTB26q9zUU/KjuWTTg72XYtRvPf7O8e7TD6gdpboCJyh+6Vz5tRdVbfWfIiEb+uFatXC+nEbGXW+ojnUy97bAOMTGt86jMzKivkNCXp4yBYMLmWpkDZA8r5+K7bJyfmzdow8dLAyvPG8plObNBtBAQFs+9TarJDX6qbf/+5GsGpG2gYC5T3vF6tgmKPd7ZWgl9MZ79yp5J7ow1UgtUNJC48C7ddZxQibXoBmP/FD7wlC3HGrpEnQOF/4Mp/k3oTppRdBlQAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a82e7655ccd6a60c",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-van-prima",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1350-img-1938.jpg",
+      "phase": "prima",
+      "alt": "Furgone compatto bianco prima del rivestimento.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1350,
+        "takenAt": "2026-05-25T07:05:30.706Z",
+        "originalName": "IMG_1938.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#b8b8b8",
+      "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABQBQCdASoYACAAPt1cqE6opKOiMBgIARAbiWcAxvd+5m3Y/teBWKQaylhAvjJxyOHK+LgA/vHrzbJyKJ4wO50/0faR6Hz7nQ/dEu9eQzN3xwpaRcxLZ7xum+dKG0grfW1uJXwjVj5OyAYir/quy3L1PaGAxJrBjy/fDXdwFSyEZoMYOqFQfQEGA9jkaUc7Ru00jy5CuW7MRQjg0mFmeAQVWik7zKtIvmCbhyDoFrniuOmw/FoGoAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a4ff4c3da7189918",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-van-dopo",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1349-img-1942.jpg",
+      "phase": "dopo",
+      "alt": "Il furgone compatto dopo, con le porte posteriori rosse.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1349,
+        "takenAt": "2026-05-25T14:15:03.579Z",
+        "originalName": "IMG_1942.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#c8c8c8",
+      "blur": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAAAwBQCdASoYACAAPtVYpEyoJSOiMAwBABqJbACsACIF7541vZ3Holp8cGtUHi6eb06ZAAD+38PaQ9BIoRwXppFwnVv+svb9nmxK61VLUZ1/Lgvmg8rAcJBUV2kS7YfcVeewL3b4bowJQ5Krc05O2Eoa8ZhgZCLWIGUnVnLXfELbwnGV8WPd2bKC9X0AJy0jpi056aiwN24SwwvvvDtpeEarPJ1Nqq3M4dlsbC15QvxYK6KuFNUeh2xYRAw0cIhePdA7vi1E8PoA6WFz83dv+UEVf2ZLsx6d/Ddvv/8Wt+ejSQAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "f276922590d8d450",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-due-furgoni",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1576-img-1313.jpg",
+      "phase": "dopo",
+      "alt": "Due furgoni della flotta con il retro rivestito di rosso, fianco a fianco nel capannone.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-wide",
+        "case-cover"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1576,
+        "takenAt": "2026-05-04T11:02:19.383Z",
+        "originalName": "IMG_1313.JPG"
+      },
+      "width": 8064,
+      "height": 4536,
+      "aspect": 1.778,
+      "orientation": "orizzontale",
+      "color": "#b8a888",
+      "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAACwBACdASoYAA4APt1apkyopSOiMAgBEBuJbACdMoEUogXoFw+jI5qALLhVDSJQAP6cCo82JjIPlFmdqDcn9xCX+WB6H7bYReCew7rhHFdFyX5HdBCB97iT8h+OnrnngXoT8iwI3lrnVFxHcSWnyYWRO5TRmuQQWNo/8zZzPlEZ6fs2wCez0FKTK7xi9jnfUgBNyJuv9foISy8moPoWOdkkGAp/vop/nJ9O012UWaFHYlHwV92uMAAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "dc025d9c65223316",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-fila-bianca",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1655-img-1127.jpg",
+      "phase": "prima",
+      "alt": "Una fila di furgoni bianchi nel capannone, in attesa del rivestimento.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "prima-dopo",
+        "70-furgoni"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1655,
+        "takenAt": "2026-04-27T06:26:14.432Z",
+        "originalName": "IMG_1127.JPG"
+      },
+      "width": 4536,
+      "height": 8064,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#686868",
+      "blur": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAADQBgCdASoYACsAPt1YpU0opKMiMBqqqRAbiWMAy6QXyW73GIlKLpm42ooiihzvhDaBn+7RIhfQGcHdv6AfNAAAzB4RAxRwWzfrcWjuGmCW7sK0tKRSe0L7Y7PsidgOXkEM4JcfTNZEobj12GqJYxNSeGl8PpnX+lAAhfD/hWGO84qB+1Le1FliwPVFCI3UNfycDRF/upLsUSEGReZFvqA5avy78hBb1PkcqLEem6/PhJ/XY08y9yKta5mJvMpCHXF+DQ40+zlh6utdV1I+Yoi3VSbuwhlxYM7Kck1H+IRZGgLoqghoQ3KBIPUNngmsKfgXOtaiw7yNhlIyxzsrnQAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a047da8e811bbb02",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-porta-smontata",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1459-img-1652.heic",
+      "phase": "durante",
+      "alt": "Un'anta smontata appoggiata sui bancali, rivestita di rosso fino a metà.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1459,
+        "takenAt": "2026-05-13T05:34:20.245Z",
+        "originalName": "IMG_1652.HEIC"
+      },
+      "width": 3213,
+      "height": 5712,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#d8c8b8",
+      "blur": "data:image/webp;base64,UklGRpABAABXRUJQVlA4IIQBAABQCACdASoYACsAPt1Yp0yopKOiMBVdURAbiWwAnTMExTEba1Sq897azdr2yDnC+unx8hG2nKK8fU81yX0hgN0Z3sGm4/dN/5hd76AA/ucoC7DP7g/UYNtPWIpJKGVrlW8sE0UQ5c0RFuME/sUbuUUKG5+YauY3R3ssnBiuW0SrALz5+OPcP9H0WQ664gtfew9u+cpRWi1Vgw7uSrUfZCTZmfWuxc0j2kOqX2g/EWoIx24mKHuwimocnQj3gc7ueAaYN1MOkz9onzqKVzgsY1Ns24V1G4espc8Iz/y21SN4Qq1eLw6Lwggi9wQx7cLWuNsrme2sdB66y6Bphtx1fOh8zpgqXnTKGZGTl0ea64NTmaAXcxaN9gLY6STA96r9luyBqsc2aBXEwe0bTTc2nO3yVCxX7JB9klbXHQWz/b/pL05lu+OwqWgLGNItlRSLW5gOvUgPYLnifCvnTLL2lEMyB9QsXvCn0um3rXJturWWacm4LvV5D3j6iSc2Qv7CvB26bEAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "1ec473892b5f234f",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-porta-dettaglio",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1448-img-1679.heic",
+      "phase": "dettaglio",
+      "alt": "Dettaglio dell'anta rivestita: la pellicola rossa segue ogni piega della lamiera.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1448,
+        "takenAt": "2026-05-13T11:09:39.903Z",
+        "originalName": "IMG_1679.HEIC"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#c80808",
+      "blur": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAABQBQCdASoYACAAPt1kqlEopSOiqAgBEBuJbACdMt1ljBijI6qQFzKjw0ySjqSOOqk3PzgA/thQ6vi7FC6S8RM3Unp5KFAHJMqLYl8UFLi6AEHdosPe/kDPqK23ku/oEarXMy8/A0zHmcwbRCP1zSPmn8tiTq+iEFTYIUog9j32q3nlFPIXp2Hu+wLQvsRsfVhl6/125eYiw1jR43negDK/bWKd7WO3OzaPRmnTy5lGOcCT8hrvQNKBj9RLNUZ3ArsC2QghgK8+BWOhewW+jWAwAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "977e4aa703392d80",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-posa",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1641-img-1142-anteprima.jpg",
+      "phase": "durante",
+      "alt": "Applicazione della pellicola rossa sull'anta posteriore, con la pistola termica.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "note": "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px).",
+      "ai": false,
+      "album": {
+        "n": 1641,
+        "takenAt": "2026-04-27T14:39:50.184Z",
+        "originalName": "IMG_1142.HEIC"
+      },
+      "width": 1330,
+      "height": 2364,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#a8a898",
+      "blur": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4IDABAADwBgCdASoYACsAPt1eq1EopKOiqrgIARAbiWwAp0dZj8gt/yiTIesNC7zDY9Yf7YaeJ82Fr3HBNtFiWlzyVB2wAP3dtLZrqAFpKPwCEZwxZCZRsBxPzgnDzsNlLYSZVzEpmrpvfm4U0MRRDAo4u0fxQW/dmHvcuvQ68HE+mbT7KsEKQbL1/lkmvuY/kmR6EqZ91QN0HwTXbEx1h8XEUXGSaJ9v5Rsb+IiYfwkq/76AEVGAHen/o5bBGD3GmVPNdoIAAFB4lLEkdoAr1Fjerhg/xd7P3cuyGNtczGroLNf/N8FU+kyHA85MI+RFV+g/m3UiDg3FaqJw3VZb8PdDcPLfz2BQhWh2ppc8TBygTsK/TRmSLtRHCsuf10eB9XG/MNBqCx6+uArj1EbzpQzq1AAA",
+      "variants": [
+        640,
+        1280,
+        1330
+      ],
+      "hash": "6752d52b89b94668",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-flotte-porta-aperta",
+      "world": "garage",
+      "project": "flotte-aziendali",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/flotte-aziendali/icloud-1474-img-1448.heic",
+      "phase": "durante",
+      "alt": "Furgone con l'anta posteriore aperta e già rossa, accanto al trabattello.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1474,
+        "takenAt": "2026-05-06T10:17:49.649Z",
+        "originalName": "IMG_1448.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRiYBAABXRUJQVlA4IBoBAADQBQCdASoYACAAPt1cp06opKMiMBgIARAbiWQAuwQKFlVqf3I9DGyxXLzj8CKkjuRjGeHW3FQAAP7qqvnxtYkZeM34c6CjLnIejvhrcOnm+0Njy/Uwz9mHXqRZWuQ92IHTWJxYa7FmlrrnpzJXXKoE/2+XAPwYzc8o5/JNE/5qcNLqr4QMIWzPCpvAfpDKKdPtU+LZwEBECQDudLhqU+VC8kod+tY/yKl2BeXu1BGF9F5oElVMAj7yu69HY7k7bkZX/Pr+6sQ9bW7/g18gF81bG1jPPnNXyb7joVmqaBO4M/iGyeHfDUWe/a0eP8tFd0ngM/32nzkA3dMQ179kXIBrimkCVKgqd+y//MRJI+XFJmbdBEBvwfnAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "bf230daa4e8de25e",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-furgoni-70-presentazione",
@@ -845,7 +4580,11 @@
         640,
         720
       ],
-      "hash": "e11f81913ab8dd69"
+      "hash": "edddd874f882bcd6",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-furgoni-70-racconto",
@@ -875,7 +4614,175 @@
         640,
         720
       ],
-      "hash": "62e7f287e34a8d9c"
+      "hash": "460d6d7e86bd887b",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "garage-furgoni-70-fila",
+      "world": "garage",
+      "project": "furgoni-70",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/furgoni-70/icloud-0003-img-6349.jpg",
+      "phase": "dopo",
+      "alt": "Una fila di camion della flotta con i cassoni rivestiti di rosso, parcheggiati al sole nel piazzale.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card",
+        "70-furgoni"
+      ],
+      "note": "Sui cassoni c'è il logo del cliente: TODO-PAOLO conferma se si può mostrare e nominare.",
+      "ai": false,
+      "album": {
+        "n": 3,
+        "takenAt": "2026-10-25T11:30:36.309Z",
+        "originalName": "IMG_6349.DNG"
+      },
+      "width": 4032,
+      "height": 3024,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#5888c8",
+      "blur": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAACQBQCdASoYABIAPt1irU6opaSiKAqpEBuJbACxHuN/burt/8A89Sbf44/vwuoJ0mmJYDGLIADKW56nTJm2M7btgHByx3EmWQ0Kba+Xogfzxw/LzcKjIJJqkhR7RXTUHTSWz9QDShlXqOy25N/+aQb7e+BKD5uyRrVHxn3le49y0lLs1x1hAEJBj+4ghVSd683QP5E7ODeL6MSjbuRQIlpp5gmA7kkzS+flGfiZA+UFX+lHdh/z/w+pkTiy/i4f62n+f8+o/fFhY/Ea73L3uT5VkGH8slAbC/mga1cnWGDjwIAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "dcd2de17e4f4206e",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-furgoni-70-fila-2",
+      "world": "garage",
+      "project": "furgoni-70",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/furgoni-70/icloud-0004-img-6346.jpg",
+      "phase": "dopo",
+      "alt": "Camion della flotta schierati, retro dei cassoni rivestiti in rosso lucido.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 4,
+        "takenAt": "2026-10-25T11:30:27.222Z",
+        "originalName": "IMG_6346.DNG"
+      },
+      "width": 4032,
+      "height": 3024,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#d80808",
+      "blur": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAACwBQCdASoYABIAPt1kp1AopaMiqAqpEBuJbACdMsvIj3AB6ZCDZXaETMPuupo1VWayk6fQJ0AA+l36nvJtNB1+pvoThTwpCbUI3lfoI2DpgM0iUEetuoPk3n1Suq6Dbq4hINyvSybguRfgquT8H+tVhv9y5E4tej4puiysTqwr34idPflypeci87tdw6ZGZMn0H3PxzAi3GvmeQU5cmZ29Xf36wv9DpMGvQ/3kKH78/8GYt8u1FlDUpCIKIvAT+L2HKZDPsnhfoOPkp2QjeVvif/6b6yO9CzhNXFlSWehOSGAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "cb8245677e5df76c",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-furgoni-70-cassone",
+      "world": "garage",
+      "project": "furgoni-70",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/furgoni-70/icloud-0001-img-6357.jpg",
+      "phase": "dopo",
+      "alt": "Retro di un camion con il cassone rivestito in rosso e la sponda montacarichi.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 1,
+        "takenAt": "2026-10-25T11:30:55.536Z",
+        "originalName": "IMG_6357.DNG"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#4878b8",
+      "blur": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4IDABAADwBgCdASoYACAAPt1cpUyopSOiMBgMARAbiWwAnTM0OmbxrfguUD4ZSJBPfp9XYNbBpHKtHuSnXDdCwl+n0BiAAP4QtIYtOeH+eoBH5Mg/ZcViUxI+6WxsFKvlx88op+vXNXvovisKTf3YdV9YrM9Tss+Fg0OK98859ZJuZCliGGg7RV+YsNLQufCOAh4cw7u9J2Hg/bV1997jYg/lrmT0Y5UdfJpV0J4h3rUgW1RmTHOa90PlvvbXZgLfl5pw5SWYMd5wTrURpags6zzkGZPmuiaxbMQERLfblqt7xIedsIWLerXBYRKXtHPbz2vqCmmKUgd/SjHQG/Wq01roytudYHZWQRefDv+ST8U4DEF8v6sm7op22nR9Lk7M2vV97HlVag/msfDAwhicq0Cyi8AA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "30dc2a2a6a0deb89",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-furgoni-70-capannone",
+      "world": "garage",
+      "project": "furgoni-70",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/furgoni-70/icloud-0009-img-6301.jpg",
+      "phase": "dopo",
+      "alt": "Camion appena rivestito di rosso, fermo nel capannone a fine lavoro.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 9,
+        "takenAt": "2026-10-24T07:29:05.571Z",
+        "originalName": "IMG_6301.DNG"
+      },
+      "width": 6048,
+      "height": 8064,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#d8d8d8",
+      "blur": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAACQBQCdASoYACAAPt1kp1AopSMiqAqpEBuJbACxH1DCphYgmgHIXwf7SYhFhZMEJxz/SYkMcAD+9QcaX21GtUnike6RMOOs/aa/ECefEPO2f8eWZrRaGfWKhFuiVTqAq8+3CzNUVDa526tWlHTV1L2frrh3BBvSYK5IHppH4oF/gljM6BQzSg+swaTK+kVMp+iU86+S3IiEBbufsL5fra3vSEFZk5D8OBJ1r4Exr6nDZ0FAOas3q8cV9QYqQaDPyf+1cIuFhU2c5BPhe001LobdWau8/34LKclR5VboAlwJd2TtzMmnDJ+de1fu6nll8nUxB3THHwA3UiJ+mDVIz5SEm3sFtV2yc4y6OlHmoSWIAAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b76ff2a575b35df8",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-ktm-790-di-serie",
@@ -912,7 +4819,10 @@
       "variants": [
         640
       ],
-      "hash": "f5cf14432bd0a1ef"
+      "hash": "61193732bd0a3cc3",
+      "webp": [
+        640
+      ]
     },
     {
       "id": "garage-ktm-790-arrivo",
@@ -942,7 +4852,11 @@
         640,
         720
       ],
-      "hash": "246a5364af551707"
+      "hash": "853b628148baac7f",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-ktm-790-forcella",
@@ -974,7 +4888,11 @@
         640,
         720
       ],
-      "hash": "4324673d95728bde"
+      "hash": "68900a5913e37bbe",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-ktm-790-reazione",
@@ -1006,7 +4924,11 @@
         640,
         720
       ],
-      "hash": "ee23855bcf788a2d"
+      "hash": "d4218ef2ce619e1c",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-ktm-790-forcellone",
@@ -1037,7 +4959,11 @@
         640,
         720
       ],
-      "hash": "de5bf26d70387c58"
+      "hash": "71eaa0e974f045ff",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-ktm-790-fianchetto",
@@ -1068,7 +4994,11 @@
         640,
         720
       ],
-      "hash": "e56819b8f5cc2f15"
+      "hash": "5c40437da7eab7d9",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-ktm-790-scaglie",
@@ -1100,7 +5030,380 @@
         640,
         720
       ],
-      "hash": "709c003a6084d09e"
+      "hash": "9453988e71e3c931",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "garage-ktm-790-scogli",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0272-img-4931.jpg",
+      "phase": "dopo",
+      "alt": "La KTM 790 Adventure rivestita a squame scure con riflessi blu, parcheggiata tra gli scogli rossi e l'acqua turchese.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "hero-wide",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 272,
+        "takenAt": "2026-09-17T15:41:26.000Z",
+        "originalName": "IMG_4931.png"
+      },
+      "width": 5184,
+      "height": 3456,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#f8f8f8",
+      "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAAAwBACdASoYABAAPt1apkyopSOiMAgBEBuJbACsAB4JCsxs3CRWQ9OROAAA/nTsaBKtOakZDrQTWRn0RgUA2tqIKP7dCvxaWIQuwTPksy2J5jxZA+cWng7SIABLxBEjU+15sQqk2MNeosTeuq94g8BFS7JtUQlvaguZcZdOJUi+CRU6D00X/zYcgdrvxuHqPGW49ZS3w3IaMOQbe5zmbr//aIcJsPWA6L1XD90B5uqQhaHEAAA=",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "bd7a144695dadb53",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-castello",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0284-joy-20260917-153706-414-photo.heic",
+      "phase": "dopo",
+      "alt": "La KTM a squame davanti al castello sul mare di Brindisi.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 284,
+        "takenAt": "2026-09-17T13:37:06.227Z",
+        "originalName": "Joy_20260917_153706_414_photo.heif"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#b8d8e8",
+      "blur": "data:image/webp;base64,UklGRhgBAABXRUJQVlA4IAwBAACwBgCdASoYACAAPt1grE8opSSiKAqpEBuJYgCxHsvAH+WY4mQPdizhNm1jqlL2iaUhLg4RiimSGBif5OI3AAD+UXo4mbMi9KohRouNrikGHBAITX3T+uqFd/bt66s3ljckkg8MWRUgL9uPrGxueK558+vVmouPfXvsdX9NKSJxIJSbQLGpflkyHpfrfybqcdA5ri8sqEatI63tVIjhwuYfnmap9FJaPowaOtWGOt/I5XMjWrh8to7nZab/rwHM6YeblS/qXlGvt1k5UlwBxkcJAXauyvSw3Sz+M5j6Gel/DnvjvdPuBd8Ak1DUjt7K7F7+/F+8aO82LLL6XQq87aKitcaMhqrvdkssAAAA",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "a3cb4c67d5ae377f",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-frontale-castello",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0285-joy-20260917-153656-344-photo.heic",
+      "phase": "dopo",
+      "alt": "La KTM vista di tre quarti sul lungomare, con il castello sullo sfondo.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 285,
+        "takenAt": "2026-09-17T13:36:56.153Z",
+        "originalName": "Joy_20260917_153656_344_photo.heif"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#b8d8e8",
+      "blur": "data:image/webp;base64,UklGRkQBAABXRUJQVlA4IDgBAAAQBwCdASoYACAAPt1eo0yopSMiMBgMARAbiUATplBlV8/54AywAYJn0ioAq9umS/kZaWv5tIWCeZOucsoi9RqAAAD+W3R/uGclLhGmFwfO7axlaq/xM9nLUPzqDeGi0+FhYovZKnPAoRJxeM6E6ZHbw9dFYbqpB0VLqIbqenaTPG8OGMbtH7FZGr6lvxyPzXcKrNMK2v/Nro7szqWktV+Z7f2ABw7GsAeQjWGY/27vmjxCmxgnylrYXKFb+PQeWxiQB64RIEJtwF+y5YH5WAksBTd/oY1ZtBfCPB1sThqdyp2zh4S0XYZGdNdZq751tpF1FKoZpT32QP5gn9Y/1m/ZXHyWd3t38GBUwg3RnXnrSLI4Hbumf0Onp0X8T8PVrjHGFlc815h9uzcZYBDyoMCq+YOyFJgKQAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "64ff171608c2a3c3",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-sterrato",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0286-joy-20260917-153637-891-photo.heic",
+      "phase": "dopo",
+      "alt": "La KTM con le protezioni arancioni e la carena a squame, sul terreno sabbioso.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 286,
+        "takenAt": "2026-09-17T13:36:37.720Z",
+        "originalName": "Joy_20260917_153637_891_photo.heif"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRlwBAABXRUJQVlA4IFABAACQBwCdASoYACAAPt1apkyopSOiMAgBEBuJbACdMoSHtf/qUFUCObnASqducKVDOWvuKxKvKAxYI4T0cn1SgsExyaqWU1gA0L6Ev53Jk0/xdE9jKdBKhmEkK4R08Xa3ez52AQ7gEA0ZV+NCoPeY4tYbXhJ7FGPSv6TI8vEGw1BAZP1u3zSFvq+orrNGObravuRBmzbrR/EiatSvyZCX3Og/ezRJCdTGrWSTH6CmU7MGXYby9ZKr7ci+pqU2fFLK17CaHBxPQ6YqByF6lmfx919tTwxc7U8BHKEsHBbsYDvDgWJZ862p2mhvWW/UBUeyTmVxzihohdepdtLoU0t91AiNg9qjKaKpyr5Fn5cOZe89oi8sRcsI75AG3PxquIgRSK0u11rUb5+rGbY/++6APOgRqC9pugDN6+gOcrEGtweSvEniX5M60QU/QGhpQHCRoAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "5334f0d593184d9d",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-serbatoio",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0269-img-4906.png",
+      "phase": "dettaglio",
+      "alt": "Dettaglio del serbatoio: squame in rilievo nere con riflessi blu e l'occhio verde.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery",
+        "texture-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 269,
+        "takenAt": "2026-09-17T15:55:06.000Z",
+        "originalName": "IMG_4906.png"
+      },
+      "width": 5184,
+      "height": 3456,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAACQBACdASoYABAAPt1apkyopSOiMAgBEBuJQBOgMZKY1n0tNpSU8Szq9CgBNggA/bmKtL771Hhg1NdUlXMmhW4+NefhpwOTY8wc/N07nyWuchEAhyL0rWa2SxHmDLlWpHBFXVD444oC9bYZ1Kd2FRuu6dMUFGdJsEVRz112cjgokJO/pFIbWQB5Evs/nkWm0uoLdkqOeVLlQN6l3l8KlUgp8ud6nAr3tt3gykIJ5p+luln0+m/kNqFAQHQjNEB5QAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "5715901092dc5072",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-squame",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0282-joy-20260917-153724-914-photo.heic",
+      "phase": "dettaglio",
+      "alt": "Primo piano della pellicola a squame sulla carena della KTM.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-gallery",
+        "texture-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 282,
+        "takenAt": "2026-09-17T13:37:24.715Z",
+        "originalName": "Joy_20260917_153724_914_photo.heif"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#787878",
+      "blur": "data:image/webp;base64,UklGRkwBAABXRUJQVlA4IEABAACwBgCdASoYACAAPt1irU8opaSiKAqpEBuJbACdMutV2ixxvSOEWg1lFd4Xp8V5rIP8toAfNhWBIK1C4poxAAD6ki18My5eXoNS+usEDOaSi5zX7XTqUB7cLLg9GjHmm+GCHL5S1YteilyAZAylOdsYhI5OGY2n9Rmp6I6KuC4PeMMvdlZY95egLJC/waKGypmfRhcOSTPQ3nKHUDdGCzTloRbsYLTZzFNyifQPMJpxPwm1ZSn4F2zcTFR4ng4Mf/IO4uoEc8jJFsT2lxP+PXKt0CrEWM24vN9WX1FlMFwDWEq0gcrUIpFsVpwskBBcRyghYFx7LzYfQ9U7SEY+BFiFmD8nRoYvxZL7UaaScuhDNY8CGh4mObGalGMJldhq11KSq0p7BOszqJMa1GJglt/5kTVLvIu9EcfPx3Ic6fmAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "79b65aff00b18bdd",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-forcellone-scritta",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0280-joy-20260917-153740-749-photo.heic",
+      "phase": "dettaglio",
+      "alt": "Forcellone della KTM con la scritta iridescente e il logo dell'occhio.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "album": {
+        "n": 280,
+        "takenAt": "2026-09-17T13:37:40.549Z",
+        "originalName": "Joy_20260917_153740_749_photo.heif"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#181818",
+      "blur": "data:image/webp;base64,UklGRjYBAABXRUJQVlA4ICoBAABwBgCdASoYACAAPt1ep0yopSOiMAgBEBuJYwDDsAgR4HuHRczMmDjhc0jWPrUenda/22D6TiBUM/Tab6AA/vFRdBZnwr9w7gs54m90J9wh6TOvGuTAKlxBw+P3aN5c2UaY60WnCHsS0i6DTTwUieLxJtgq9/EDUfgAmJftbW6/tImbS38YFevsB+ZwED9zydOIgxvLEf391qEekr3Evf7qX3oGiV7cmSkXj0D/5m9gD/5NBaLDKMsJchJ51SJvyoxIghLt/bhqJyoq2Xeb7JfT7L9d2sWimzh1dAV1Mzq0BW3D8dwK1Bqrmw7cdyJRrWsMN+JA5ZZTrsW3ytZsH/wfCLv0Kqsd13j4/Nda9LHfxfvAMjvA7lLN2hmdnvqFb5SPbUnJM9RoAAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "143e11a4ddaeddb6",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-in-sella",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0273-img-4934.jpg",
+      "phase": "persone",
+      "alt": "In sella alla KTM a squame sul lungomare, con il casco abbinato.",
+      "credits": null,
+      "people": "cliente",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "case-reazione"
+      ],
+      "note": "Persona in casco, volto non visibile.",
+      "ai": false,
+      "album": {
+        "n": 273,
+        "takenAt": "2026-09-17T15:04:26.000Z",
+        "originalName": "IMG_4934.JPG"
+      },
+      "width": 5003,
+      "height": 3335,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAADQBACdASoYABAAPt1apkyopSOiMAgBEBuJYwAOcDcBb7jASHpZaqizWb8PIFMb4AD8pjFvQXxa5prNxtv8FDONRzaDT4DmKdxd2n0TXcqdXlHgeKp9OM7WgH24gPjfN+BdxZ1IzsLQkGzmXmS0ZVEto0J9h4ULaeYakLaM5mvN4hkvZI+GfHrXePbr2y0O53FcEKWpCe083PKupDPBHO9zipuFTz+7+8TX/w7u10Sr//SR1AAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "5e8343840b2442d2",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-ktm-790-casco",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0501-img-4651.heic",
+      "phase": "dettaglio",
+      "alt": "Il casco abbinato alla moto, decorato con le stesse squame e gli occhi verdi.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "note": "TODO-PAOLO: il casco è un lavoro WOW?",
+      "ai": false,
+      "album": {
+        "n": 501,
+        "takenAt": "2026-09-11T05:58:34.253Z",
+        "originalName": "IMG_4651.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#283848",
+      "blur": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACQBgCdASoYACAAPt1epkyopSOiMAgBEBuJQBb9XXZkGgR9Hu0PSmcQ5ym0lVSi0Mwg0AbG7dyob+leJx+YAP6QmoWo5Tvv/TNDDmOS0Hm0YkC8K8WBcKK42h32Owgb0moEIyyVqV2/yqd9ep7AORwhg6PjbKrimOtEl0e8jET0t99O78eTy7zHHaEblE+YDXK/dxnOo+shZ30mefWPbTvtZze3PvQxOXUJdvbvWUKUvlDeNnVZeheFjBbeJkIU6zQnRhhuyksdeODKIxUcfb8flGN9Y5CKvm5qCy3eZXumwkbiWZGjCaiFlFXpdBwa0sRAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "93b569539c1dabfe",
+      "webp": [
+        640,
+        1280
+      ]
     },
     {
       "id": "garage-oscuramento-posa",
@@ -1121,6 +5424,8 @@
         "case-gallery",
         "servizio-oscuramento"
       ],
+      "note": "Sostituita dall'originale dell'album: garage-oscuramento-posa-mani.",
+      "export": false,
       "ai": false,
       "width": 1000,
       "height": 1250,
@@ -1153,6 +5458,8 @@
         "servizio-oscuramento",
         "texture-ref"
       ],
+      "note": "Sostituita dall'originale dell'album: garage-oscuramento-vetro-led.",
+      "export": false,
       "ai": false,
       "width": 1000,
       "height": 1250,
@@ -1185,6 +5492,8 @@
         "servizio-oscuramento",
         "card"
       ],
+      "note": "Sostituita dall'originale dell'album: garage-oscuramento-lunotto-targa.",
+      "export": false,
       "ai": false,
       "width": 1000,
       "height": 1250,
@@ -1218,6 +5527,8 @@
         "officina-ref",
         "configuratore-ref"
       ],
+      "note": "Sostituita dall'originale dell'album: garage-oscuramento-jeep-officina.",
+      "export": false,
       "ai": false,
       "width": 1080,
       "height": 1350,
@@ -1250,6 +5561,8 @@
         "officina-ref",
         "chi-siamo"
       ],
+      "note": "Sostituita dall'originale dell'album: garage-oscuramento-scritta-parete.",
+      "export": false,
       "ai": false,
       "width": 1000,
       "height": 1250,
@@ -1292,7 +5605,11 @@
         640,
         1000
       ],
-      "hash": "b42385e7f1d9c129"
+      "hash": "1cbc9d4544b72c15",
+      "webp": [
+        640,
+        1000
+      ]
     },
     {
       "id": "garage-oscuramento-controllo",
@@ -1323,7 +5640,11 @@
         640,
         1000
       ],
-      "hash": "f0972a91240e0a78"
+      "hash": "9792effae252da6b",
+      "webp": [
+        640,
+        1000
+      ]
     },
     {
       "id": "garage-oscuramento-portiera",
@@ -1354,7 +5675,11 @@
         640,
         1000
       ],
-      "hash": "40b21d3b850bc993"
+      "hash": "d340086a137588b2",
+      "webp": [
+        640,
+        1000
+      ]
     },
     {
       "id": "garage-oscuramento-reel-1",
@@ -1386,7 +5711,11 @@
         640,
         720
       ],
-      "hash": "ad0ffae991c3990e"
+      "hash": "8ecf06193c8edae7",
+      "webp": [
+        640,
+        720
+      ]
     },
     {
       "id": "garage-oscuramento-reel-2",
@@ -1418,7 +5747,459 @@
         640,
         720
       ],
-      "hash": "0d6694cffeb7dbb5"
+      "hash": "cfaaa3c4c8ebcf7c",
+      "webp": [
+        640,
+        720
+      ]
+    },
+    {
+      "id": "garage-oscuramento-jeep-officina",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0846-img-4028.jpg",
+      "phase": "ambiente",
+      "alt": "Una Jeep grigia nell'officina WOW, con i LED a chevron che si riflettono sulla carrozzeria.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "officina-ref",
+        "configuratore-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 846,
+        "takenAt": "2026-08-21T13:37:09.448Z",
+        "originalName": "IMG_4028.PNG"
+      },
+      "width": 4500,
+      "height": 5625,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#181818",
+      "blur": "data:image/webp;base64,UklGRhQBAABXRUJQVlA4IAgBAABQBgCdASoYAB4APt1iqE4opaOiMBgIARAbiWkAE84VwNJq0CEL/4llY+mIPR8QbEQSVZSf24GYPLpoAADeWHkZIhmFm1CU86OCxD4FieZVTUER+3qSOX6bdYUFLJK+qTy1U2ghC4vmaK0dvREKfKYE7Ihd5oEqGidMrn78XbiFwh10DCyZ1iGxdEr4RuxIxFSNJ7GABHSNJF1uNUvn4i+dq2CyLQvE7oeg3PO6djnKck3A22LiB2bTr5BKXJy6/9Omcclmc/GnUM8K3CPCTqCf4jak/iFs+UqftTX7fOzuhUt40QfwiyWZ8cneec7pQJT5RV4qC8MMuhb3DdYI1vhhUNciAOI6AAA=",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "d568076a7cbe151f",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-fiancata",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0982-img-3654.heic",
+      "phase": "dopo",
+      "alt": "Fiancata della Jeep con i vetri posteriori oscurati: davanti i vetri restano chiari, come vuole la legge.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "servizio-oscuramento",
+        "card"
+      ],
+      "ai": false,
+      "album": {
+        "n": 982,
+        "takenAt": "2026-08-07T07:07:48.567Z",
+        "originalName": "IMG_3654.HEIC"
+      },
+      "width": 5712,
+      "height": 4284,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#585848",
+      "blur": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoYABIAPt1cpUyopSOiMBgMARAbiWcAyrQPNzNlo5v7jrPNFCUzq0hNfYAA/vEZMYuMj8m+jgc5iO23NlxbT3Go1yN0kSvVTb5nW9LgTn1wZhtxjqFh+pqchOrKxA3/DxCRerxJLnWi0G2QKq82lQchBUcERcGahkM+VAAA",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "f72ca28c2e245575",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-retro",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0983-img-3653.heic",
+      "phase": "dopo",
+      "alt": "Il retro della Jeep in officina con il lunotto oscurato e la targa WOW.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "servizio-oscuramento",
+        "case-cover"
+      ],
+      "ai": false,
+      "album": {
+        "n": 983,
+        "takenAt": "2026-08-07T07:07:38.243Z",
+        "originalName": "IMG_3653.HEIC"
+      },
+      "width": 5712,
+      "height": 4284,
+      "aspect": 1.333,
+      "orientation": "orizzontale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABQBQCdASoYABIAPt1kqE+opaOiKAqpEBuJYwDE2YzaZdCbPsaMzwc3KDaXTU+VUMrqw6gA/sEj6NOVuYrIsSSm2bAayZ0yigKuCAoMZptB9vZWnItyExbeL7V+dX87uosW/t0sB43/AzzbdE0rnkmm4QAdEZfxjT5tmn7fyvCaK6xK3ZH5U1f24Dl/OPVhH0TwXRb3guq5uHl8k8bdjCLebyW1Xs/BAiMvaNRqGIyr1eYhATAsVZKAAAAAAA==",
+      "variants": [
+        640,
+        1280,
+        1920,
+        2560
+      ],
+      "hash": "32831219e66a417f",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-vetro-led",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0840-img-4035.jpg",
+      "phase": "dettaglio",
+      "alt": "Vetro oscurato nero in cui si riflettono le linee bianche dei LED dell'officina.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "texture-ref",
+        "servizio-oscuramento"
+      ],
+      "ai": false,
+      "album": {
+        "n": 840,
+        "takenAt": "2026-08-21T13:38:00.996Z",
+        "originalName": "IMG_4035.PNG"
+      },
+      "width": 4500,
+      "height": 5625,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACQBQCdASoYAB4APt1mrFEopSQiqAgBEBuJaQAFEB7ch7pNfW2Q0ld71DHVUwlsQQC0l3XkAAD+vGMWAb27qAAG82cJegMp+39Pd3xTgntuYOtJhayfwHLE+dY8krHA6UQTWm0eytPTITYJ8x56skye9fUhkpQ1naC4zAJv5X7tUrtuRAHXX0ccT5iujTKZyhcTF1WONx/f+UClkSw+OLCGitpldi05HJFFy+/FjZg71hxaEpYQEntoxoZmcJCjLptzZDCzC+EAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "888c8f09458fadf9",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-vetro-posteriore",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0985-img-3651.heic",
+      "phase": "dettaglio",
+      "alt": "Il vetro laterale posteriore oscurato, con i riflessi dei LED.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "servizio-oscuramento"
+      ],
+      "ai": false,
+      "album": {
+        "n": 985,
+        "takenAt": "2026-08-07T07:07:14.561Z",
+        "originalName": "IMG_3651.HEIC"
+      },
+      "width": 3024,
+      "height": 4032,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#585848",
+      "blur": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAABwBQCdASoYACAAPt1iqE4opaOiMBgIARAbiWcAxNgQlKiB4zBWydDxHO58XXun94tXIMZyAP71ewVWQgBGT0sJn95D+7gDS49ivRn6FJpV0P0MRHQ0l3WMr+rEb7GqJ7swxNiy4nSXnL1q3MtifAbRilkIqpEiqIh31eO+R70TZHG5fmtSbxwC+RpqvqBSaNT82S3NHsuPav0jM6ahVE3UiLdchDhjVrArtFyrCXZ7k5m4wyi2sD0BlBFALTw0g5yUthcteWwAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "b10dd8752762eab4",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-scritta-parete",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0845-img-4029.jpg",
+      "phase": "persone",
+      "alt": "In officina, sotto i LED a chevron, la scritta «Oscuramento vetri» sulla parete nera.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "officina-ref",
+        "chi-siamo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 845,
+        "takenAt": "2026-08-21T13:37:16.999Z",
+        "originalName": "IMG_4029.PNG"
+      },
+      "width": 4500,
+      "height": 5625,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAABwBQCdASoYAB4APt1epk6opSMiMBgIARAbiWcAAI9WUwnzKdze8pmTGQMb9j/9JEIBOZJIAP7w6zq4Ujp0Myeq8CWQrKqoXnL5+X5WelBPp2AAe25D+IgWixsdWjc6iiOdNiRZuG3NWI8/uh9Z7FyJByTtxgFWDzU1R95JVh3CBjASNa3fz5I/GmE/hYigqQiUgmPutW2B6xlLIcQhfCNwA6XbXgIAGfSr7qx+asLtPcWmk5Bp7E1vm9grAQTxvqtXb9wBJWIAyqNCAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "0200a1dce904dea0",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-posa-mani",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0849-img-4025.jpg",
+      "phase": "durante",
+      "alt": "Le mani stendono la pellicola bagnata sul vetro posteriore.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "processo",
+        "servizio-oscuramento"
+      ],
+      "ai": false,
+      "album": {
+        "n": 849,
+        "takenAt": "2026-08-21T13:36:50.305Z",
+        "originalName": "IMG_4025.PNG"
+      },
+      "width": 4500,
+      "height": 5625,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRvIAAABXRUJQVlA4IOYAAADQBQCdASoYAB4APt1aqE6opKOiMBgIARAbiUAYz7GRadedcErnUFDpRyvE6Qx3hlvDBSLDoGYoAP7uxz9f+upw22RYsskdygbQZegnthC2sH8+7QqZHm1/CBmZDeQY0Vobjovn3jYBk/wJk/hLgD6yROmQekjNYeicKEnkHfTE3aJiERbVyhbOS1FrwzuNObvreL26wYezrz/DQNca7rX5QR/QARFTr2xU09+2kmUy3MUBaXotOPs15ejHbGMs+8DpZKV/1ofIOah3mTBsd24FqFtNIML9qWOyWFoIUpm+OMKgKtLAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "da14cd4489af6ec0",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-lunotto-targa",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0847-img-4027.jpg",
+      "phase": "dopo",
+      "alt": "Lunotto oscurato della Jeep con i riflessi dei LED e la targa WOW.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "servizio-oscuramento"
+      ],
+      "ai": false,
+      "album": {
+        "n": 847,
+        "takenAt": "2026-08-21T13:37:03.049Z",
+        "originalName": "IMG_4027.PNG"
+      },
+      "width": 4500,
+      "height": 5625,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAACQBQCdASoYAB4APt1mp0+opaMiKAqpEBuJZQDIXYwxWoTodSOyg6DFKL2oAAy/MX8mI/BWAAD++l50uA0/CHIpU4yGg0HlAW5vqy1IB3IGy5pBuBOt4GdPfbM0VVif7sbf85mywc7nqNi5Ak9jF1ey/YWHUs9MO8GMo5FwlfsIg9rHwgj31srJW4T2Rpy09AH4pglekHhYKvUz5B8+3tEF7XSQ5LYjwRQe7yYxFW9wvtds/9sRSmdj4WdVjrgIJpYIUy2DycvlrfQs3lvumtsJIPC6rXNdEL3jj8hwZuP3EXJdqxVBEluenL/bjxcSkl2xEJVAAAA=",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "1e812f81cf41e677",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-officina-larga",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0957-img-3685.jpg",
+      "phase": "ambiente",
+      "alt": "L'officina WOW con la Jeep e i LED a chevron, durante l'oscuramento.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 3,
+      "uses": [
+        "officina-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 957,
+        "takenAt": "2026-08-08T09:39:53.574Z",
+        "originalName": "IMG_3685.JPG"
+      },
+      "width": 1600,
+      "height": 1066,
+      "aspect": 1.501,
+      "orientation": "orizzontale",
+      "color": "#181818",
+      "blur": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoYABAAPt1apkyopSOiMAgBEBuJaQAOcC0LG/vgyg72SH0BCN2gAM3e+CFvdty1bS4mN+C0+oEXbGBB2BVIBoqm11E313P55xuI0GTQhtyl8482ev5sVMSLJNsJHEk0+xRWtqXoXZzD53RNeXYW+e0OmU4wzCd7IPNxDNxXE1w+OWeOvdHDRm0VQ1v7PC8E+4hqDAMVdGvcnrPdBO8cAA==",
+      "variants": [
+        640,
+        1280,
+        1600
+      ],
+      "hash": "af224577f7cb3bd1",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "garage-oscuramento-soffitto",
+      "world": "garage",
+      "project": "oscuramento-vetri",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/garage/oscuramento-vetri/icloud-0986-img-3650.heic",
+      "phase": "ambiente",
+      "alt": "La Jeep in officina sotto la griglia di LED del soffitto.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "officina-ref"
+      ],
+      "ai": false,
+      "album": {
+        "n": 986,
+        "takenAt": "2026-08-07T07:06:46.083Z",
+        "originalName": "IMG_3650.HEIC"
+      },
+      "width": 4284,
+      "height": 5712,
+      "aspect": 0.75,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRhYBAABXRUJQVlA4IAoBAABwBgCdASoYACAAPt1cqU6opKOiMBgIARAbiWMAuOcucGCaEB06kB2OYKT6KgA30iw8o7fTU6g7spYskXAA+khiqxuqQVPgZNwILAAe9cJmO3gWbTBfSRCfro0omYys7cS/IjVF+GETwjYDPhWN5rID1FhrAlQ110wyAWhhBvhifXZfsqElRLjX91A6iheSMLQkwDcLkY48h5p3aAaffA9l55LkO/MRQZTHQ8QwYYVgMGE2+OtebGGpBCmlWHWYq2GlwHwDgVWO2lKzsHZyheqtSYSQYZRWoN3fzjzx9a5M3hpYqpMTB3or8XPqAdd41QPd6ncQxP/4f+182ip8af/l1T+lQ62xRSYAAA==",
+      "variants": [
+        640,
+        1280,
+        1920
+      ],
+      "hash": "a6e5e2473081b451",
+      "webp": [
+        640,
+        1280
+      ]
+    },
+    {
+      "id": "officina-attrezzi-pistola",
+      "world": "officina",
+      "project": "attrezzi",
+      "kind": "image",
+      "source": "originale",
+      "src": "materiale/officina/attrezzi/icloud-0678-img-4556.jpg",
+      "phase": "dettaglio",
+      "alt": "La pistola termica, la spatola e il taglierino appoggiati sul piano di lavoro.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 2,
+      "uses": [
+        "chi-siamo"
+      ],
+      "ai": false,
+      "album": {
+        "n": 678,
+        "takenAt": "2026-09-01T14:16:51.000Z",
+        "originalName": "IMG_4556.JPG"
+      },
+      "width": 720,
+      "height": 480,
+      "aspect": 1.5,
+      "orientation": "orizzontale",
+      "color": "#e8e8e8",
+      "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoYABAAPt1apkyopSOiMAgBEBuJbACdMoACsGtE3FI0AlcdMACeEzmuVts9LEk0FdIfQpT+KSgJMMakDRtz7X+U0k6t0wenVW+m0zh8+0TzIRXYe02K+Er9D9Ymry1DiOXAxvXBY2Zy8X+Lyazfo5lTF601pgAA",
+      "variants": [
+        640,
+        720
+      ],
+      "hash": "2cff030750ac6847",
+      "webp": [
+        640,
+        720
+      ]
     }
   ]
 }

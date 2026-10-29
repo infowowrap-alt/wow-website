@@ -13,6 +13,7 @@
     "media": "node scripts/media/images.mjs",
     "video": "node scripts/media/video.mjs",
     "import:uploads": "node scripts/media/import-uploads.mjs",
+    "album": "node scripts/media/album-import.mjs",
     "shots": "node scripts/shots.mjs"
   },
   "dependencies": {
