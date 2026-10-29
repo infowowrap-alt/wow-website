@@ -198,7 +198,7 @@ Regole comuni:
 **Foto**
 - Lettura di tutto `materiale/`, con classificazione per: mondo, progetto, fase (prima / lavorazione / dopo / dettaglio / ambientazione / persone), orientamento, qualità. Catalogo in `content/media.json` (id, file, mondo, progetto, fase, alt in italiano, crediti, `ai`, `ai_note`).
 - Esportazione in `public/media/` con sharp: AVIF + WebP, misure 640/1280/1920/2560, placeholder sfocato (base64 o blurhash), metadati di dimensione per evitare layout shift.
-- Sui volti di clienti e passanti: chiedi a Paolo se ha il permesso, altrimenti non usare quella foto in evidenza.
+- Volti di clienti e passanti: si possono mostrare (ok di Paolo del 29/10/2026).
 
 **Video**
 - Con ffmpeg: loop muti di 6–10 s per hero e sezioni (H.264 MP4 + WebM VP9/AV1, 1080p e 720p, bitrate contenuto), poster AVIF, eventuale versione verticale per mobile.

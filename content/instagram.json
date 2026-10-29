@@ -1,51 +1,533 @@
 {
   "$note": "Foto scelte dai post Instagram di @wowlartigianodellepellicole per i lavori che non hanno originali (soprattutto 2024-2025). I file sono quelli scritti da scripts/media/instagram-download.mjs (<data>-<codice>-<n>.jpg). npm run instagram -- --from <cartella> li copia in materiale/da-instagram/<mondo>/<progetto>/ e li aggiunge al catalogo. Quando arrivano gli originali, queste voci si mettono a export:false.",
   "select": [
-    { "file": "2025-04-14-DIa0tYgNQWw-01.jpg", "id": "garage-sea-doo-cofano", "world": "garage", "project": "sea-doo", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-cover", "card"], "alt": "Il cofano della moto d'acqua Sea-Doo rivestito nero e giallo fluo, con l'illustrazione di un personaggio anime al centro.", "note": "Il personaggio sul cofano è di terzi: si mostra solo come foto del lavoro." },
-    { "file": "2025-04-14-DIa0tYgNQWw-02.jpg", "id": "garage-sea-doo-officina", "world": "garage", "project": "sea-doo", "phase": "dettaglio", "score": 5, "people": "nessuno", "uses": ["officina-ref", "case-gallery"], "alt": "La prua del Sea-Doo nera e gialla fluo sotto i LED a chevron dell'officina." },
-    { "file": "2025-04-14-DIa0tYgNQWw-03.jpg", "id": "garage-sea-doo-carrello", "world": "garage", "project": "sea-doo", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-gallery"], "alt": "Il Sea-Doo rivestito sul carrello, visto di tre quarti." },
-    { "file": "2025-04-14-DIa0tYgNQWw-04.jpg", "id": "garage-sea-doo-poppa", "world": "garage", "project": "sea-doo", "phase": "dettaglio", "score": 3, "people": "nessuno", "uses": ["case-gallery"], "alt": "La poppa del Sea-Doo con le grafiche gialle fluo." },
-
-    { "file": "2025-05-23-DJ_KiSBNj3q-04.jpg", "id": "garage-idea-80-tracciatura", "world": "garage", "project": "idea-80-idea-marine", "phase": "durante", "score": 4, "people": "staff", "uses": ["processo", "case-cover"], "alt": "In laboratorio si traccia la sagoma del finestrino dell'imbarcazione sulla pellicola nera." },
-    { "file": "2025-05-23-DJ_KiSBNj3q-06.jpg", "id": "garage-idea-80-taglio", "world": "garage", "project": "idea-80-idea-marine", "phase": "dettaglio", "score": 5, "people": "staff", "uses": ["processo", "card"], "alt": "Il taglierino segue il bordo curvo della pellicola nera per la finestratura della barca." },
-    { "file": "2025-05-23-DJ_KiSBNj3q-03.jpg", "id": "garage-idea-80-pannello", "world": "garage", "project": "idea-80-idea-marine", "phase": "durante", "score": 3, "people": "staff", "uses": ["case-gallery"], "alt": "Il pannello del finestrino rivestito, tenuto in verticale accanto al plotter." },
-
-    { "file": "2025-07-09-DL4L4eVByv2-01.jpg", "id": "garage-ppf-panda", "world": "garage", "project": "ppf-panda", "phase": "durante", "score": 3, "people": "staff", "uses": ["servizio-ppf", "card"], "alt": "Si pulisce la carrozzeria rossa della Panda prima della pellicola protettiva trasparente." },
-
-    { "file": "2025-07-15-DMH9gDcNAPh-09.jpg", "id": "garage-pullman-tre-quarti", "world": "garage", "project": "pullman-tour-panoramico", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-cover", "card"], "alt": "Un pullman rosso con la nuova livrea grafica, visto di tre quarti anteriore.", "note": "Cliente non nel brief: TODO-PAOLO se si può nominare." },
-    { "file": "2025-07-15-DMH9gDcNAPh-07.jpg", "id": "garage-pullman-frontale", "world": "garage", "project": "pullman-tour-panoramico", "phase": "dopo", "score": 3, "people": "nessuno", "uses": ["case-gallery"], "alt": "Il frontale del pullman con la scritta della livrea sopra il parabrezza." },
-    { "file": "2025-07-15-DMH9gDcNAPh-04.jpg", "id": "garage-pullman-prima", "world": "garage", "project": "pullman-tour-panoramico", "phase": "prima", "score": 3, "people": "nessuno", "uses": ["prima-dopo"], "alt": "La fiancata del pullman prima del restyling, con la vecchia grafica." },
-
-    { "file": "2026-01-30-DUIbfLkjnRT-01.jpg", "id": "officina-lucidatura-chevron", "world": "officina", "project": "paolo-al-lavoro", "phase": "persone", "score": 5, "people": "staff", "uses": ["chi-siamo", "hero-garage"], "alt": "Nell'officina buia, sotto i LED a chevron, si lucida la carrozzeria nera di un'auto." },
-    { "file": "2026-01-30-DUIbfLkjnRT-02.jpg", "id": "officina-lucidatura-sorriso", "world": "officina", "project": "paolo-al-lavoro", "phase": "persone", "score": 4, "people": "staff", "uses": ["chi-siamo"], "alt": "Al lavoro sulla carrozzeria nera, con i riflessi dei LED a chevron." },
-    { "file": "2026-03-27-DWY0rAiDh8E-03.jpg", "id": "campionario-pellicole-auto-ventaglio", "world": "campionario", "project": "pellicole-auto", "phase": "dettaglio", "score": 4, "people": "nessuno", "uses": ["campionario-ref", "configuratore-ref"], "alt": "Le mazzette delle pellicole colorate per auto aperte a ventaglio sul banco." },
-    { "file": "2026-03-27-DWY0rAiDh8E-01.jpg", "id": "campionario-pellicole-auto-mano", "world": "campionario", "project": "pellicole-auto", "phase": "dettaglio", "score": 3, "people": "nessuno", "uses": ["campionario-ref"], "alt": "Il campionario delle pellicole auto aperto tra le dita: tinte unite, opache e cangianti." },
-
-    { "file": "2025-07-23-DMcf_rutiZl-03.jpg", "id": "interior-cucina-arancione-prima", "world": "interior", "project": "cucina-arancione-avorio", "phase": "prima", "score": 4, "people": "nessuno", "uses": ["prima-dopo"], "alt": "La cucina prima: ante arancioni lucide sotto il piano di lavoro." },
-    { "file": "2025-07-23-DMcf_rutiZl-04.jpg", "id": "interior-cucina-avorio-dopo", "world": "interior", "project": "cucina-arancione-avorio", "phase": "dopo", "score": 5, "people": "nessuno", "uses": ["prima-dopo", "case-cover", "card"], "alt": "La stessa cucina dopo: ante color avorio effetto stucco e pensili con vetro satinato." },
-    { "file": "2025-07-23-DMcf_rutiZl-05.jpg", "id": "interior-cucina-avorio-angolo", "world": "interior", "project": "cucina-arancione-avorio", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-gallery"], "alt": "La cucina avorio vista dall'angolo, con le basi curve rivestite." },
-    { "file": "2025-07-23-DMcf_rutiZl-06.jpg", "id": "interior-cucina-avorio-curva", "world": "interior", "project": "cucina-arancione-avorio", "phase": "dettaglio", "score": 4, "people": "nessuno", "uses": ["case-gallery", "texture-ref"], "alt": "Dettaglio dell'anta curva rivestita in avorio effetto stucco." },
-
-    { "file": "2025-06-06-DKjNqmFMlxJ-03.jpg", "id": "interior-cameretta-prima", "world": "interior", "project": "cameretta", "phase": "prima", "score": 4, "people": "nessuno", "uses": ["prima-dopo"], "alt": "La cameretta prima: armadio verde acido e cassetti gialli." },
-    { "file": "2025-06-06-DKjNqmFMlxJ-06.jpg", "id": "interior-cameretta-dopo", "world": "interior", "project": "cameretta", "phase": "dopo", "score": 5, "people": "nessuno", "uses": ["prima-dopo", "card"], "alt": "La stessa cameretta dopo: armadio e cassetti rivestiti in bianco e grigio." },
-    { "file": "2025-07-02-DLmNivINcDd-02.jpg", "id": "interior-fondale-prima", "world": "interior", "project": "mobili-arredi", "phase": "prima", "score": 4, "people": "nessuno", "uses": ["prima-dopo"], "alt": "Il fondale del mobile soggiorno prima del rivestimento, ingiallito." },
-    { "file": "2025-07-02-DLmNivINcDd-03.jpg", "id": "interior-fondale-dopo", "world": "interior", "project": "mobili-arredi", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["prima-dopo"], "alt": "Il fondale del mobile dopo, rivestito in bianco porcellana." },
-    { "file": "2025-05-19-DJ1EGrdNlao-03.jpg", "id": "interior-appendiabiti-officina", "world": "interior", "project": "mobili-arredi", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["card", "texture-ref"], "alt": "Un appendiabiti in legno rivestito con finiture diverse sui due lati, nello showroom WOW." },
-    { "file": "2025-04-22-DIvsTXoN3Vt-04.jpg", "id": "interior-frigo-dopo", "world": "interior", "project": "mobili-arredi", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["card", "prima-dopo"], "alt": "Un frigorifero ingiallito rivestito di nero opaco nello showroom, sotto i LED." },
-    { "file": "2025-04-22-DIvsTXoN3Vt-05.jpg", "id": "interior-frigo-mezzo", "world": "interior", "project": "mobili-arredi", "phase": "durante", "score": 4, "people": "nessuno", "uses": ["prima-dopo"], "alt": "Il frigorifero a metà: un lato ancora ingiallito, l'altro già nero." },
-    { "file": "2025-12-15-DSR_JuyjLwp-04.jpg", "id": "interior-salone-marmo", "world": "interior", "project": "salone-effetto-marmo", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-cover", "card"], "alt": "Un salone con le pareti rivestite effetto marmo bianco e lo specchio ovale." },
-    { "file": "2026-06-08-DZUau2VDsiY-02.jpg", "id": "interior-parete-marmo-posa", "world": "interior", "project": "salone-effetto-marmo", "phase": "dettaglio", "score": 4, "people": "staff", "uses": ["processo"], "alt": "Rifilatura della pellicola effetto marmo sullo spigolo della parete." },
-
-    { "file": "2026-01-02-DTASh2Djq7K-05.jpg", "id": "interior-vetrina-fiocco", "world": "interior", "project": "vetrine-stagionali", "phase": "dopo", "score": 5, "people": "nessuno", "uses": ["card", "case-cover"], "alt": "Una vetrina di Natale con un grande fiocco rosso in pellicola che la incarta come un regalo." },
-    { "file": "2026-01-02-DTASh2Djq7K-04.jpg", "id": "interior-vetrina-magic", "world": "interior", "project": "vetrine-stagionali", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-gallery"], "alt": "Vetrofania natalizia con la scritta «Magic starts here» sul vetro di un negozio di abbigliamento." },
-    { "file": "2026-01-02-DTASh2Djq7K-01.jpg", "id": "interior-vetrina-happy-holidays", "world": "interior", "project": "vetrine-stagionali", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["case-gallery"], "alt": "Una vetrina con l'albero stilizzato e la scritta «Happy holidays» in pellicola rossa." },
-    { "file": "2025-04-30-DJD8KDWsLWQ-02.jpg", "id": "interior-satinata-posa", "world": "interior", "project": "pellicole-solari", "phase": "durante", "score": 4, "people": "staff", "uses": ["servizio-vetri", "processo"], "alt": "Posa di una fascia satinata sulla vetrata di un locale, con la spatola." },
-    { "file": "2025-04-30-DJD8KDWsLWQ-04.jpg", "id": "interior-satinata-dopo", "world": "interior", "project": "pellicole-solari", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["servizio-vetri"], "alt": "La porta vetrata con la fascia satinata applicata." },
-    { "file": "2025-10-24-DQL8ufwDtFQ-03.jpg", "id": "interior-vetrata-cestello", "world": "interior", "project": "pellicole-solari", "phase": "durante", "score": 4, "people": "staff", "uses": ["servizio-vetri"], "alt": "Applicazione della pellicola sulle vetrate di una facciata, da un cestello elevatore." },
-    { "file": "2025-06-27-DLZSVX4MpOq-01.jpg", "id": "interior-tt-engineering-vetrate", "world": "interior", "project": "tt-engineering-lecce", "phase": "durante", "score": 3, "people": "staff", "uses": ["servizio-vetri"], "alt": "Davanti alle vetrate degli uffici di T&T Engineering a Lecce, prima della pellicola a specchio." },
-    { "file": "2025-06-27-DLZSVX4MpOq-06.jpg", "id": "interior-tt-engineering-posa", "world": "interior", "project": "tt-engineering-lecce", "phase": "durante", "score": 4, "people": "staff", "uses": ["servizio-vetri", "processo"], "alt": "La pellicola a controllo solare stesa sulla vetrata con la spatola." },
-    { "file": "2025-12-18-DSZt3CJDibZ-01.jpg", "id": "interior-international-school-ingresso", "world": "interior", "project": "international-school-brindisi", "phase": "dopo", "score": 3, "people": "nessuno", "uses": ["prima-dopo"], "alt": "L'ingresso dell'International School of Brindisi prima e dopo: infissi rinnovati e vetrofania sabbiata.", "overlay": true, "note": "Montaggio prima/dopo del post con le scritte BEFORE e AFTER." },
-    { "file": "2026-02-25-DVLhsytDLmm-01.jpg", "id": "interior-stand-fiera", "world": "interior", "project": "stand-fiera", "phase": "dopo", "score": 4, "people": "nessuno", "uses": ["card"], "alt": "Uno stand fieristico allestito con pannelli grafici, bancone brandizzato e luci viola.", "note": "Si legge il marchio dell'espositore: TODO-PAOLO se si può nominare." },
-    { "file": "2025-10-15-DP0osErjB_9-01.jpg", "id": "interior-ohana-park-trono", "world": "interior", "project": "ohana-park", "phase": "persone", "score": 2, "people": "staff", "uses": ["chi-siamo"], "alt": "Seduti sul trono a forma di ananas della sala feste Ohana Park, a lavoro finito." }
+    {
+      "file": "2025-04-14-DIa0tYgNQWw-01.jpg",
+      "id": "garage-sea-doo-cofano",
+      "world": "garage",
+      "project": "sea-doo",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "alt": "Il cofano della moto d'acqua Sea-Doo rivestito nero e giallo fluo, con l'illustrazione di un personaggio anime al centro.",
+      "note": "Il personaggio sul cofano è di terzi: si mostra solo come foto del lavoro."
+    },
+    {
+      "file": "2025-04-14-DIa0tYgNQWw-02.jpg",
+      "id": "garage-sea-doo-officina",
+      "world": "garage",
+      "project": "sea-doo",
+      "phase": "dettaglio",
+      "score": 5,
+      "people": "nessuno",
+      "uses": [
+        "officina-ref",
+        "case-gallery"
+      ],
+      "alt": "La prua del Sea-Doo nera e gialla fluo sotto i LED a chevron dell'officina."
+    },
+    {
+      "file": "2025-04-14-DIa0tYgNQWw-03.jpg",
+      "id": "garage-sea-doo-carrello",
+      "world": "garage",
+      "project": "sea-doo",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "Il Sea-Doo rivestito sul carrello, visto di tre quarti."
+    },
+    {
+      "file": "2025-04-14-DIa0tYgNQWw-04.jpg",
+      "id": "garage-sea-doo-poppa",
+      "world": "garage",
+      "project": "sea-doo",
+      "phase": "dettaglio",
+      "score": 3,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "La poppa del Sea-Doo con le grafiche gialle fluo."
+    },
+    {
+      "file": "2025-05-23-DJ_KiSBNj3q-04.jpg",
+      "id": "garage-idea-80-tracciatura",
+      "world": "garage",
+      "project": "idea-80-idea-marine",
+      "phase": "durante",
+      "score": 4,
+      "people": "staff",
+      "uses": [
+        "processo",
+        "case-cover"
+      ],
+      "alt": "In laboratorio si traccia la sagoma del finestrino dell'imbarcazione sulla pellicola nera."
+    },
+    {
+      "file": "2025-05-23-DJ_KiSBNj3q-06.jpg",
+      "id": "garage-idea-80-taglio",
+      "world": "garage",
+      "project": "idea-80-idea-marine",
+      "phase": "dettaglio",
+      "score": 5,
+      "people": "staff",
+      "uses": [
+        "processo",
+        "card"
+      ],
+      "alt": "Il taglierino segue il bordo curvo della pellicola nera per la finestratura della barca."
+    },
+    {
+      "file": "2025-05-23-DJ_KiSBNj3q-03.jpg",
+      "id": "garage-idea-80-pannello",
+      "world": "garage",
+      "project": "idea-80-idea-marine",
+      "phase": "durante",
+      "score": 3,
+      "people": "staff",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "Il pannello del finestrino rivestito, tenuto in verticale accanto al plotter."
+    },
+    {
+      "file": "2025-07-09-DL4L4eVByv2-01.jpg",
+      "id": "garage-ppf-panda",
+      "world": "garage",
+      "project": "ppf-panda",
+      "phase": "durante",
+      "score": 3,
+      "people": "staff",
+      "uses": [
+        "servizio-ppf",
+        "card"
+      ],
+      "alt": "Si pulisce la carrozzeria rossa della Panda prima della pellicola protettiva trasparente."
+    },
+    {
+      "file": "2025-07-15-DMH9gDcNAPh-09.jpg",
+      "id": "garage-pullman-tre-quarti",
+      "world": "garage",
+      "project": "pullman-tour-panoramico",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "alt": "Un pullman rosso con la nuova livrea grafica, visto di tre quarti anteriore."
+    },
+    {
+      "file": "2025-07-15-DMH9gDcNAPh-07.jpg",
+      "id": "garage-pullman-frontale",
+      "world": "garage",
+      "project": "pullman-tour-panoramico",
+      "phase": "dopo",
+      "score": 3,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "Il frontale del pullman con la scritta della livrea sopra il parabrezza."
+    },
+    {
+      "file": "2025-07-15-DMH9gDcNAPh-04.jpg",
+      "id": "garage-pullman-prima",
+      "world": "garage",
+      "project": "pullman-tour-panoramico",
+      "phase": "prima",
+      "score": 3,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "La fiancata del pullman prima del restyling, con la vecchia grafica."
+    },
+    {
+      "file": "2026-01-30-DUIbfLkjnRT-01.jpg",
+      "id": "officina-lucidatura-chevron",
+      "world": "officina",
+      "project": "paolo-al-lavoro",
+      "phase": "persone",
+      "score": 5,
+      "people": "staff",
+      "uses": [
+        "chi-siamo",
+        "hero-garage"
+      ],
+      "alt": "Nell'officina buia, sotto i LED a chevron, si lucida la carrozzeria nera di un'auto."
+    },
+    {
+      "file": "2026-01-30-DUIbfLkjnRT-02.jpg",
+      "id": "officina-lucidatura-sorriso",
+      "world": "officina",
+      "project": "paolo-al-lavoro",
+      "phase": "persone",
+      "score": 4,
+      "people": "staff",
+      "uses": [
+        "chi-siamo"
+      ],
+      "alt": "Al lavoro sulla carrozzeria nera, con i riflessi dei LED a chevron."
+    },
+    {
+      "file": "2026-03-27-DWY0rAiDh8E-03.jpg",
+      "id": "campionario-pellicole-auto-ventaglio",
+      "world": "campionario",
+      "project": "pellicole-auto",
+      "phase": "dettaglio",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "campionario-ref",
+        "configuratore-ref"
+      ],
+      "alt": "Le mazzette delle pellicole colorate per auto aperte a ventaglio sul banco."
+    },
+    {
+      "file": "2026-03-27-DWY0rAiDh8E-01.jpg",
+      "id": "campionario-pellicole-auto-mano",
+      "world": "campionario",
+      "project": "pellicole-auto",
+      "phase": "dettaglio",
+      "score": 3,
+      "people": "nessuno",
+      "uses": [
+        "campionario-ref"
+      ],
+      "alt": "Il campionario delle pellicole auto aperto tra le dita: tinte unite, opache e cangianti."
+    },
+    {
+      "file": "2025-07-23-DMcf_rutiZl-03.jpg",
+      "id": "interior-cucina-arancione-prima",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "phase": "prima",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "La cucina prima: ante arancioni lucide sotto il piano di lavoro."
+    },
+    {
+      "file": "2025-07-23-DMcf_rutiZl-04.jpg",
+      "id": "interior-cucina-avorio-dopo",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "phase": "dopo",
+      "score": 5,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo",
+        "case-cover",
+        "card"
+      ],
+      "alt": "La stessa cucina dopo: ante color avorio effetto stucco e pensili con vetro satinato."
+    },
+    {
+      "file": "2025-07-23-DMcf_rutiZl-05.jpg",
+      "id": "interior-cucina-avorio-angolo",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "La cucina avorio vista dall'angolo, con le basi curve rivestite."
+    },
+    {
+      "file": "2025-07-23-DMcf_rutiZl-06.jpg",
+      "id": "interior-cucina-avorio-curva",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "phase": "dettaglio",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery",
+        "texture-ref"
+      ],
+      "alt": "Dettaglio dell'anta curva rivestita in avorio effetto stucco."
+    },
+    {
+      "file": "2025-06-06-DKjNqmFMlxJ-03.jpg",
+      "id": "interior-cameretta-prima",
+      "world": "interior",
+      "project": "cameretta",
+      "phase": "prima",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "La cameretta prima: armadio verde acido e cassetti gialli."
+    },
+    {
+      "file": "2025-06-06-DKjNqmFMlxJ-06.jpg",
+      "id": "interior-cameretta-dopo",
+      "world": "interior",
+      "project": "cameretta",
+      "phase": "dopo",
+      "score": 5,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo",
+        "card"
+      ],
+      "alt": "La stessa cameretta dopo: armadio e cassetti rivestiti in bianco e grigio."
+    },
+    {
+      "file": "2025-07-02-DLmNivINcDd-02.jpg",
+      "id": "interior-fondale-prima",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "phase": "prima",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "Il fondale del mobile soggiorno prima del rivestimento, ingiallito."
+    },
+    {
+      "file": "2025-07-02-DLmNivINcDd-03.jpg",
+      "id": "interior-fondale-dopo",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "Il fondale del mobile dopo, rivestito in bianco porcellana."
+    },
+    {
+      "file": "2025-05-19-DJ1EGrdNlao-03.jpg",
+      "id": "interior-appendiabiti-officina",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "card",
+        "texture-ref"
+      ],
+      "alt": "Un appendiabiti in legno rivestito con finiture diverse sui due lati, nello showroom WOW."
+    },
+    {
+      "file": "2025-04-22-DIvsTXoN3Vt-04.jpg",
+      "id": "interior-frigo-dopo",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "card",
+        "prima-dopo"
+      ],
+      "alt": "Un frigorifero ingiallito rivestito di nero opaco nello showroom, sotto i LED."
+    },
+    {
+      "file": "2025-04-22-DIvsTXoN3Vt-05.jpg",
+      "id": "interior-frigo-mezzo",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "phase": "durante",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "Il frigorifero a metà: un lato ancora ingiallito, l'altro già nero."
+    },
+    {
+      "file": "2025-12-15-DSR_JuyjLwp-04.jpg",
+      "id": "interior-salone-marmo",
+      "world": "interior",
+      "project": "salone-effetto-marmo",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "alt": "Un salone con le pareti rivestite effetto marmo bianco e lo specchio ovale."
+    },
+    {
+      "file": "2026-06-08-DZUau2VDsiY-02.jpg",
+      "id": "interior-parete-marmo-posa",
+      "world": "interior",
+      "project": "salone-effetto-marmo",
+      "phase": "dettaglio",
+      "score": 4,
+      "people": "staff",
+      "uses": [
+        "processo"
+      ],
+      "alt": "Rifilatura della pellicola effetto marmo sullo spigolo della parete."
+    },
+    {
+      "file": "2026-01-02-DTASh2Djq7K-05.jpg",
+      "id": "interior-vetrina-fiocco",
+      "world": "interior",
+      "project": "vetrine-stagionali",
+      "phase": "dopo",
+      "score": 5,
+      "people": "nessuno",
+      "uses": [
+        "card",
+        "case-cover"
+      ],
+      "alt": "Una vetrina di Natale con un grande fiocco rosso in pellicola che la incarta come un regalo."
+    },
+    {
+      "file": "2026-01-02-DTASh2Djq7K-04.jpg",
+      "id": "interior-vetrina-magic",
+      "world": "interior",
+      "project": "vetrine-stagionali",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "Vetrofania natalizia con la scritta «Magic starts here» sul vetro di un negozio di abbigliamento."
+    },
+    {
+      "file": "2026-01-02-DTASh2Djq7K-01.jpg",
+      "id": "interior-vetrina-happy-holidays",
+      "world": "interior",
+      "project": "vetrine-stagionali",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "case-gallery"
+      ],
+      "alt": "Una vetrina con l'albero stilizzato e la scritta «Happy holidays» in pellicola rossa."
+    },
+    {
+      "file": "2025-04-30-DJD8KDWsLWQ-02.jpg",
+      "id": "interior-satinata-posa",
+      "world": "interior",
+      "project": "pellicole-solari",
+      "phase": "durante",
+      "score": 4,
+      "people": "staff",
+      "uses": [
+        "servizio-vetri",
+        "processo"
+      ],
+      "alt": "Posa di una fascia satinata sulla vetrata di un locale, con la spatola."
+    },
+    {
+      "file": "2025-04-30-DJD8KDWsLWQ-04.jpg",
+      "id": "interior-satinata-dopo",
+      "world": "interior",
+      "project": "pellicole-solari",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "servizio-vetri"
+      ],
+      "alt": "La porta vetrata con la fascia satinata applicata."
+    },
+    {
+      "file": "2025-10-24-DQL8ufwDtFQ-03.jpg",
+      "id": "interior-vetrata-cestello",
+      "world": "interior",
+      "project": "pellicole-solari",
+      "phase": "durante",
+      "score": 4,
+      "people": "staff",
+      "uses": [
+        "servizio-vetri"
+      ],
+      "alt": "Applicazione della pellicola sulle vetrate di una facciata, da un cestello elevatore."
+    },
+    {
+      "file": "2025-06-27-DLZSVX4MpOq-01.jpg",
+      "id": "interior-tt-engineering-vetrate",
+      "world": "interior",
+      "project": "tt-engineering-lecce",
+      "phase": "durante",
+      "score": 3,
+      "people": "staff",
+      "uses": [
+        "servizio-vetri"
+      ],
+      "alt": "Davanti alle vetrate degli uffici di T&T Engineering a Lecce, prima della pellicola a specchio."
+    },
+    {
+      "file": "2025-06-27-DLZSVX4MpOq-06.jpg",
+      "id": "interior-tt-engineering-posa",
+      "world": "interior",
+      "project": "tt-engineering-lecce",
+      "phase": "durante",
+      "score": 4,
+      "people": "staff",
+      "uses": [
+        "servizio-vetri",
+        "processo"
+      ],
+      "alt": "La pellicola a controllo solare stesa sulla vetrata con la spatola."
+    },
+    {
+      "file": "2025-12-18-DSZt3CJDibZ-01.jpg",
+      "id": "interior-international-school-ingresso",
+      "world": "interior",
+      "project": "international-school-brindisi",
+      "phase": "dopo",
+      "score": 3,
+      "people": "nessuno",
+      "uses": [
+        "prima-dopo"
+      ],
+      "alt": "L'ingresso dell'International School of Brindisi prima e dopo: infissi rinnovati e vetrofania sabbiata.",
+      "overlay": true,
+      "note": "Montaggio prima/dopo del post con le scritte BEFORE e AFTER."
+    },
+    {
+      "file": "2026-02-25-DVLhsytDLmm-01.jpg",
+      "id": "interior-stand-fiera",
+      "world": "interior",
+      "project": "stand-fiera",
+      "phase": "dopo",
+      "score": 4,
+      "people": "nessuno",
+      "uses": [
+        "card"
+      ],
+      "alt": "Uno stand fieristico allestito con pannelli grafici, bancone brandizzato e luci viola."
+    },
+    {
+      "file": "2025-10-15-DP0osErjB_9-01.jpg",
+      "id": "interior-ohana-park-trono",
+      "world": "interior",
+      "project": "ohana-park",
+      "phase": "persone",
+      "score": 2,
+      "people": "staff",
+      "uses": [
+        "chi-siamo"
+      ],
+      "alt": "Seduti sul trono a forma di ananas della sala feste Ohana Park, a lavoro finito."
+    }
   ]
 }

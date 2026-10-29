@@ -11,7 +11,7 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 - [ ] Prezzi o fasce di prezzo, se vuoi mostrarli (altrimenti nei configuratori niente prezzi).
 - [ ] Orari di apertura, link Facebook, scheda Google.
 - [ ] Testi delle recensioni con permesso.
-- [ ] Nome del cliente dei 70 furgoni (si può citare?).
+- [x] Nome del cliente dei 70 furgoni: si può citare (quale nome usare? lo leggo dal logo sui cassoni se non me lo dici).
 - [ ] Ruolo di ASI Grafiche e Piero Serio nella BMW E92.
 - [ ] Zona servita fuori dalla Puglia?
 - [ ] Testo legale sull'oscuramento vetri validato.
@@ -24,7 +24,7 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 - [ ] **Logo WOW viola**: esiste (lo vedo sulla targa della BMW E92 e nei reel delle flotte). Mi serve il file originale, meglio se vettoriale.
 - [ ] **Colori Garage** (`#21152D`, `#7C0ED7`, `#E5FF00`, oggi "da confermare"): li confermi o li ricavo dal logo WOW viola quando arriva?
 - [x] **Modelli 3D dei veicoli**: budget 0 €, si usano modelli CC0 (o CC-BY con credito). Si possono sostituire in seguito grazie alla mappa delle mesh.
-- [ ] **Volti**: chi si può mostrare in grande (tu e i clienti che compaiono nei reel, per esempio la proprietaria della KTM).
+- [x] **Volti**: si possono mostrare tutti (29/10/2026).
 - [ ] **Officina**: una foto frontale delle pareti con i LED a chevron, le misure a occhio della stanza e quanti chevron ci sono, per ricostruirla in 3D uguale.
 - [ ] **Catalogo pellicole auto**: marca, codice e nome dei colori e finiture che vuoi nel configuratore Garage (altrimenti mostro solo "esempi" senza codici).
 - [ ] **Livelli di oscuramento APA** che usi davvero (trasmissione luminosa: es. 50%, 35%, 20%, 5%).
@@ -34,8 +34,8 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 
 ## Dall'album iCloud (Fase 1)
 
-- [ ] **Clienti da nominare?** Nelle foto si leggono nomi e loghi di lavori che non erano nel brief. Per ognuno dimmi se posso citarlo nel sito: auto di soccorso della Croce Amica; chiosco sul lungomare con la Grande Onda (insegna "Taschino"?); vetrofania con airone e serpente della scuola di kung fu; vetrina di Edil Rollo; facciata della scuola di ballo (Dance Studios); camion rossi dei "70 furgoni" (si vede il logo del cliente); porta d'ingresso effetto pietra (casa privata: la mostro senza dettagli personali).
-- [ ] **Foto della BMW al raduno** (quelle da fotocamera, 6000×4000): sono di @_denicola.simone_ o di @desalvatorealan? Mi serve il credito giusto.
+- [x] **Clienti**: si possono nominare tutti (29/10/2026): Croce Amica, il chiosco Taschino, la scuola di kung fu, Edil Rollo, la scuola di ballo, il cliente dei 70 furgoni, il pullman, lo stand in fiera.
+- [x] **Fotografi**: non si citano nel sito (29/10/2026).
 - [ ] **Casco della KTM** decorato a squame: è un lavoro WOW?
 - [ ] **SUV nero nell'officina** (album n. 128-129): che lavoro è (oscuramento, PPF)?
 - [ ] **Dacia bianca** nei video cinematografici in officina (album n. 1243-1259): che lavoro è? Per ora uso solo i riflessi dei LED, senza dire cosa si è fatto.

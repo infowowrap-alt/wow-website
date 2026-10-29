@@ -53,3 +53,9 @@ Scritta il 28/10/2026 dopo aver letto `CLAUDE.md`, `docs/BRAND.md`, `docs/CONTEN
 - **Budget**: 0 €. Veicoli 3D solo CC0 (o CC-BY con credito); niente acquisti.
 - **Loghi vettoriali**: arriveranno più avanti. Fino ad allora si usano i PNG.
 - **Ancora aperte**: logo WOW viola e conferma dei colori Garage; chi si può mostrare in volto (nel frattempo: Paolo sì, clienti riconoscibili mai in grande finché non c'è l'ok).
+
+## 6. Decisioni del 29/10/2026
+
+- Fotografi: non si citano nel sito.
+- Clienti: si possono nominare tutti.
+- Volti: si possono mostrare tutti.

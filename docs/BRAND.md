@@ -142,7 +142,7 @@ Giovane, rapido, sicuro, un po' pungente. WOW ha un punto di vista e lo dice sen
 
 ## 8. Fotografia e video
 
-- Si mostrano **solo lavori veri** (cartella `materiale/`). I crediti dei fotografi restano visibili (es. BMW E92: ph @_denicola.simone_ e @desalvatorealan).
+- Si mostrano **solo lavori veri** (cartella `materiale/`). I fotografi non si citano nel sito; clienti e persone nelle foto si possono nominare e mostrare (decisione di Paolo del 29/10/2026).
 - Il prima/dopo deve essere onesto: stessa inquadratura quando possibile, niente ritocchi che cambiano il risultato.
 - Garage: grade scuro, contrasto alto, dettagli ravvicinati (cerchi, scaglie, riflessi), mezzi in movimento.
 - Interior: luce naturale, toni caldi, dettagli della materia (venatura, bordo rifinito, angolo), ambiente intero dopo.

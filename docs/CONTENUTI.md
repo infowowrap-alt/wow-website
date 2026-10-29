@@ -159,7 +159,7 @@ Testo proposto per il sito (da validare): "Oscuriamo lunotto e vetri posteriori 
 - Incentivi statali per le pellicole solari: **non** citarli.
 - Numeri di follower, views, clienti serviti, anni di attività: solo se Paolo li conferma.
 - "Leader", "il migliore in Puglia", "n. 1".
-- Nomi di clienti non presenti in questo file senza conferma.
+- ~~Nomi di clienti non presenti in questo file senza conferma.~~ Superato il 29/10/2026: Paolo autorizza a nominare tutti i clienti e mostrare tutti i volti. I fotografi non si citano.
 
 ---
 

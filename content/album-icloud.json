@@ -367,8 +367,7 @@
         "card",
         "70-furgoni"
       ],
-      "alt": "Una fila di camion della flotta con i cassoni rivestiti di rosso, parcheggiati al sole nel piazzale.",
-      "note": "Sui cassoni c'è il logo del cliente: TODO-PAOLO conferma se si può mostrare e nominare."
+      "alt": "Una fila di camion della flotta con i cassoni rivestiti di rosso, parcheggiati al sole nel piazzale."
     },
     {
       "n": 4,
@@ -518,8 +517,7 @@
         "prima-dopo",
         "card"
       ],
-      "alt": "Fiancata intera della BMW E92 al raduno: saetta gialla, 95 e fiamme lungo tutta la portiera.",
-      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore (forse ph @_denicola.simone_ o @desalvatorealan)."
+      "alt": "Fiancata intera della BMW E92 al raduno: saetta gialla, 95 e fiamme lungo tutta la portiera."
     },
     {
       "n": 162,
@@ -530,8 +528,7 @@
       "uses": [
         "case-gallery"
       ],
-      "alt": "La BMW E92 di tre quarti nel paddock del raduno, tra le altre auto.",
-      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore."
+      "alt": "La BMW E92 di tre quarti nel paddock del raduno, tra le altre auto."
     },
     {
       "n": 137,
@@ -542,8 +539,7 @@
       "uses": [
         "case-gallery"
       ],
-      "alt": "Dettaglio della portiera: il 95 giallo con le fiamme, applicato sui profili della carrozzeria.",
-      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore."
+      "alt": "Dettaglio della portiera: il 95 giallo con le fiamme, applicato sui profili della carrozzeria."
     },
     {
       "n": 94,
@@ -643,12 +639,11 @@
       "id": "garage-ktm-790-in-sella",
       "phase": "persone",
       "score": 4,
-      "people": "cliente",
+      "people": "cliente-ok",
       "uses": [
         "case-reazione"
       ],
-      "alt": "In sella alla KTM a squame sul lungomare, con il casco abbinato.",
-      "note": "Persona in casco, volto non visibile."
+      "alt": "In sella alla KTM a squame sul lungomare, con il casco abbinato."
     },
     {
       "n": 501,
@@ -1027,8 +1022,7 @@
         "case-cover",
         "card"
       ],
-      "alt": "Un'auto di soccorso con la livrea bianca, arancione e tricolore, nell'officina WOW sotto i LED.",
-      "note": "Cliente (Croce Amica) non ancora confermato: TODO-PAOLO se si può nominare."
+      "alt": "Un'auto di soccorso con la livrea bianca, arancione e tricolore, nell'officina WOW sotto i LED."
     },
     {
       "n": 1401,
@@ -1394,8 +1388,7 @@
       "uses": [
         "case-gallery"
       ],
-      "alt": "Il chiosco in legno sul lungomare con l'onda sulle vetrate.",
-      "note": "Si legge l'insegna del locale: TODO-PAOLO conferma se si può nominare."
+      "alt": "Il chiosco in legno sul lungomare con l'onda sulle vetrate."
     },
     {
       "n": 1355,
@@ -1531,8 +1524,7 @@
       "uses": [
         "case-gallery"
       ],
-      "alt": "L'ingresso con la vetrofania sulle porte e il logo della scuola accanto.",
-      "note": "Cliente non confermato: TODO-PAOLO se si può nominare."
+      "alt": "L'ingresso con la vetrofania sulle porte e il logo della scuola accanto."
     },
     {
       "n": 858,
@@ -1555,8 +1547,7 @@
         "processo",
         "card"
       ],
-      "alt": "Posa della vetrofania a fasce colorate sulla vetrina di un'impresa edile.",
-      "note": "Cliente non confermato: TODO-PAOLO se si può nominare."
+      "alt": "Posa della vetrofania a fasce colorate sulla vetrina di un'impresa edile."
     },
     {
       "n": 1415,
@@ -1724,7 +1715,7 @@
       "id": "garage-ktm-790-video-pini",
       "phase": "persone",
       "score": 4,
-      "people": "cliente",
+      "people": "cliente-ok",
       "uses": [
         "card",
         "case-gallery"
@@ -1736,8 +1727,7 @@
           "start": 0,
           "duration": 3.6
         }
-      ],
-      "note": "Motociclista con casco, volto non visibile; un passante lontano sullo sfondo."
+      ]
     },
     {
       "n": 318,
@@ -1797,8 +1787,7 @@
           "start": 0,
           "duration": 3.0
         }
-      ],
-      "note": "Logo del cliente visibile: TODO-PAOLO conferma."
+      ]
     },
     {
       "n": 99,

@@ -1,5 +1,5 @@
 {
-  "$note": "Catalogo di foto e video. I campi descrittivi (fase, alt, crediti, persone, punteggio, usi, note) si scrivono a mano; width, height, aspect, color, blur, variants, hash e clips li scrive la pipeline (npm run media / npm run video). Fasi: prima, durante, dopo, dettaglio, ambiente, persone. Persone: nessuno, staff, cliente, da-confermare. export:false = solo fonte, non pubblicata da sola.",
+  "$note": "Catalogo di foto e video. I campi descrittivi (fase, alt, persone, punteggio, usi, note) si scrivono a mano; width, height, aspect, color, blur, variants, hash e clips li scrive la pipeline (npm run media / npm run video). Fasi: prima, durante, dopo, dettaglio, ambiente, persone. Persone: nessuno, staff, cliente-ok (Paolo ha dato l'ok a mostrare tutti i volti il 29/10/2026). export:false = solo fonte, non pubblicata da sola.",
   "items": [
     {
       "id": "interior-bigodino-vetrina",
@@ -285,7 +285,6 @@
       "uses": [
         "case-gallery"
       ],
-      "note": "Si legge l'insegna del locale: TODO-PAOLO conferma se si può nominare.",
       "ai": false,
       "album": {
         "n": 1353,
@@ -834,7 +833,6 @@
         "processo",
         "card"
       ],
-      "note": "Cliente non confermato: TODO-PAOLO se si può nominare.",
       "ai": false,
       "album": {
         "n": 1413,
@@ -1657,7 +1655,7 @@
       "phase": "dopo",
       "alt": "Gli scaffali del panificio dopo il rivestimento in bianco e grigio stucco, mostrati con la mano.",
       "credits": null,
-      "people": "da-confermare",
+      "people": "cliente-ok",
       "overlay": false,
       "quality": "bassa",
       "score": 3,
@@ -1665,7 +1663,6 @@
         "prima-dopo",
         "case-gallery"
       ],
-      "note": "Sullo sfondo c'è un'altra persona.",
       "ai": false,
       "width": 720,
       "height": 1280,
@@ -2805,7 +2802,6 @@
       "uses": [
         "card"
       ],
-      "note": "Si legge il marchio dell'espositore: TODO-PAOLO se si può nominare.",
       "ai": false,
       "width": 927,
       "height": 695,
@@ -3102,7 +3098,6 @@
       "uses": [
         "case-gallery"
       ],
-      "note": "Cliente non confermato: TODO-PAOLO se si può nominare.",
       "ai": false,
       "album": {
         "n": 851,
@@ -3673,7 +3668,7 @@
       "derivedNote": "Foto ricomposta unendo i pannelli del carosello panoramico (nessuna aggiunta).",
       "phase": "dopo",
       "alt": "BMW E92 rossa con la livrea ispirata a Cars: numero 95, saetta gialla sulla fiancata e targa WOW Big Sun Garage, vista di tre quarti anteriore sul pavé.",
-      "credits": "ph @_denicola.simone_ e @desalvatorealan",
+      "credits": null,
       "people": "nessuno",
       "overlay": false,
       "quality": "media",
@@ -3723,7 +3718,7 @@
       "derivedNote": "Riquadro ritagliato dal carosello panoramico.",
       "phase": "dettaglio",
       "alt": "Cofano della BMW E92 con la grafica gialla su fondo rosso e il logo della casa al centro.",
-      "credits": "ph @_denicola.simone_ e @desalvatorealan",
+      "credits": null,
       "people": "nessuno",
       "overlay": false,
       "quality": "bassa",
@@ -3769,7 +3764,7 @@
       "derivedNote": "Foto ricomposta dai pannelli del carosello panoramico.",
       "phase": "dettaglio",
       "alt": "Fiancata della BMW E92: la saetta gialla con il 95 e gli adesivi della livrea applicati sulla portiera.",
-      "credits": "ph @_denicola.simone_ e @desalvatorealan",
+      "credits": null,
       "people": "nessuno",
       "overlay": false,
       "quality": "media",
@@ -3819,7 +3814,7 @@
       "derivedNote": "Riquadro ritagliato dal carosello panoramico.",
       "phase": "dettaglio",
       "alt": "Fianco posteriore della BMW E92 con le fiamme gialle e il numero 95.",
-      "credits": "ph @_denicola.simone_ e @desalvatorealan",
+      "credits": null,
       "people": "nessuno",
       "overlay": false,
       "quality": "bassa",
@@ -3866,7 +3861,7 @@
       "derivedNote": "Foto ricomposta dai pannelli del carosello panoramico.",
       "phase": "dopo",
       "alt": "BMW E92 vista da dietro: fiamme sulla fiancata, scritta gialla sul paraurti e targa WOW Big Sun Garage.",
-      "credits": "ph @_denicola.simone_ e @desalvatorealan",
+      "credits": null,
       "people": "nessuno",
       "overlay": false,
       "quality": "media",
@@ -4356,7 +4351,6 @@
         "prima-dopo",
         "card"
       ],
-      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore (forse ph @_denicola.simone_ o @desalvatorealan).",
       "ai": false,
       "album": {
         "n": 156,
@@ -4398,7 +4392,6 @@
       "uses": [
         "case-gallery"
       ],
-      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore.",
       "ai": false,
       "album": {
         "n": 162,
@@ -4439,7 +4432,6 @@
       "uses": [
         "case-gallery"
       ],
-      "note": "Foto da fotocamera al raduno: TODO-PAOLO autore.",
       "ai": false,
       "album": {
         "n": 137,
@@ -5073,7 +5065,6 @@
         "case-cover",
         "card"
       ],
-      "note": "Cliente (Croce Amica) non ancora confermato: TODO-PAOLO se si può nominare.",
       "ai": false,
       "album": {
         "n": 1403,
@@ -5676,12 +5667,11 @@
       "phase": "persone",
       "alt": "Davanti ai furgoni rossi della flotta, a braccia aperte.",
       "credits": null,
-      "people": "da-confermare",
+      "people": "cliente-ok",
       "overlay": true,
       "quality": "bassa",
       "score": 2,
       "uses": [],
-      "note": "C'è l'adesivo WOW del reel sovrapposto. Servono foto dei furgoni senza persone.",
       "ai": false,
       "width": 720,
       "height": 1280,
@@ -5710,7 +5700,7 @@
       "phase": "persone",
       "alt": "Davanti a un furgone rosso della flotta, mentre racconta il lavoro.",
       "credits": null,
-      "people": "da-confermare",
+      "people": "cliente-ok",
       "overlay": true,
       "quality": "bassa",
       "score": 2,
@@ -5752,7 +5742,6 @@
         "card",
         "70-furgoni"
       ],
-      "note": "Sui cassoni c'è il logo del cliente: TODO-PAOLO conferma se si può mostrare e nominare.",
       "ai": false,
       "album": {
         "n": 3,
@@ -5915,7 +5904,6 @@
         "70-furgoni",
         "card"
       ],
-      "note": "Logo del cliente visibile: TODO-PAOLO conferma.",
       "ai": false,
       "clips": [
         {
@@ -6121,12 +6109,11 @@
       "phase": "persone",
       "alt": "La proprietaria della KTM entra in officina per il reveal.",
       "credits": null,
-      "people": "cliente",
+      "people": "cliente-ok",
       "overlay": false,
       "quality": "bassa",
       "score": 2,
       "uses": [],
-      "note": "Volto della cliente: serve il permesso.",
       "ai": false,
       "width": 720,
       "height": 1280,
@@ -6191,14 +6178,13 @@
       "phase": "persone",
       "alt": "La proprietaria vede la moto per la prima volta, con le mani giunte.",
       "credits": null,
-      "people": "cliente",
+      "people": "cliente-ok",
       "overlay": false,
       "quality": "bassa",
       "score": 3,
       "uses": [
         "case-reazione"
       ],
-      "note": "Volto della cliente: serve il permesso.",
       "ai": false,
       "width": 720,
       "height": 1280,
@@ -6619,14 +6605,13 @@
       "phase": "persone",
       "alt": "In sella alla KTM a squame sul lungomare, con il casco abbinato.",
       "credits": null,
-      "people": "cliente",
+      "people": "cliente-ok",
       "overlay": false,
       "quality": "alta",
       "score": 4,
       "uses": [
         "case-reazione"
       ],
-      "note": "Persona in casco, volto non visibile.",
       "ai": false,
       "album": {
         "n": 273,
@@ -6762,7 +6747,7 @@
       "phase": "persone",
       "alt": "In sella alla KTM a squame tra i pini e la roccia, con il casco abbinato.",
       "credits": null,
-      "people": "cliente",
+      "people": "cliente-ok",
       "overlay": false,
       "quality": "alta",
       "score": 4,
@@ -6770,7 +6755,6 @@
         "card",
         "case-gallery"
       ],
-      "note": "Motociclista con casco, volto non visibile; un passante lontano sullo sfondo.",
       "ai": false,
       "clips": [
         {
@@ -7689,7 +7673,6 @@
         "case-cover",
         "card"
       ],
-      "note": "Cliente non nel brief: TODO-PAOLO se si può nominare.",
       "ai": false,
       "width": 1200,
       "height": 1500,
