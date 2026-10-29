@@ -31,7 +31,7 @@ for (const route of routes) {
     // Chromium impiega minuti e il PNG diventa difficile da guardare.
     const height = await page.evaluate(() => document.documentElement.scrollHeight);
     await page.screenshot(height > 12000
-      ? { path: file, clip: { x: 0, y: 0, width: vp.width, height: 12000 }, captureBeyondViewport: true }
+      ? { path: file, fullPage: true, clip: { x: 0, y: 0, width: vp.width, height: 12000 } }
       : { path: file, fullPage: true });
     console.log(`${errors.length ? "✗" : "✓"} ${file}${errors.length ? `\n    ${errors.join("\n    ")}` : ""}`);
     if (errors.length) failed = true;

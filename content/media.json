@@ -161,9 +161,9 @@
       "kind": "image",
       "source": "instagram",
       "post": "https://www.instagram.com/p/DKjNqmFMlxJ/",
-      "src": "materiale/da-instagram/interior/cameretta/ig-2025-06-06-DKjNqmFMlxJ-03.jpg",
+      "src": "materiale/da-instagram/interior/cameretta/ig-2025-06-06-DKjNqmFMlxJ-02.jpg",
       "phase": "prima",
-      "alt": "La cameretta prima: armadio verde acido e cassetti gialli.",
+      "alt": "La cameretta prima: armadio e letto a ponte verde acido, cassetti gialli.",
       "credits": null,
       "people": "nessuno",
       "overlay": false,
@@ -177,8 +177,8 @@
       "height": 900,
       "aspect": 1.067,
       "orientation": "orizzontale",
-      "color": "#a8b858",
-      "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBQCdASoYABYAPt1go00opaMiMBgMARAbiWYAwrL1NGwhKIZ4i1lU9UkFlWZlYuwuXJkAAPwFU6fh8XXRDI28cjD607xR/b0RZIH3ViFVN2YdoudATZy7jIxyZ5wYf6ft1FkwPRLR9nSmeDKVBarCMy7p1XecTZX2m/lBdc2GFgKltGCdk1C44SuCvqMeVh7QyE7523xqu4j6OJC7tZAhuJkiN/j5bvDgAA==",
+      "color": "#b8c878",
+      "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAABwBACdASoYABYAPt1cqE0opSQiKA1REBuJbAB4GgIuQIhDpl8Kb4uE8b6UAAD+liWp5kKCrUEFVggAGOFBdn2uz2Ois7z4mKe5YKM+uUtUf+wd1mRDoP/14608173wQMGIzMZ3MV6oE/zTiG2B3pGtYO5SuWoG4YhKUpivamp38j03/1Oc1YB7EjTO9c51uib81fypQujoyaruAd5Cwx7qYEn1VDR3pjU4/9PDe0Izh+aAAAA=",
       "variants": [
         640,
         960
@@ -187,7 +187,7 @@
         640,
         960
       ],
-      "hash": "275d40135e1ad9d7"
+      "hash": "9dadb977c7e5e413"
     },
     {
       "id": "interior-cameretta-dopo",
@@ -196,9 +196,9 @@
       "kind": "image",
       "source": "instagram",
       "post": "https://www.instagram.com/p/DKjNqmFMlxJ/",
-      "src": "materiale/da-instagram/interior/cameretta/ig-2025-06-06-DKjNqmFMlxJ-06.jpg",
+      "src": "materiale/da-instagram/interior/cameretta/ig-2025-06-06-DKjNqmFMlxJ-07.jpg",
       "phase": "dopo",
-      "alt": "La stessa cameretta dopo: armadio e cassetti rivestiti in bianco e grigio.",
+      "alt": "La stessa cameretta dopo, quasi dalla stessa angolazione: armadio e ponte rivestiti in bianco e grigio.",
       "credits": null,
       "people": "nessuno",
       "overlay": false,
@@ -213,8 +213,8 @@
       "height": 960,
       "aspect": 1.066,
       "orientation": "orizzontale",
-      "color": "#784828",
-      "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBQCdASoYABcAPt1eqE2opSQiKA1REBuJQBYj5JeuhGp6osfC1Y+nGyts52H1TShGqxpAAP6ohiCpEZaFxHe18VgnalwRmr54QGu8VrGHDVsoeEvj6bBZMoxgZCx1JdyaaOOJqZpetrLBX1TRolitt6AkiydC7yyn7uoQ1GYndW99JwKGTR2kR1nZ391A+C2cOIc/8vs9zhAA",
+      "color": "#b8b8c8",
+      "blur": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADQBACdASoYABcAPt1mqlEopSOiqAgBEBuJYwDLLAv1nTj9jtJSYNQa94TJs62gQADc7Ey0owRXL/3WAkmO6Lj7/xhkNIGDA3Cs9FUnzPCC1BYF3Cqkvs05dqeb56meylqwULvRdFVvL5liCSBdDv+bNjaMuSb9YSQoARuKFNFcj3bPDoj9h8j3Vho8fNOFXdy0YJyQZjWDsRq6AX5+gFEFB4WKPTjFwB/Fvd8AAAA=",
       "variants": [
         640,
         1023
@@ -223,7 +223,7 @@
         640,
         1023
       ],
-      "hash": "a9fa4c963014ec3d"
+      "hash": "3692b855f1b06301"
     },
     {
       "id": "interior-chiosco-vetrata",

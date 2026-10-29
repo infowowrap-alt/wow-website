@@ -261,7 +261,7 @@
       "alt": "Dettaglio dell'anta curva rivestita in avorio effetto stucco."
     },
     {
-      "file": "2025-06-06-DKjNqmFMlxJ-03.jpg",
+      "file": "2025-06-06-DKjNqmFMlxJ-02.jpg",
       "id": "interior-cameretta-prima",
       "world": "interior",
       "project": "cameretta",
@@ -271,10 +271,10 @@
       "uses": [
         "prima-dopo"
       ],
-      "alt": "La cameretta prima: armadio verde acido e cassetti gialli."
+      "alt": "La cameretta prima: armadio e letto a ponte verde acido, cassetti gialli."
     },
     {
-      "file": "2025-06-06-DKjNqmFMlxJ-06.jpg",
+      "file": "2025-06-06-DKjNqmFMlxJ-07.jpg",
       "id": "interior-cameretta-dopo",
       "world": "interior",
       "project": "cameretta",
@@ -285,7 +285,7 @@
         "prima-dopo",
         "card"
       ],
-      "alt": "La stessa cameretta dopo: armadio e cassetti rivestiti in bianco e grigio."
+      "alt": "La stessa cameretta dopo, quasi dalla stessa angolazione: armadio e ponte rivestiti in bianco e grigio."
     },
     {
       "file": "2025-07-02-DLmNivINcDd-02.jpg",

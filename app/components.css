@@ -1,0 +1,383 @@
+/* Componenti del design system. Usano solo i ruoli (var(--bg), var(--accent)…)
+   così cambiano pelle da soli dentro data-world="interior" o "garage". */
+
+/* ── Bottone ─────────────────────────────────────────────────────────────── */
+.wow-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  min-height: 48px;
+  padding: 0.85em 1.35em;
+  font-family: var(--font-text);
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.1;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: transform var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+}
+.wow-button--primary {
+  background: var(--cta-bg);
+  color: var(--cta-text);
+}
+.wow-button--ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: currentColor;
+}
+.wow-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -12px var(--cta-bg);
+}
+[data-world="garage"] .wow-button {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+}
+[data-world="garage"] .wow-button--primary:hover {
+  box-shadow: none;
+  filter: drop-shadow(0 0 14px color-mix(in srgb, var(--accent) 55%, transparent));
+}
+
+.wow-floating {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right, 0px));
+  bottom: max(16px, env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 999px;
+  background: var(--cta-bg);
+  color: var(--cta-text);
+  box-shadow: 0 12px 28px -10px rgb(0 0 0 / 0.45);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+.wow-floating:hover {
+  transform: scale(1.06) rotate(-4deg);
+}
+
+/* ── Interior: etichetta a pennarello e freccia disegnata ───────────────── */
+.wow-marker {
+  display: inline-block;
+  padding: 0.28em 0.6em 0.2em;
+  background: var(--wow-red);
+  color: var(--wow-white);
+  font-family: "Permanent Marker", "Marker Felt", cursive;
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  box-shadow: 2px 3px 0 rgb(13 27 42 / 0.18);
+}
+
+.wow-arrow {
+  color: var(--wow-white);
+  overflow: visible;
+  filter: drop-shadow(1px 2px 0 rgb(13 27 42 / 0.35));
+}
+.wow-arrow path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset var(--dur-slow) var(--ease-out);
+}
+.wow-arrow .wow-arrow__head {
+  transition-delay: calc(var(--dur-slow) * 0.7);
+  transition-duration: var(--dur-fast);
+}
+.wow-arrow.is-drawn path {
+  stroke-dashoffset: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wow-arrow path {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* ── Garage: HUD, contachilometri, letterbox, LED ───────────────────────── */
+.wow-hud {
+  --c: var(--accent);
+  position: relative;
+  display: inline-block;
+  padding: 0.45em 0.8em;
+  font-family: "Chakra Petch", ui-monospace, monospace;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c);
+  background:
+    linear-gradient(var(--c), var(--c)) top left / 10px 2px no-repeat,
+    linear-gradient(var(--c), var(--c)) top left / 2px 10px no-repeat,
+    linear-gradient(var(--c), var(--c)) bottom right / 10px 2px no-repeat,
+    linear-gradient(var(--c), var(--c)) bottom right / 2px 10px no-repeat;
+}
+.wow-hud-spec {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, auto) 1fr;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+}
+.wow-hud-spec dt {
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.wow-hud-spec dd {
+  margin: 0;
+  color: var(--text);
+}
+
+.wow-odometer {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.15em;
+  font-variant-numeric: tabular-nums;
+}
+.wow-odometer__digits {
+  display: inline-flex;
+}
+.wow-odometer__col {
+  display: inline-block;
+  height: 1em;
+  overflow: hidden;
+  line-height: 1;
+}
+.wow-odometer__strip {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(calc(var(--d) * -1em));
+  transition: transform calc(900ms + var(--i) * 180ms) cubic-bezier(0.22, 1, 0.36, 1);
+}
+.wow-odometer:not(.is-rolling) .wow-odometer__strip {
+  transform: translateY(0);
+  transition: none;
+}
+.wow-odometer__suffix {
+  font-size: 0.42em;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .wow-odometer:not(.is-rolling) .wow-odometer__strip {
+    transform: translateY(calc(var(--d) * -1em));
+  }
+}
+
+.wow-letterbox {
+  margin: 0;
+  display: grid;
+  align-content: center;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  background: #000;
+}
+.wow-letterbox__frame {
+  position: relative;
+  aspect-ratio: 2.39 / 1;
+  max-width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+.wow-letterbox__frame > :not(figcaption) {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: auto !important;
+}
+.wow-letterbox__word {
+  position: absolute;
+  inset: auto 0 9%;
+  text-align: center;
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: clamp(2rem, 7vw, 6.5rem);
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 2px 30px rgb(0 0 0 / 0.6);
+}
+
+.wow-chevrons {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.wow-chevrons__tube {
+  opacity: 0.95;
+}
+.wow-chevrons.is-igniting .wow-chevrons__tube {
+  opacity: 0;
+  animation: wow-led-on 900ms steps(6, end) forwards;
+  animation-delay: calc(var(--i) * 160ms + 200ms);
+}
+@keyframes wow-led-on {
+  0% { opacity: 0; }
+  20% { opacity: 0.8; }
+  30% { opacity: 0.1; }
+  45% { opacity: 0.9; }
+  55% { opacity: 0.25; }
+  100% { opacity: 0.95; }
+}
+
+/* ── Lembo di pellicola: l'interruttore di mondo ─────────────────────────── */
+.wow-peel {
+  --fold: 54px;
+  --s: 120px;
+  position: relative;
+  display: block;
+  width: var(--s);
+  height: var(--s);
+  text-decoration: none;
+}
+.wow-peel--to-garage {
+  --other: var(--bsg-night);
+  --other-accent: var(--bsg-fluo);
+}
+.wow-peel--to-interior {
+  --other: var(--wow-paper);
+  --other-accent: var(--wow-red);
+}
+.wow-peel__under,
+.wow-peel__flap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--fold);
+  height: var(--fold);
+  transition: width var(--dur) var(--ease-out), height var(--dur) var(--ease-out);
+}
+.wow-peel__under {
+  background:
+    radial-gradient(circle at 100% 0, var(--other-accent) 0 3px, transparent 4px),
+    var(--other);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.wow-peel__flap {
+  background: linear-gradient(225deg, #f7f6f3 0%, var(--liner) 46%, #cfcbc4 100%);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  filter: drop-shadow(-4px 6px 6px rgb(0 0 0 / 0.28));
+}
+.wow-peel__hint {
+  position: absolute;
+  top: calc(var(--fold) + 10px);
+  right: 0;
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  color: var(--text);
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.wow-peel:hover,
+.wow-peel:focus-visible {
+  --fold: 96px;
+}
+.wow-peel:hover .wow-peel__hint,
+.wow-peel:focus-visible .wow-peel__hint {
+  opacity: 1;
+  transform: none;
+}
+
+/* ── Carta siliconata ───────────────────────────────────────────────────── */
+.wow-liner {
+  background-color: var(--liner);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='180' viewBox='0 0 360 180'%3E%3Cg fill='%23c9c5bf' font-family='Inter Tight,Arial,sans-serif' font-size='13' font-weight='700' letter-spacing='3' transform='rotate(-24 180 90)'%3E%3Ctext x='-40' y='60'%3EWOW %C2%B7 L%E2%80%99ARTIGIANO DELLE PELLICOLE %C2%B7%3C/text%3E%3Ctext x='-200' y='130'%3EWOW %C2%B7 L%E2%80%99ARTIGIANO DELLE PELLICOLE %C2%B7 WOW %C2%B7%3C/text%3E%3C/g%3E%3C/svg%3E");
+  color: var(--wow-ink);
+}
+
+/* ── Prima / dopo con spatola ───────────────────────────────────────────── */
+.wow-ba {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  touch-action: pan-y;
+  user-select: none;
+}
+.wow-ba__img {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: auto !important;
+}
+.wow-ba__after {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 0 0 var(--pos));
+}
+.wow-ba__handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--pos);
+  width: 0;
+  color: var(--wow-white);
+  pointer-events: none;
+}
+.wow-ba__handle::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 -1.5px;
+  width: 3px;
+  background: currentColor;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.15);
+}
+.wow-ba__handle svg {
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 4px 10px rgb(0 0 0 / 0.35));
+}
+[data-world="garage"] .wow-ba__handle {
+  color: var(--bsg-fluo);
+}
+.wow-ba__label {
+  position: absolute;
+  top: 14px;
+  z-index: 2;
+  padding: 0.3em 0.6em 0.22em;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1rem;
+  color: #fff;
+  background: var(--wow-red);
+}
+[data-world="garage"] .wow-ba__label {
+  font-family: "Chakra Petch", monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  background: rgb(17 17 17 / 0.8);
+  color: var(--bsg-fluo);
+}
+.wow-ba__label--before {
+  left: 14px;
+  rotate: -3deg;
+}
+.wow-ba__label--after {
+  right: 14px;
+  rotate: 2deg;
+}
+.wow-ba__range {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+}
+.wow-ba:has(.wow-ba__range:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}

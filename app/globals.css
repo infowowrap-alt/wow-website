@@ -1,25 +1,292 @@
 @import "tailwindcss";
+@import "./components.css" layer(components);
 
-/* Token provvisori dalla Fase 1: il design system completo arriva nella Fase 2
-   (brand/tokens.json resta la fonte). */
-@theme {
-  --color-interior-blue: #044b94;
-  --color-interior-red: #c01818;
-  --color-interior-paper: #f5f2ec;
-  --color-interior-ink: #0d1b2a;
-  --color-interior-stone: #d9d4cb;
-  --color-garage-night: #21152d;
-  --color-garage-violet: #7c0ed7;
-  --color-garage-fluo: #e5ff00;
-  --color-garage-graphite: #38343e;
-  --color-garage-black: #111111;
+/* ──────────────────────────────────────────────────────────────────────────
+   WOW · design system
+   Due mondi, un solo set di ruoli. Ogni elemento con data-world="interior" o
+   data-world="garage" ridefinisce i token; i componenti usano solo i ruoli
+   (bg, surface, text, heading, accent, cta…), mai i colori diretti.
+   Fonte dei valori: brand/tokens.json e docs/BRAND.md. Spiegazione completa
+   in docs/DESIGN-SYSTEM.md.
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Font self-hosted (public/fonts, copiati da scripts/fonts.mjs). */
+@font-face {
+  font-family: "Fraunces";
+  src: url("/fonts/fraunces.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url("/fonts/fraunces-italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Tight";
+  src: url("/fonts/inter-tight.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("/fonts/permanent-marker.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("/fonts/big-shoulders-display.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("/fonts/chakra-petch-500.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("/fonts/instrument-serif.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
 }
 
-html {
+/* Colori di marca: mai usati direttamente nei componenti, solo nei ruoli. */
+:root {
+  --wow-blue: #044b94;
+  --wow-red: #c01818;
+  --wow-white: #ffffff;
+  --wow-paper: #f5f2ec;
+  --wow-ink: #0d1b2a;
+  --wow-stone: #d9d4cb;
+
+  --bsg-night: #21152d;
+  --bsg-violet: #7c0ed7;
+  --bsg-fluo: #e5ff00;
+  --bsg-pink: #fd66ae;
+  --bsg-black: #111111;
+  --bsg-graphite: #38343e;
+
+  /* Carta siliconata: il retro della pellicola (comune ai due mondi). */
+  --liner: #e9e7e3;
+  --liner-ink: #c9c5bf;
+
+
+  --font-sans-stack: "Inter Tight", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Interior: il giorno. Carta, inchiostro, blu per i titoli, rosso solo come colpo. */
+:root,
+[data-world="interior"] {
+  --bg: var(--wow-paper);
+  --surface: var(--wow-white);
+  --text: var(--wow-ink);
+  --muted: #4f5966;
+  --heading: var(--wow-blue);
+  --accent: var(--wow-red);
+  --line: var(--wow-stone);
+  --cta-bg: var(--wow-red);
+  --cta-text: var(--wow-white);
+  --focus: var(--wow-blue);
+  --glow: transparent;
+
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-text: var(--font-sans-stack);
+  --font-ui: "Permanent Marker", "Marker Felt", "Comic Sans MS", cursive;
+  --display-settings: "SOFT" 60, "WONK" 1;
+  --display-weight: 560;
+  --display-case: none;
+  --display-tracking: -0.025em;
+  --display-leading: 0.95;
+
+  /* Movimento: lento e morbido (expo.out, power3.inOut). */
+  --dur-fast: 600ms;
+  --dur: 800ms;
+  --dur-slow: 1000ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
   color-scheme: light;
 }
 
+/* Big Sun Garage: la notte. Viola notte, luce che viene dalle cose, giallo fluo come colpo. */
+[data-world="garage"] {
+  --bg: var(--bsg-night);
+  --surface: #2c2138;
+  --text: #f4f2f7;
+  --muted: #b9b1c6;
+  --heading: #f4f2f7;
+  --accent: var(--bsg-fluo);
+  --line: #4a4552;
+  --cta-bg: var(--bsg-fluo);
+  --cta-text: var(--bsg-black);
+  --focus: var(--bsg-fluo);
+  --glow: var(--bsg-violet);
+
+  --font-display: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-text: var(--font-sans-stack);
+  --font-ui: "Chakra Petch", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-cinematic: "Instrument Serif", Georgia, serif;
+  --display-settings: normal;
+  --display-weight: 850;
+  --display-case: uppercase;
+  --display-tracking: -0.005em;
+  --display-leading: 0.86;
+
+  /* Movimento: veloce e secco (power4.out, steps per gli sfarfallii). */
+  --dur-fast: 250ms;
+  --dur: 380ms;
+  --dur-slow: 500ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.83, 0, 0.17, 1);
+
+  color-scheme: dark;
+}
+
+/* Ruoli esposti a Tailwind: bg-bg, text-heading, border-line, font-display… */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-heading: var(--heading);
+  --color-accent: var(--accent);
+  --color-line: var(--line);
+  --color-cta: var(--cta-bg);
+  --color-cta-text: var(--cta-text);
+  --color-glow: var(--glow);
+  --color-liner: var(--liner);
+  --color-liner-ink: var(--liner-ink);
+
+  --color-interior-blue: var(--wow-blue);
+  --color-interior-red: var(--wow-red);
+  --color-interior-paper: var(--wow-paper);
+  --color-interior-ink: var(--wow-ink);
+  --color-interior-stone: var(--wow-stone);
+  --color-garage-night: var(--bsg-night);
+  --color-garage-violet: var(--bsg-violet);
+  --color-garage-fluo: var(--bsg-fluo);
+  --color-garage-graphite: var(--bsg-graphite);
+  --color-garage-black: var(--bsg-black);
+
+  --font-display: var(--font-display);
+  --font-text: var(--font-text);
+  --font-ui: var(--font-ui);
+  --font-cinematic: "Instrument Serif", Georgia, serif;
+
+  --ease-wow: var(--ease-out);
+  --ease-wow-in-out: var(--ease-in-out);
+}
+
+/* Scala tipografica fluida, uguale nei due mondi: cambiano font e carattere. */
+@utility type-display-xl {
+  font-family: var(--font-display);
+  font-variation-settings: var(--display-settings);
+  font-weight: var(--display-weight);
+  text-transform: var(--display-case);
+  letter-spacing: var(--display-tracking);
+  line-height: var(--display-leading);
+  font-size: clamp(3.25rem, 10.5vw, 10rem);
+  text-wrap: balance;
+}
+@utility type-display {
+  font-family: var(--font-display);
+  font-variation-settings: var(--display-settings);
+  font-weight: var(--display-weight);
+  text-transform: var(--display-case);
+  letter-spacing: var(--display-tracking);
+  line-height: var(--display-leading);
+  font-size: clamp(2.5rem, 6.5vw, 6rem);
+  text-wrap: balance;
+}
+@utility type-h2 {
+  font-family: var(--font-display);
+  font-variation-settings: var(--display-settings);
+  font-weight: var(--display-weight);
+  text-transform: var(--display-case);
+  letter-spacing: var(--display-tracking);
+  line-height: 1;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  text-wrap: balance;
+}
+@utility type-h3 {
+  font-family: var(--font-text);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  font-size: clamp(1.25rem, 2vw, 1.625rem);
+}
+@utility type-lead {
+  font-family: var(--font-text);
+  font-weight: 420;
+  line-height: 1.45;
+  font-size: clamp(1.125rem, 1.6vw, 1.375rem);
+  text-wrap: pretty;
+}
+@utility type-body {
+  font-family: var(--font-text);
+  font-weight: 420;
+  line-height: 1.6;
+  font-size: 1.0625rem;
+  text-wrap: pretty;
+}
+@utility type-small {
+  font-family: var(--font-text);
+  font-weight: 450;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+@utility type-eyebrow {
+  font-family: var(--font-text);
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+@utility type-ui {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  background: var(--color-interior-paper);
-  color: var(--color-interior-ink);
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Focus sempre visibile, nel colore del mondo. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
 }
