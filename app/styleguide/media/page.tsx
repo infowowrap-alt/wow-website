@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { media, type MediaItem } from "@/lib/media";
 import { Picture } from "@/components/media/Picture";
+import { LoopVideo } from "@/components/media/LoopVideo";
 
 export const metadata: Metadata = {
   title: "Catalogo media",
@@ -39,11 +40,17 @@ function Chip({ children, tone = "neutral" }: { children: React.ReactNode; tone?
 }
 
 function Card({ item }: { item: MediaItem }) {
-  const wide = (item.aspect ?? 1) > 1.2;
+  const clip = item.kind === "video" ? item.clips?.[0] : undefined;
+  const aspect = clip ? clip.width / clip.height : item.aspect ?? 1;
+  const wide = aspect > 1.2;
   return (
     <figure className={`grid content-start gap-2 ${wide ? "sm:col-span-2" : ""}`}>
       <div className="overflow-hidden rounded-sm bg-interior-stone">
-        <Picture item={item} sizes={wide ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 25vw, 50vw"} />
+        {clip ? (
+          <LoopVideo clip={clip} label={item.alt ?? ""} />
+        ) : (
+          <Picture item={item} sizes={wide ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 25vw, 50vw"} />
+        )}
       </div>
       <figcaption className="grid gap-1.5">
         <div className="flex flex-wrap gap-1">
@@ -58,6 +65,7 @@ function Card({ item }: { item: MediaItem }) {
         <p className="text-sm leading-snug">{item.alt ?? <em className="text-interior-red">Alt mancante</em>}</p>
         <p className="font-mono text-[11px] leading-snug text-interior-ink/60">
           {item.id} · {item.width}×{item.height}
+          {clip ? ` · loop ${clip.duration}s` : ""}
           {item.uses?.length ? ` · ${item.uses.join(", ")}` : ""}
         </p>
         {item.credits && <p className="text-xs text-interior-ink/70">{item.credits}</p>}
@@ -76,6 +84,8 @@ function Card({ item }: { item: MediaItem }) {
 export default function MediaCatalogPage() {
   const visible = media.filter((m) => m.export !== false);
   const byWorld = groupBy(visible, (m) => m.world);
+  const photos = visible.filter((m) => m.kind === "image").length;
+  const videos = visible.length - photos;
   const lowRes = visible.filter((m) => m.quality === "bassa").length;
   const needsOk = visible.filter((m) => m.people === "cliente" || m.people === "da-confermare").length;
 
@@ -85,8 +95,8 @@ export default function MediaCatalogPage() {
         <p className="font-mono text-xs uppercase tracking-widest text-interior-red">Styleguide · solo sviluppo</p>
         <h1 className="text-4xl font-bold tracking-tight text-interior-blue sm:text-5xl">Catalogo media</h1>
         <p className="max-w-prose text-interior-ink/80">
-          {visible.length} immagini catalogate, {lowRes} a bassa risoluzione (fotogrammi da Instagram), {needsOk} con persone da
-          verificare. Gli originali arrivano dalla pagina «Materiale WOW».
+          {photos} foto e {videos} loop video catalogati. {lowRes} sono fotogrammi a bassa risoluzione da Instagram, {needsOk} hanno
+          persone da verificare. Gli originali arrivano dall&apos;album iCloud e dalla pagina «Materiale WOW».
         </p>
       </header>
 

@@ -75,7 +75,8 @@ for (const sel of select) {
   // Alcuni HEIC dell'iPhone (con mappa di profondità) non si decodificano con libheif:
   // in quel caso si usa l'anteprima JPEG che iCloud genera (circa 2048 px).
   let from = source;
-  let ext = isHeif(source) ? ".heic" : path.extname(item.file).toLowerCase();
+  const video = item.kind === "video";
+  let ext = !video && isHeif(source) ? ".heic" : path.extname(item.file).toLowerCase();
   let fallback = false;
   if (ext === ".heic" && !decodes(source)) {
     from = path.join(dir, "_anteprime", `${path.parse(item.file).name}.jpg`);
@@ -94,7 +95,7 @@ for (const sel of select) {
 
   const { n, id, world, project, ...hand } = sel;
   const entry = {
-    id, world: where.world, project: where.project, kind: "image", source: "originale",
+    id, world: where.world, project: where.project, kind: video ? "video" : "image", source: "originale",
     album: { n, takenAt: item.takenAt, originalName: item.originalName },
     src: path.relative(ROOT, dest).split(path.sep).join("/"),
     phase: null, alt: null, credits: null, people: "da-confermare", overlay: false, quality: fallback ? "media" : "alta", score: null, uses: [], ai: false,
@@ -103,7 +104,11 @@ for (const sel of select) {
   if (fallback) entry.note = [hand.note, "Originale HEIC non decodificabile: usata l'anteprima JPEG di iCloud (circa 2048 px)."].filter(Boolean).join(" ");
   const prev = byId.get(id);
   if (prev) {
-    // Tiene i campi calcolati dalla pipeline, aggiorna quelli scritti a mano.
+    // Tiene i campi calcolati dalla pipeline, aggiorna quelli scritti a mano
+    // (per le clip conserva poster, sorgenti e hash già generati).
+    if (prev.clips && entry.clips) {
+      entry.clips = entry.clips.map((c) => ({ ...prev.clips.find((p) => p.id === c.id), ...c }));
+    }
     Object.assign(prev, entry);
     updated++;
   } else {

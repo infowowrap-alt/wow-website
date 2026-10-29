@@ -1816,6 +1816,130 @@
       ]
     },
     {
+      "id": "interior-marangio-video-curva",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0099-img-5588.mov",
+      "phase": "dopo",
+      "alt": "La colonna curva della scaffalatura del Panificio Marangio, ora bianca, ripresa da vicino.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-interior",
+        "prima-dopo"
+      ],
+      "ai": false,
+      "clips": [
+        {
+          "id": "interior-marangio-loop-curva",
+          "start": 0,
+          "duration": 4.8,
+          "width": 1080,
+          "height": 1920,
+          "poster": "/media/interior-marangio-loop-curva/poster",
+          "blur": "data:image/webp;base64,UklGRiYBAABXRUJQVlA4IBoBAAAQBwCdASoYACsAPt1ip02opaOiMBqoARAbiWUAtOwIAN2vj4FP8t5zr4U5Ug/XLBkBEA2mOfIJSSarRVkR0fjaAAD+3p3k8nOUaroPMQGTp21oZCb9LAdlSaM/sxXKlIRQtCnjHnUsOt8+Weghiq5Z+yeYNBEo9FBpqdjcR5YVU9Qv6B405gUxnbYo29GP7IjyfHd8J5oBIi0cxFOd7a6kDih8q9YMYU1ADRx0ufcCnLk5kDgkBQjw6mzYsZfhenmTNAltMT8cRNuKpnavbNlGV39ajVHZYRwhIGN/U7XAq+v96Gc/PMwUwxRfFKzCrkogXI1SsaHnSdI1nI8o4GftFXXR/O+R1ld4ypYUZSsv064vKBWYDnQAAAA=",
+          "sources": [
+            {
+              "src": "/media/interior-marangio-loop-curva/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/interior-marangio-loop-curva/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/interior-marangio-loop-curva/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/interior-marangio-loop-curva/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "e78986d6aada91b7"
+        }
+      ],
+      "album": {
+        "n": 99,
+        "takenAt": "2026-10-01T14:22:48.000Z",
+        "originalName": "IMG_5588.MOV"
+      },
+      "width": 2160,
+      "height": 3840,
+      "duration": 4.9
+    },
+    {
+      "id": "interior-marangio-video-negozio",
+      "world": "interior",
+      "project": "panificio-marangio",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/interior/panificio-marangio/icloud-0124-joy-20261001-154714-146-video.mov",
+      "phase": "dopo",
+      "alt": "Camminata nel Panificio Marangio rinnovato: bancone, scaffali bianchi e banner del fornaio.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-interior",
+        "case-cover"
+      ],
+      "ai": false,
+      "clips": [
+        {
+          "id": "interior-marangio-loop-negozio",
+          "start": 0.4,
+          "duration": 9,
+          "width": 1080,
+          "height": 1920,
+          "poster": "/media/interior-marangio-loop-negozio/poster",
+          "blur": "data:image/webp;base64,UklGRkQBAABXRUJQVlA4IDgBAACQBwCdASoYACsAPt1eqU0opSQiMBVaqRAbiWMAuLn/6mg2ddodCMUwxNO0xuu9DZvTXyefBLrYIYYwcYI6ZYE1IlEafwAA/rWm4P3XVtr1PQkhZuNFwRxPDh07N3II30ccKdtDc6ghLAHXdtcb01Yqv5801hXeXLh40x0YZHAP/1vnvVQw0BrUKJ0i7B3IIfUr5F1XCDGgsmn81Wzw9Yto5g1wB884azM/dfB+u7Xa8GmWOoX4BVxvHPBJLIQyIsuNdej/BuIF+RQ9DPx6HFFOqVwCPl291z9N7wQFsLb1MecFU1MWBfdpDrTp12S3EXSJeisBUD1pTzVpQOC/hODC/fZH5NNsS3icQVckTT5W06Bm4uDCrgVrJvJpWCAA8cDTJz9qvTEtsKi5EL4w1U8490xnt8+JAAA=",
+          "sources": [
+            {
+              "src": "/media/interior-marangio-loop-negozio/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/interior-marangio-loop-negozio/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/interior-marangio-loop-negozio/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/interior-marangio-loop-negozio/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "f40feb7ebb477ba1"
+        }
+      ],
+      "album": {
+        "n": 124,
+        "takenAt": "2026-10-01T13:47:04.000Z",
+        "originalName": "Joy_20261001_154714_146_video.mov"
+      },
+      "width": 2160,
+      "height": 3840,
+      "duration": 9.7
+    },
+    {
       "id": "interior-porta-prima",
       "world": "interior",
       "project": "porta-ingresso-effetto-pietra",
@@ -3538,6 +3662,134 @@
       "ai": false
     },
     {
+      "id": "garage-bmw-e92-video-pista",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0056-1006-36.mp4",
+      "phase": "dopo",
+      "alt": "La BMW E92 con la livrea rossa e gialla ripresa di tre quarti su una pista vicino al mare.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "reveal"
+      ],
+      "note": "Ripresa piatta (profilo log): corretto solo contrasto e saturazione.",
+      "ai": false,
+      "clips": [
+        {
+          "id": "garage-bmw-e92-loop-pista",
+          "start": 0,
+          "duration": 3.5,
+          "grade": "eq=contrast=1.22:brightness=-0.04:saturation=1.3",
+          "width": 1920,
+          "height": 1080,
+          "poster": "/media/garage-bmw-e92-loop-pista/poster",
+          "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoYAA4APt1apkyopSOiMAgBEBuJZwBU4AULrprFbLpf3EegANvtfgOg0HyTFBwKbZdW5QP4yB+GIEnWG06PrfyW+naRCMhDWBJ36rnyS2QxVUlAGV2In9gIcIZmMAAA",
+          "sources": [
+            {
+              "src": "/media/garage-bmw-e92-loop-pista/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-pista/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-pista/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-pista/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "6a599f16965628f1"
+        }
+      ],
+      "album": {
+        "n": 56,
+        "takenAt": "2026-10-06T08:59:45.000Z",
+        "originalName": "1006(36).mp4"
+      },
+      "width": 3840,
+      "height": 2160,
+      "duration": 3.6
+    },
+    {
+      "id": "garage-bmw-e92-video-fiancata",
+      "world": "garage",
+      "project": "bmw-e92-saetta-mcqueen",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/garage/bmw-e92-saetta-mcqueen/icloud-0061-1006-28.mp4",
+      "phase": "dettaglio",
+      "alt": "Carrellata sulla fiancata della BMW E92: il 95 e la saetta gialla.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "reveal",
+        "card"
+      ],
+      "note": "Ripresa piatta (profilo log): corretto solo contrasto e saturazione.",
+      "ai": false,
+      "clips": [
+        {
+          "id": "garage-bmw-e92-loop-fiancata",
+          "start": 0,
+          "duration": 3,
+          "grade": "eq=contrast=1.22:brightness=-0.04:saturation=1.3",
+          "width": 1920,
+          "height": 1080,
+          "poster": "/media/garage-bmw-e92-loop-fiancata/poster",
+          "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoYAA4APt1apkyopSOiMAgBEBuJQBdgBEFtLKmOi6wYfIAQAAD+qhaGEyj41ABybEnaa9qWoTRzd4L4Soh2LpQmCV/bEVpQit55YUgDTaj0w5fxbQ0paCB+fuVYGHlm9ibhpZxXjxInSuJm8GcxnWU0AAA=",
+          "sources": [
+            {
+              "src": "/media/garage-bmw-e92-loop-fiancata/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-fiancata/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-fiancata/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-fiancata/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "d71f6c297cd05cc2"
+        }
+      ],
+      "album": {
+        "n": 61,
+        "takenAt": "2026-10-06T08:55:45.000Z",
+        "originalName": "1006(28).mp4"
+      },
+      "width": 3840,
+      "height": 2160,
+      "duration": 3
+    },
+    {
       "id": "garage-cigarette-drone",
       "world": "garage",
       "project": "cigarette",
@@ -4785,6 +5037,69 @@
       ]
     },
     {
+      "id": "garage-furgoni-70-video-fila",
+      "world": "garage",
+      "project": "furgoni-70",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/garage/furgoni-70/icloud-0005-img-6344.mov",
+      "phase": "dopo",
+      "alt": "La fila di camion con i cassoni rossi sotto il cielo blu.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "70-furgoni",
+        "card"
+      ],
+      "note": "Logo del cliente visibile: TODO-PAOLO conferma.",
+      "ai": false,
+      "clips": [
+        {
+          "id": "garage-furgoni-70-loop-fila",
+          "start": 0,
+          "duration": 3,
+          "width": 1080,
+          "height": 1920,
+          "poster": "/media/garage-furgoni-70-loop-fila/poster",
+          "blur": "data:image/webp;base64,UklGRqYBAABXRUJQVlA4IJoBAABQCQCdASoYACsAPt1ipU2opaMiKqwBEBuJbACdMoSBtIEr6jNYWBpgG81o3kIdri4fOk/CWDqBLr5K+papWDpNBOrw3mgWZBYod0V5SuRI1cVkAAD+uQkyTUZzVP2rWPnrm267wAfO21pgQiDT1JvTCZoVf7ghwVdlwaTcrD/xubvQul4jGkLWN+wfzwNuFaVYb8RBRN//C5e3F/SKUhSpiKlP3vmAcMZnKlZk8gUxY3T6DnzrVzb7XTplxuON+/+PUFZ6xXtr04mW3nnaZgsXn35EWblwnoKBKL05NOJWa3u6S0qan6bkfuL9xWWfHVfDQDBWvWEji/7Bx/DQ4kp6dWervGoLr5BmLBN/KsDjZuzEx22w+uU7sL8OX7H0CJFd+f/yhjv0nyV/s4opXT2nPwb1gEVXqzI0aBHMBcyvFvW0h5cKVpUAPXwAiVhL/9OlzCaOWz3b2VktVl31eUyz3menBZcEDLeb/ULjfS2FQ/1lgBCik2pGPNZ9fhn5MLviFIRrA+pjQg+QkDtxS62bj74TMIvvZSAAAA==",
+          "sources": [
+            {
+              "src": "/media/garage-furgoni-70-loop-fila/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-furgoni-70-loop-fila/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-furgoni-70-loop-fila/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/garage-furgoni-70-loop-fila/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "567b9ed6a9a6b981"
+        }
+      ],
+      "album": {
+        "n": 5,
+        "takenAt": "2026-10-25T11:30:14.000Z",
+        "originalName": "IMG_6344.MOV"
+      },
+      "width": 2160,
+      "height": 3840,
+      "duration": 3.1
+    },
+    {
       "id": "garage-ktm-790-di-serie",
       "world": "garage",
       "project": "ktm-790-sdentato",
@@ -5404,6 +5719,192 @@
         640,
         1280
       ]
+    },
+    {
+      "id": "garage-bmw-e92-video-stampa",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0260-img-5092.mov",
+      "phase": "durante",
+      "alt": "Il plotter stampa la grafica della livrea su pellicola bianca.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "clips": [
+        {
+          "id": "garage-bmw-e92-loop-stampa",
+          "start": 0,
+          "duration": 7.5,
+          "width": 1080,
+          "height": 1920,
+          "poster": "/media/garage-bmw-e92-loop-stampa/poster",
+          "blur": "data:image/webp;base64,UklGRjABAABXRUJQVlA4ICQBAABQBwCdASoYACsAPt1YpU0opKOiMBqqqRAbiUAXYGYYdRUpAISkCuqV6Ti7XPQnVfMkpdUqmqIzfhCzAvEBly9Eq+AAAP74UU6RIZ4kF9h1A4fVcTO1Q3ko/9NDOo/19yxfPJI4wGqpUJ0XzCdk0Ouwl/YL4TCvlb5TCSBTjj1hi4G8qTFvaJPRFZdneq1kC/ERPoTC0o7mtJR6G3F8LY4CbCktDcD5NdJFWrp6rqc/WUXY54ERB3m5gr8bPHIKUDzlNituufIU8NmCL+j84s1phk7ZWACqGxB8BNbvhUIotNxPCtLgpeYFcmOBjkyGE2ee25tGoz5RxEyCGF5Gzq72q4UWdq2/uyqWlKLGwURIsB7dkEcAuVchljluUqDifpI14QAA",
+          "sources": [
+            {
+              "src": "/media/garage-bmw-e92-loop-stampa/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-stampa/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-stampa/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/garage-bmw-e92-loop-stampa/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "bd8056f8f6e31bb8"
+        }
+      ],
+      "album": {
+        "n": 260,
+        "takenAt": "2026-09-22T07:20:36.000Z",
+        "originalName": "IMG_5092.MOV"
+      },
+      "width": 2160,
+      "height": 3840,
+      "duration": 7.8
+    },
+    {
+      "id": "garage-ktm-790-video-pini",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0288-joy-20260917-153603-365-video.mov",
+      "phase": "persone",
+      "alt": "In sella alla KTM a squame tra i pini e la roccia, con il casco abbinato.",
+      "credits": null,
+      "people": "cliente",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "card",
+        "case-gallery"
+      ],
+      "note": "Motociclista con casco, volto non visibile; un passante lontano sullo sfondo.",
+      "ai": false,
+      "clips": [
+        {
+          "id": "garage-ktm-790-loop-pini",
+          "start": 0,
+          "duration": 3.6,
+          "width": 1920,
+          "height": 1080,
+          "poster": "/media/garage-ktm-790-loop-pini/poster",
+          "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADwBACdASoYAA4APt1apkyopSOiMAgBEBuJZgCdMoMrZ+ga0BCE1IQYSYyyNCoCO9gA3PLIn5yNJDnEwvexNXdOdnVu0S5uW5bPReXvW2iny8i8aBCB1uoTmNwnz+t2rBUDIbaa2LzK5nQ6kMMH5sMhS042BMuPLUswZlqwAbuudMozyvu9G7FZRzKmFVhxu3/9zLxHccu3EmvDZ1jVr34AAAA=",
+          "sources": [
+            {
+              "src": "/media/garage-ktm-790-loop-pini/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-ktm-790-loop-pini/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-ktm-790-loop-pini/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/garage-ktm-790-loop-pini/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "197dc4382eed8fef"
+        }
+      ],
+      "album": {
+        "n": 288,
+        "takenAt": "2026-09-17T13:35:59.000Z",
+        "originalName": "Joy_20260917_153603_365_video.mov"
+      },
+      "width": 3840,
+      "height": 2160,
+      "duration": 3.6
+    },
+    {
+      "id": "garage-ktm-790-video-officina",
+      "world": "garage",
+      "project": "ktm-790-sdentato",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/garage/ktm-790-sdentato/icloud-0318-joy-20260917-131353-543-video.mov",
+      "phase": "dopo",
+      "alt": "La KTM a squame nell'officina WOW, sotto i LED a chevron.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "alta",
+      "score": 4,
+      "uses": [
+        "officina-ref",
+        "card"
+      ],
+      "ai": false,
+      "clips": [
+        {
+          "id": "garage-ktm-790-loop-officina",
+          "start": 0,
+          "duration": 4,
+          "width": 1080,
+          "height": 1920,
+          "poster": "/media/garage-ktm-790-loop-officina/poster",
+          "blur": "data:image/webp;base64,UklGRpIBAABXRUJQVlA4IIYBAADQBwCdASoYACsAPt1kp1AopSMiqrgKARAbiUAX54E06JlQPdWg36aD6jhJw9hGA49eoZ8gUl9EOSfHgVS/VA+jC8q1wYDTKAD9eO6S+h1/eJQ+BhRdeTcKB+76s1dThKnbBG0uMddv0MFzjbp+f3fdVcR4rEwIuRTcyFt4T/EalRfYGDwnwfoXIH4JEV0Mu3GSJJj54xgtdLBF0u++OoSCx6bw3eNvsGHnB5y/sWYLv3OieRDQwEAzVbVn+OZLp93lksdZvdSW+Rn0oag2TnwslRflqkL9W0lHL81h23HCm3s4YqhFOG9bTS9m1k8+7MBq1s/+K87ilxmmLDZl30dlXgTJwJYJV84/AVC1czYymv6TY6AueBMVnrupIOK4F5SL1S4+p30a1BauDvDxLRrtrbws9lAgftMR1P9owzMM7S8aOIVPj21Wo4oqIrnMAItbV08Xo2zCxw4yK9RAiHVCjXorjkqvwfkg/YGDb6tL4e8dCd9TWD4D+BVc/uDMgHLxe/qAAAA=",
+          "sources": [
+            {
+              "src": "/media/garage-ktm-790-loop-officina/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-ktm-790-loop-officina/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/garage-ktm-790-loop-officina/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/garage-ktm-790-loop-officina/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "7887a6f87f2b56c1"
+        }
+      ],
+      "album": {
+        "n": 318,
+        "takenAt": "2026-09-17T11:13:31.000Z",
+        "originalName": "Joy_20260917_131353_543_video.mov"
+      },
+      "width": 2160,
+      "height": 3840,
+      "duration": 22
     },
     {
       "id": "garage-oscuramento-posa",
@@ -6200,6 +6701,69 @@
         640,
         720
       ]
+    },
+    {
+      "id": "garage-officina-video-riflessi",
+      "world": "officina",
+      "project": "led-chevron",
+      "kind": "video",
+      "source": "originale",
+      "src": "materiale/officina/led-chevron/icloud-1246-a001-06171700-c036.mov",
+      "phase": "ambiente",
+      "alt": "I LED a chevron dell'officina che scorrono riflessi sulla carrozzeria di un'auto bianca.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "alta",
+      "score": 5,
+      "uses": [
+        "hero-garage",
+        "officina-ref",
+        "transizione"
+      ],
+      "ai": false,
+      "clips": [
+        {
+          "id": "officina-loop-riflessi-chevron",
+          "start": 1.5,
+          "duration": 8,
+          "width": 1080,
+          "height": 1920,
+          "poster": "/media/officina-loop-riflessi-chevron/poster",
+          "blur": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAADwBgCdASoYACsAPt1iqk4opaQiKrgMARAbiWUAyU2M78zabbvT3fZgSJuUXIrfuMDPMUrzVUGRXfLxYEJ6lrdgAMtG5X3OahTiVJRR2tLnLQEpnJpmZdxG5P0YkAuE9Fty8jm+IEvDI9bo2Fi+SxXf5+vg9+SyVld7XmUP405o1HVwclZGRS88ec6OPjHfOYgxtHEOSVjbKHyKDLTzzPQpt/XA1VXXxhBQsGCmPpVVGOGK2rbw+tHAR+q2/umAj1zukJsnWKmHiBAMfmfJphkJeGG6ur2RFhIIBrxVEpjg3cX7EHSZKXqbhV5N1ABHjXv/jbqD84fcdoAA",
+          "sources": [
+            {
+              "src": "/media/officina-loop-riflessi-chevron/1080.webm",
+              "type": "video/webm",
+              "width": 1080
+            },
+            {
+              "src": "/media/officina-loop-riflessi-chevron/1080.mp4",
+              "type": "video/mp4",
+              "width": 1080
+            },
+            {
+              "src": "/media/officina-loop-riflessi-chevron/720.webm",
+              "type": "video/webm",
+              "width": 720
+            },
+            {
+              "src": "/media/officina-loop-riflessi-chevron/720.mp4",
+              "type": "video/mp4",
+              "width": 720
+            }
+          ],
+          "hash": "404a5f70ec5d5c19"
+        }
+      ],
+      "album": {
+        "n": 1246,
+        "takenAt": "2026-06-17T15:00:42.000Z",
+        "originalName": "A001_06171700_C036.mov"
+      },
+      "width": 2160,
+      "height": 3840,
+      "duration": 11.9
     }
   ]
 }

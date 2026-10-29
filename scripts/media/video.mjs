@@ -5,6 +5,7 @@
 // Le clip si definiscono a mano nel catalogo, dentro la voce del video:
 //   "clips": [{ "id": "garage-ktm-reveal-loop", "start": 12.5, "duration": 8, "crop": "16:9" }]
 // crop: "16:9", "9:16", "4:5" o assente (inquadratura originale).
+// grade: filtro ffmpeg facoltativo per correggere riprese piatte.
 // Se una voce nuova non ha clip, ne propone una da 8 s presa al 10% del video.
 //
 //   npm run video            elabora solo ciò che è cambiato
@@ -47,7 +48,9 @@ function cropFilter(crop, w, h) {
 
 function encode(input, clip, short, format, crf, outFile) {
   const { width, height } = clip._src;
-  const filters = [cropFilter(clip.crop, width, height)].filter(Boolean);
+  // grade: correzione facoltativa per riprese piatte (es. "eq=contrast=1.2:saturation=1.3"),
+  // mai per cambiare i colori del lavoro.
+  const filters = [cropFilter(clip.crop, width, height), clip.grade].filter(Boolean);
   const landscape = clip.crop ? Number(clip.crop.split(":")[0]) >= Number(clip.crop.split(":")[1]) : width >= height;
   filters.push(landscape ? `scale=-2:${short}` : `scale=${short}:-2`, "fps=30", "format=yuv420p");
   const codec = format === "mp4"
@@ -93,7 +96,7 @@ for (const item of catalog.items) {
     item.clips = [{ id: uniqueId(`${item.id}-loop`, taken), start: Math.round(start * 10) / 10, duration, review: true }];
   }
   for (const clip of item.clips) {
-    const hash = hashOf([item.src], { start: clip.start, duration: clip.duration, crop: clip.crop, PIPELINE });
+    const hash = hashOf([item.src], { start: clip.start, duration: clip.duration, crop: clip.crop, grade: clip.grade, PIPELINE });
     const dir = path.join(OUT, clip.id);
     if (!force && clip.hash === hash && fs.existsSync(path.join(dir, "1080.mp4"))) {
       skipped++;
