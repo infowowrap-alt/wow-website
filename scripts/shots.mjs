@@ -27,7 +27,12 @@ for (const route of routes) {
     });
     await page.waitForTimeout(400);
     const file = `screenshots/${route.replace(/\W+/g, "_").replace(/^_|_$/g, "") || "home"}-${vp.name}.png`;
-    await page.screenshot({ path: file, fullPage: true });
+    // Le pagine lunghissime (il catalogo media) si fermano a 12000 px: oltre,
+    // Chromium impiega minuti e il PNG diventa difficile da guardare.
+    const height = await page.evaluate(() => document.documentElement.scrollHeight);
+    await page.screenshot(height > 12000
+      ? { path: file, clip: { x: 0, y: 0, width: vp.width, height: 12000 }, captureBeyondViewport: true }
+      : { path: file, fullPage: true });
     console.log(`${errors.length ? "✗" : "✓"} ${file}${errors.length ? `\n    ${errors.join("\n    ")}` : ""}`);
     if (errors.length) failed = true;
     await page.close();
