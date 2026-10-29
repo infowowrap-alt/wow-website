@@ -1,0 +1,57 @@
+// Tipi e URL delle immagini, senza il catalogo: si possono importare anche nei
+// componenti client senza portare content/media.json nel JavaScript del browser.
+export type World = "interior" | "garage" | "officina" | "campionario" | "eventi";
+export type Phase = "prima" | "durante" | "dopo" | "dettaglio" | "ambiente" | "persone";
+
+export type MediaClip = {
+  id: string;
+  start: number;
+  duration: number;
+  width: number;
+  height: number;
+  poster: string;
+  blur: string;
+  sources: { src: string; type: string; width: number }[];
+};
+
+export type MediaItem = {
+  id: string;
+  world: World;
+  project: string;
+  kind: "image" | "video";
+  source: "instagram" | "originale";
+  post?: string | null;
+  phase: Phase | null;
+  alt: string | null;
+  credits?: string | null;
+  people: "nessuno" | "staff" | "cliente" | "cliente-ok" | "da-confermare";
+  overlay?: boolean;
+  quality?: "bassa" | "media" | "alta";
+  score?: number | null;
+  uses?: string[];
+  note?: string;
+  derivedNote?: string;
+  export?: boolean;
+  review?: boolean;
+  ai: boolean;
+  ai_note?: string;
+  width?: number;
+  height?: number;
+  aspect?: number;
+  orientation?: "orizzontale" | "verticale" | "quadrata";
+  color?: string;
+  blur?: string;
+  variants?: number[];
+  webp?: number[];
+  clips?: MediaClip[];
+};
+
+// AVIF in tutte le misure; WebP (riserva per i browser senza AVIF) fino a 1280.
+export function srcSet(item: MediaItem, format: "avif" | "webp"): string {
+  const widths = (format === "avif" ? item.variants : item.webp) ?? [];
+  return widths.map((w) => `/media/${item.id}/${w}.${format} ${w}w`).join(", ");
+}
+
+export function fallbackSrc(item: MediaItem): string {
+  return `/media/${item.id}/${(item.webp ?? []).at(-1)}.webp`;
+}

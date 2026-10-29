@@ -7,6 +7,8 @@ const config: NextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   reactStrictMode: true,
+  // Le regole per gli agenti stanno già in CLAUDE.md: niente AGENTS.md generato.
+  agentRules: false,
 };
 
 export default config;

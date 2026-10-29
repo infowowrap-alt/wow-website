@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { MediaClip } from "@/lib/media";
+import type { MediaClip } from "@/lib/media-types";
 import { prefersReducedMotion } from "@/lib/motion";
 
 type Props = {

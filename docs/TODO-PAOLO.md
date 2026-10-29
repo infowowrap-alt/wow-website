@@ -41,3 +41,10 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 - [ ] **Dacia bianca** nei video cinematografici in officina (album n. 1243-1259): che lavoro è? Per ora uso solo i riflessi dei LED, senza dire cosa si è fatto.
 - [ ] **Sea-Doo**: nell'album ci sono solo video della stampa olografica; se hai foto della moto d'acqua finita, caricale.
 - [ ] **Foto private**: nell'album c'erano anche una foto di una bambina, una SIM e del cibo. Le ho escluse e non finiscono da nessuna parte; se vuoi toglile dall'album condiviso.
+
+## Dalla home (Fase 3)
+
+- [ ] **Officina in 3D**: l'ho ricostruita dalle foto (parete nera, una linea LED orizzontale, 7 chevron ">" sotto, telaio LED a soffitto con 3 traversi). Se i chevron sono di più o di meno, o il soffitto è diverso, dimmelo e la sistemo.
+- [ ] **Orari di apertura**: nella sezione "Dove siamo" della home c'è il segnaposto (visibile solo in sviluppo).
+- [ ] **Foto nella sezione "Chi c'è dietro"**: ho usato quella in cui lucidi la carrozzeria sotto i chevron (didascalia "Paolo in officina"). Va bene, o preferisci un'altra? Il video ritratto la sostituirebbe.
+- [ ] **Auto 3D**: è un modello concept generico con licenza CC BY 4.0 (credito nel footer). Se un giorno vuoi un'auto diversa, si cambia il file senza toccare il resto.

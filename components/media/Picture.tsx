@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import { type MediaItem, srcSet, fallbackSrc } from "@/lib/media";
+import { type MediaItem, srcSet, fallbackSrc } from "@/lib/media-types";
 
 type Props = {
   item: MediaItem;

@@ -381,3 +381,283 @@
   outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
+
+/* ── Transizione tra i mondi ────────────────────────────────────────────── */
+.wow-transition-canvas,
+.wow-transition-mask {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  pointer-events: none;
+  visibility: hidden;
+}
+.wow-transition-mask {
+  background: var(--bg);
+}
+/* Durante la transizione la pagina sotto non si tocca. */
+html[data-transition] body {
+  pointer-events: none;
+}
+
+/* ── Hero della home: i due mondi tagliati a 45° ────────────────────────── */
+.wow-hero {
+  /* Prima del JS il taglio passa dal centro; poi lo aggiorna components/home/Hero.tsx. */
+  --cut: calc(50vw - 50svh);
+  --kx: 70vw;
+  --ky: 100svh;
+  --ux: -0.92;
+  --uy: -0.38;
+}
+.wow-hero__interior {
+  clip-path: polygon(calc(var(--cut) - 4000px) -4000px, calc(var(--cut) + 4000px) 4000px, -9000px 4000px, -9000px -4000px);
+}
+.wow-hero__garage {
+  clip-path: polygon(calc(var(--cut) - 4000px) -4000px, 12000px -4000px, 12000px 4000px, calc(var(--cut) + 4000px) 4000px);
+}
+.wow-hero__garage-copy::before {
+  /* Un'ombra morbida dietro il testo, così i LED non ci passano sopra. */
+  content: "";
+  position: absolute;
+  inset: -30% -20% -30% -40%;
+  z-index: -1;
+  background: radial-gradient(ellipse at 60% 50%, rgb(7 5 10 / 0.86) 0 38%, rgb(7 5 10 / 0) 70%);
+}
+.wow-hero__flap {
+  position: absolute;
+  left: var(--kx);
+  top: var(--ky);
+  width: 150px;
+  height: 150px;
+  translate: -50% -50%;
+  border-radius: 50%;
+  cursor: grab;
+  touch-action: none;
+  background: transparent;
+}
+.wow-hero__flap:active {
+  cursor: grabbing;
+}
+.wow-hero__flap-hint {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: calc(-50% + var(--ux) * 120px) calc(-50% + var(--uy) * 120px);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* ── Manifesto della home ───────────────────────────────────────────────── */
+.wow-manifesto__strip {
+  position: relative;
+  justify-self: start;
+  max-width: 100%;
+  padding: 0.12em 0.35em 0.18em;
+  box-shadow: 0 10px 30px -18px rgb(0 0 0 / 0.45);
+}
+.wow-manifesto__strip:nth-child(2) {
+  justify-self: center;
+}
+.wow-manifesto__strip:nth-child(3) {
+  justify-self: end;
+}
+.wow-manifesto__neutral {
+  font-family: var(--font-sans-stack);
+  font-weight: 850;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  font-size: clamp(2.5rem, 6.5vw, 6rem);
+}
+.wow-manifesto__squeegee {
+  display: none;
+  position: absolute;
+  top: -8%;
+  bottom: -8%;
+  width: 14px;
+  translate: -100% 0;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #f6f6f6, #d9d9d9 60%, var(--wow-red) 60%);
+  box-shadow: 6px 0 18px rgb(0 0 0 / 0.25);
+}
+[data-world="garage"] > .wow-manifesto__squeegee {
+  background: linear-gradient(90deg, #2a2a2a, #111 60%, var(--bsg-fluo) 60%);
+}
+.is-animated .wow-manifesto__squeegee {
+  display: block;
+}
+
+/* ── Galleria dei lavori ────────────────────────────────────────────────── */
+.wow-works {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.wow-work {
+  position: relative;
+  width: min(80vw, 420px);
+  scroll-snap-align: start;
+}
+@media (min-width: 1024px) {
+  .wow-work {
+    width: clamp(320px, 27vw, 440px);
+  }
+}
+.wow-work__link {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+.wow-work__media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .wow-work__media {
+    aspect-ratio: auto;
+    height: min(52svh, 520px);
+  }
+}
+.wow-work__media > * {
+  position: absolute !important;
+  inset: 0;
+  height: 100% !important;
+  transition: transform var(--dur-slow) var(--ease-out), filter var(--dur) var(--ease-out);
+}
+.wow-work__body {
+  display: grid;
+  align-content: start;
+  gap: 0.4rem;
+  padding: 1rem 1.1rem 2.6rem;
+}
+.wow-work__title {
+  font-family: var(--font-display);
+  font-variation-settings: var(--display-settings);
+  font-weight: var(--display-weight);
+  text-transform: var(--display-case);
+  letter-spacing: var(--display-tracking);
+  color: var(--heading);
+  font-size: clamp(1.5rem, 2.1vw, 2rem);
+  line-height: 1;
+  transition: text-shadow var(--dur-fast) var(--ease-out);
+}
+.wow-work__index {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.8rem;
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+.wow-work__ig {
+  position: absolute;
+  left: 1.1rem;
+  bottom: 0.8rem;
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.wow-work__ig:hover {
+  color: var(--accent);
+}
+/* Interior: la foto respira piano. Garage: la foto si accende, il titolo sdoppia i canali. */
+.wow-work--interior .wow-work__link:hover .wow-work__media > *,
+.wow-work--interior .wow-work__link:focus-visible .wow-work__media > * {
+  transform: scale(1.04);
+}
+.wow-work--garage .wow-work__link:hover .wow-work__media > *,
+.wow-work--garage .wow-work__link:focus-visible .wow-work__media > * {
+  transform: scale(1.03);
+  filter: contrast(1.12) saturate(1.15);
+}
+.wow-work--garage .wow-work__link:hover .wow-work__title,
+.wow-work--garage .wow-work__link:focus-visible .wow-work__title {
+  text-shadow: -2px 0 rgb(253 102 174 / 0.8), 2px 0 rgb(124 14 215 / 0.9);
+}
+@media (prefers-reduced-motion: reduce) {
+  .wow-work__media > * {
+    transition: none;
+  }
+}
+
+/* ── Chiusa della home: i due mondi divisi a 45° ────────────────────────── */
+.wow-final__interior,
+.wow-final__garage {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--bg);
+}
+.wow-final__garage {
+  clip-path: polygon(62% 0, 100% 0, 100% 100%, 22% 100%);
+}
+
+/* ── Preloader della home ───────────────────────────────────────────────── */
+.wow-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  animation: wow-intro-out 520ms cubic-bezier(0.65, 0, 0.35, 1) 950ms forwards;
+}
+.wow-intro-seen .wow-intro {
+  display: none;
+}
+.wow-intro__stage {
+  position: relative;
+}
+.wow-intro__logo {
+  mask-image: linear-gradient(90deg, #000 46%, transparent 54%);
+  mask-size: 240% 100%;
+  mask-position: 100% 0;
+  animation: wow-intro-wipe 720ms cubic-bezier(0.65, 0, 0.35, 1) 120ms forwards;
+}
+.wow-intro__squeegee {
+  position: absolute;
+  top: -14%;
+  bottom: -14%;
+  left: 0;
+  width: 12px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #f6f6f6, #d9d9d9 60%, var(--wow-red) 60%);
+  box-shadow: 6px 0 16px rgb(0 0 0 / 0.22);
+  opacity: 0;
+  animation: wow-intro-squeegee 720ms cubic-bezier(0.65, 0, 0.35, 1) 120ms forwards;
+}
+@keyframes wow-intro-wipe {
+  to {
+    mask-position: 0 0;
+  }
+}
+@keyframes wow-intro-squeegee {
+  0% {
+    left: -4%;
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    left: 104%;
+    opacity: 0;
+  }
+}
+/* Il foglio si stacca dall'angolo in basso a sinistra verso quello in alto a destra. */
+@keyframes wow-intro-out {
+  from {
+    clip-path: polygon(-100% 0, 100% 0, 100% 200%);
+  }
+  to {
+    clip-path: polygon(100% 0, 100% 0, 100% 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wow-intro {
+    display: none;
+  }
+}

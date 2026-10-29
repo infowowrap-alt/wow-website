@@ -2,7 +2,7 @@
 
 import { useId, useState } from "react";
 import { Picture } from "@/components/media/Picture";
-import type { MediaItem } from "@/lib/media";
+import type { MediaItem } from "@/lib/media-types";
 
 type Props = {
   before: MediaItem;

@@ -17,6 +17,7 @@ npm install
 npm run dev                 # sito in sviluppo su http://localhost:3000
 npm run media               # foto: AVIF + WebP 640-2560, segnaposto sfocato
 npm run video               # video: loop muti MP4 + WebM, poster
+npm run models              # modelli 3D: toglie i loghi di terzi, comprime, scrive la mappa dei ruoli
 npm run build               # export statico in out/
 npm run shots -- / /styleguide/media/   # screenshot 1440 e 390 (sito avviato su :3000)
 ```

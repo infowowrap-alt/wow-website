@@ -1,0 +1,109 @@
+{
+  "id": "car-coupe",
+  "file": "/models/car-coupe.glb",
+  "bounds": {
+    "min": [
+      -1.2714135208765978,
+      -0.00024612235556553674,
+      -1.9402775690957728
+    ],
+    "max": [
+      1.2709209933627008,
+      1.1486407670950138,
+      2.41717666720807
+    ]
+  },
+  "roles": {
+    "body": {
+      "materials": [
+        "paint_body"
+      ]
+    },
+    "accent": {
+      "materials": [
+        "paint_accent"
+      ]
+    },
+    "mirrors": {
+      "meshes": [
+        "BodyDoorRMirrorColor1",
+        "BodyDoorLMirrorColor1"
+      ]
+    },
+    "roof": {
+      "meshes": [
+        "BodyRoofPanel"
+      ]
+    },
+    "hood": {
+      "meshes": [
+        "BodyHood"
+      ]
+    },
+    "wheels": {
+      "materials": [
+        "rim",
+        "tire_side",
+        "tire_tread"
+      ]
+    },
+    "chrome": {
+      "materials": [
+        "mirror",
+        "rim_detail"
+      ]
+    },
+    "trim": {
+      "materials": [
+        "trim"
+      ]
+    },
+    "glass_windshield": {
+      "meshes": [
+        "BodyWindshield"
+      ],
+      "tintable": false
+    },
+    "glass_front_side": {
+      "meshes": [
+        "BodyDoorRWindow",
+        "BodyDoorLWindow"
+      ],
+      "tintable": false
+    },
+    "glass_rear_side": {
+      "meshes": [
+        "BodyWindowsRearSides"
+      ],
+      "tintable": true
+    },
+    "glass_rear": {
+      "meshes": [
+        "BodyRearwindow"
+      ],
+      "tintable": true
+    },
+    "lights": {
+      "materials": [
+        "light_head",
+        "light_tail",
+        "light_signal"
+      ]
+    },
+    "plate": {
+      "materials": [
+        "plate"
+      ]
+    },
+    "interior": {
+      "materials": [
+        "interior_dash",
+        "interior_1",
+        "interior_2",
+        "interior_3",
+        "interior_floor",
+        "interior_panels"
+      ]
+    }
+  }
+}

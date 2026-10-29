@@ -26,7 +26,8 @@ export function Logo({ variant, width, className, priority = false }: Props) {
       loading={priority ? "eager" : "lazy"}
       decoding="async"
       className={className}
-      style={{ width, height: "auto", maxWidth: "100%" }}
+      // Se la classe dà già una larghezza (anche responsive, es. "w-[88px] sm:w-[150px]") vince quella.
+      style={{ width: /(^|\s)w-/.test(className ?? "") ? undefined : width, height: "auto", maxWidth: "100%" }}
     />
   );
 }
