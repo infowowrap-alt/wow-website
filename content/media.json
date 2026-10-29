@@ -155,6 +155,77 @@
       ]
     },
     {
+      "id": "interior-cameretta-prima",
+      "world": "interior",
+      "project": "cameretta",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DKjNqmFMlxJ/",
+      "src": "materiale/da-instagram/interior/cameretta/ig-2025-06-06-DKjNqmFMlxJ-03.jpg",
+      "phase": "prima",
+      "alt": "La cameretta prima: armadio verde acido e cassetti gialli.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 960,
+      "height": 900,
+      "aspect": 1.067,
+      "orientation": "orizzontale",
+      "color": "#a8b858",
+      "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBQCdASoYABYAPt1go00opaMiMBgMARAbiWYAwrL1NGwhKIZ4i1lU9UkFlWZlYuwuXJkAAPwFU6fh8XXRDI28cjD607xR/b0RZIH3ViFVN2YdoudATZy7jIxyZ5wYf6ft1FkwPRLR9nSmeDKVBarCMy7p1XecTZX2m/lBdc2GFgKltGCdk1C44SuCvqMeVh7QyE7523xqu4j6OJC7tZAhuJkiN/j5bvDgAA==",
+      "variants": [
+        640,
+        960
+      ],
+      "webp": [
+        640,
+        960
+      ],
+      "hash": "275d40135e1ad9d7"
+    },
+    {
+      "id": "interior-cameretta-dopo",
+      "world": "interior",
+      "project": "cameretta",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DKjNqmFMlxJ/",
+      "src": "materiale/da-instagram/interior/cameretta/ig-2025-06-06-DKjNqmFMlxJ-06.jpg",
+      "phase": "dopo",
+      "alt": "La stessa cameretta dopo: armadio e cassetti rivestiti in bianco e grigio.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "card"
+      ],
+      "ai": false,
+      "width": 1023,
+      "height": 960,
+      "aspect": 1.066,
+      "orientation": "orizzontale",
+      "color": "#784828",
+      "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABwBQCdASoYABcAPt1eqE2opSQiKA1REBuJQBYj5JeuhGp6osfC1Y+nGyts52H1TShGqxpAAP6ohiCpEZaFxHe18VgnalwRmr54QGu8VrGHDVsoeEvj6bBZMoxgZCx1JdyaaOOJqZpetrLBX1TRolitt6AkiydC7yyn7uoQ1GYndW99JwKGTR2kR1nZ391A+C2cOIc/8vs9zhAA",
+      "variants": [
+        640,
+        1023
+      ],
+      "webp": [
+        640,
+        1023
+      ],
+      "hash": "a9fa4c963014ec3d"
+    },
+    {
       "id": "interior-chiosco-vetrata",
       "world": "interior",
       "project": "chiosco-grande-onda",
@@ -398,6 +469,149 @@
         640,
         1280
       ]
+    },
+    {
+      "id": "interior-cucina-arancione-prima",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMcf_rutiZl/",
+      "src": "materiale/da-instagram/interior/cucina-arancione-avorio/ig-2025-07-23-DMcf_rutiZl-03.jpg",
+      "phase": "prima",
+      "alt": "La cucina prima: ante arancioni lucide sotto il piano di lavoro.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#c84808",
+      "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAADwBACdASoYAB4APt1kpU8opaMiKA1REBuJbACdEf/gHn1nQAkEUIHK9mhpc/x4lxAA/ulecbcAA7ZYMfJMDpmrnrcCUWzG6K4AIcvjjjSwlTFqL5uyXV3DiQ7etHZm/GlF9IkD4vvSdenMI2tjSg08y5OHOWOKhZbOJDpTpdoczAxF84L+8IGACmiIEAr8U/UFexqBmUvxx1s9qm3u5Y5HsEFPT+9nNLWaV/khQ3K8DnFVsfLowMAA",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "5e37f67dc2677052"
+    },
+    {
+      "id": "interior-cucina-avorio-dopo",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMcf_rutiZl/",
+      "src": "materiale/da-instagram/interior/cucina-arancione-avorio/ig-2025-07-23-DMcf_rutiZl-04.jpg",
+      "phase": "dopo",
+      "alt": "La stessa cucina dopo: ante color avorio effetto stucco e pensili con vetro satinato.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 5,
+      "uses": [
+        "prima-dopo",
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#c8b8a8",
+      "blur": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABQBQCdASoYAB4APt1iq0+opSOiKAqpEBuJZQCsM0LBqfvCGmHpRcp+oEmCWYf+bcQoD4AA/tMSWPKNCOTJy/86F7Fa4EiefO/SBkiwYMC3r1SPxFf1nOK3WA/7wj86R2Zr0/uFHiyEwy5uLXECl5dp9OSjnVVWZE+hnx5YE4vveBUszjdULQZF0rpKk8TdsolZwkDr6uChbIMIcr6gMPKL8Rc+twd2f0qAAA==",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "872cdd0700d50880"
+    },
+    {
+      "id": "interior-cucina-avorio-angolo",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMcf_rutiZl/",
+      "src": "materiale/da-instagram/interior/cucina-arancione-avorio/ig-2025-07-23-DMcf_rutiZl-05.jpg",
+      "phase": "dopo",
+      "alt": "La cucina avorio vista dall'angolo, con le basi curve rivestite.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#c8b8a8",
+      "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAACwBQCdASoYAB4APt1mqE+opaOiKAqpEBuJZwCw7YyUcO+wfKrxW0oQLUDqlm4IERVMUeV1TQAA/sfd1B5EwnycPn6DJ+kuZzPfsy+jU5bWooPOloDlANqBdlBnGerfWvziwGS5x1OZlyWhtCU/Xtf2V/mfl3xrUUFEhd6Y0jVPGxMxVuP9L3YcNHD+9fqxa8/nj8/YMuHbsa0yCEXoBu+C3EagFmjHu2LqoSfe3V8HcITwct6UKqhzF1l2l62g3X1GPpeHgXCMihgA",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "dc30e59b997c5972"
+    },
+    {
+      "id": "interior-cucina-avorio-curva",
+      "world": "interior",
+      "project": "cucina-arancione-avorio",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMcf_rutiZl/",
+      "src": "materiale/da-instagram/interior/cucina-arancione-avorio/ig-2025-07-23-DMcf_rutiZl-06.jpg",
+      "phase": "dettaglio",
+      "alt": "Dettaglio dell'anta curva rivestita in avorio effetto stucco.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "case-gallery",
+        "texture-ref"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#c8b8a8",
+      "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwBACdASoYAB4APt1apEyopSOiMAgBEBuJZwDBzBuKZxrEMmJOK1zYjuWL21soAPzEsnEZrVTudcX85xInFRapiCRypBbKLHsGbr6VEkkcfuICNoJfeOlsuClNoyxbwdZPoQ8veiMeuIOMwAjHouw8zZ8QJxm1eJBDb/FfhasmgNnz6XtNZVgAAAA=",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "1d2ac828da8a434d"
     },
     {
       "id": "interior-dance-prima",
@@ -725,6 +939,42 @@
       ]
     },
     {
+      "id": "interior-international-school-ingresso",
+      "world": "interior",
+      "project": "international-school-brindisi",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DSZt3CJDibZ/",
+      "src": "materiale/da-instagram/interior/international-school-brindisi/ig-2025-12-18-DSZt3CJDibZ-01.jpg",
+      "phase": "dopo",
+      "alt": "L'ingresso dell'International School of Brindisi prima e dopo: infissi rinnovati e vetrofania sabbiata.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": true,
+      "quality": "bassa",
+      "score": 3,
+      "uses": [
+        "prima-dopo"
+      ],
+      "note": "Montaggio prima/dopo del post con le scritte BEFORE e AFTER.",
+      "ai": false,
+      "width": 1024,
+      "height": 1280,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#d8c8b8",
+      "blur": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAADQBgCdASoYAB4APt1kqU+opSOiKAqpEBuJYwCdM0X8FQ6cYkoB16h4RPIlYn/bFfQelK+6u950bsERq4hwrAAA/t7ttg3hRj2G+uDffwhrQvWqevT2SBKwjPHEYRIPR9AQpEYyQyZfFhqs4h49ZEOvQsCkXPNLw12xCeo8RD2YTGzw1MseB2ZKVM5tX5xyIV0EOB2w73sUyDqxBRzvSdIzSpWzhz5ANUHF28OemVKXAX51wjiYQKTI56OHaMo8jd/ILr6fGd3bsCbTuHWroh7gxZOqEj5f0goe8JRm9SzU8i2Xzus/I4S4XDEe7GX4qMm3sJBVT2JWkAAA",
+      "variants": [
+        640,
+        1024
+      ],
+      "webp": [
+        640,
+        1024
+      ],
+      "hash": "144b3b2d3eba388b"
+    },
+    {
       "id": "interior-jova-container-rimorchio",
       "world": "interior",
       "project": "jova-summer-party-container",
@@ -992,6 +1242,221 @@
         640,
         1280
       ]
+    },
+    {
+      "id": "interior-fondale-prima",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DLmNivINcDd/",
+      "src": "materiale/da-instagram/interior/mobili-arredi/ig-2025-07-02-DLmNivINcDd-02.jpg",
+      "phase": "prima",
+      "alt": "Il fondale del mobile soggiorno prima del rivestimento, ingiallito.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#582818",
+      "blur": "data:image/webp;base64,UklGRvYAAABXRUJQVlA4IOoAAACQBQCdASoYAB4APt1kqE+opaOiKAqpEBuJaACdMoMejKSCxdEdwFhJdKEWVvbRckbk89RmAAD+wrmcvQuLsU2yBlI4QtWd36THBk/vP2z2RjVftTVTtBAlFY64JsLj/SpWG8lvk/HtsfnS9HodLbPDytPU3CS4wNyEn2TJcbBaxJ3e+WYiLSDsMYN0giFJ1q+GrVKHvqPC11ptD7FdDuUcBZKnC7VYqaTdMmxlRS8Xwmimz2jZ85tDO1sDohHGYAf1d3tb1vsd8AKUmokwQkL6qKvBppo4f5PeYTsM5wMvyZYoacXgWO8IAAA=",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "045cec1003242162"
+    },
+    {
+      "id": "interior-fondale-dopo",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DLmNivINcDd/",
+      "src": "materiale/da-instagram/interior/mobili-arredi/ig-2025-07-02-DLmNivINcDd-03.jpg",
+      "phase": "dopo",
+      "alt": "Il fondale del mobile dopo, rivestito in bianco porcellana.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#582818",
+      "blur": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAADwBQCdASoYAB4APt1iqE+opSOiKAqpEBuJZgCdMoSCv0eBxRRhkNGkexX9dBrY+5klkfKy1ZstgAD+8r3uJk9f3nwpyePaU0zh2k8J2f5fFiZmcSqB0MplB68vvh/LHLLL2MI72vYXByhtdDVpW0k50RtpvRzd8rILWgMjYoqSHMvyvyVa4yCnAUZMLt702SUcmQ1M9/4cQiV+9kPgddzYV/MRcGOgT3Q2LPQDgfJ41XJ8ughYW/YbNyvpUOXaeQCz5eLUAAA=",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "c48fa06c68ad6cd7"
+    },
+    {
+      "id": "interior-appendiabiti-officina",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DJ1EGrdNlao/",
+      "src": "materiale/da-instagram/interior/mobili-arredi/ig-2025-05-19-DJ1EGrdNlao-03.jpg",
+      "phase": "dopo",
+      "alt": "Un appendiabiti in legno rivestito con finiture diverse sui due lati, nello showroom WOW.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "card",
+        "texture-ref"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAADQBQCdASoYAB4APt1mq1EopSOiqAgBEBuJZgA+P8wkgLFdAIP1QbqLD4L2gaRkOZFcwoBnOlCAAP6sX7NyHnrHeHtyTN343sbU8OxQVsRValv2ojyVCby8Kd00viaqP6PkDAMl3wYKDGb879WmVM2dx+W0TatAQWXFh2RBbsZw5Yr1MXcnnQkoA5YHwQq019bbptPwISrWqhPD1eS72mA/95kKlfS70n5RDYO7DZCJPgwoujo142EGCcH4Ct36O2iLrAZJt2Q6CJfj7yP62y8WlC9unUlM8/+7cg1ZPb1Na8VQAAA=",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "9a9bdf26897c76a9"
+    },
+    {
+      "id": "interior-frigo-dopo",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DIvsTXoN3Vt/",
+      "src": "materiale/da-instagram/interior/mobili-arredi/ig-2025-04-22-DIvsTXoN3Vt-04.jpg",
+      "phase": "dopo",
+      "alt": "Un frigorifero ingiallito rivestito di nero opaco nello showroom, sotto i LED.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "card",
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAABwBQCdASoYAB4APt1eqEyopSQiMBgMARAbiWUAy6QQ67P6lkfD++DXHQstCMsUtWLf/qjgAP71a2fnlDJh369b5SD5Iy2R54FpSUNVffJGhhHZSrEW7O7THjxq3148ixWdYfTsOk3kK1fCopHEx3ANANMX+jOBpzH1jIeMK7q3Wlp8yvbGcFCpYMrkeYfM9di03nyi2oPVCMovgl46n9fp61z8nxSmYUjDF8QcW8nvonkwxFbNxM1QOkp8DcbLEv6jvNGNpH0HEZgJ+etCCb8tlg6kP4VmxKC5EAAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "b66894c8b58e9f6d"
+    },
+    {
+      "id": "interior-frigo-mezzo",
+      "world": "interior",
+      "project": "mobili-arredi",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DIvsTXoN3Vt/",
+      "src": "materiale/da-instagram/interior/mobili-arredi/ig-2025-04-22-DIvsTXoN3Vt-05.jpg",
+      "phase": "durante",
+      "alt": "Il frigorifero a metà: un lato ancora ingiallito, l'altro già nero.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAABQBQCdASoYAB4APt1cqU0opSQiKA1REBuJZQDDcBBWUGtPaJLv3GAEaS19xXdgkOMkGjAA/u7zlk6RbSmNIeiSQbmb7czHGLV18X9YOiqqGBUR+wYc4nb+NKkFo5W1GAeLHdSPoBwfHh3jTCHqjLaIVeb4yo7tbLTuQiK2EvrlXoA7czw9YzXP4u18LXZYei5J+biD5x7XU3Xm5NnifnSXYjwlcuEL9HlI/HQxlxydalskrzj/p1gqkuO4jTKoF3ePm6bPuFP17YNU5KmETlYiudJAdX/XWE/nAojHa7AAAA==",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "166fd9b31eb269dc"
+    },
+    {
+      "id": "interior-ohana-park-trono",
+      "world": "interior",
+      "project": "ohana-park",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DP0osErjB_9/",
+      "src": "materiale/da-instagram/interior/ohana-park/ig-2025-10-15-DP0osErjB_9-01.jpg",
+      "phase": "persone",
+      "alt": "Seduti sul trono a forma di ananas della sala feste Ohana Park, a lavoro finito.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 2,
+      "uses": [
+        "chi-siamo"
+      ],
+      "ai": false,
+      "width": 719,
+      "height": 898,
+      "aspect": 0.801,
+      "orientation": "verticale",
+      "color": "#88b8c8",
+      "blur": "data:image/webp;base64,UklGRhwBAABXRUJQVlA4IBABAABwBgCdASoYAB4APt1eqE6opKOiMBgIARAbiWwAnTLjf1UgG4BpPEos5330ypgcArjnnF8sv3S4ewLBlkgA/gW6a9mhdeN5UJ4PoSslb7kF3hWdS7XrmUO6kp16jia8GKnNpI48oaNdi6c4yZks1TEfvvKGZwyitbu+7Ionx8HX5V03eLmVuBn6RhvtkqL67Af0IgXL+G2tYybOfI04bnHvwEHVTqxticQ0dwrvL9gD8VwtjhOoLepUVwqaHHpVRF4aF0mRyfoXzFLNR+v/+/3k4soqqTEOG/eQmJO8+XniZwVt4jt6bb4L+lJfTNsvk+CA6Oc9dC0yoHZTK3EqIMiLuUO1wSWnCKG6k4GE09bwAA==",
+      "variants": [
+        640,
+        719
+      ],
+      "webp": [
+        640,
+        719
+      ],
+      "hash": "8bf0a3c7d7ee05b0"
     },
     {
       "id": "interior-marangio-prima-scaffali",
@@ -1940,6 +2405,114 @@
       "duration": 9.7
     },
     {
+      "id": "interior-satinata-posa",
+      "world": "interior",
+      "project": "pellicole-solari",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DJD8KDWsLWQ/",
+      "src": "materiale/da-instagram/interior/pellicole-solari/ig-2025-04-30-DJD8KDWsLWQ-02.jpg",
+      "phase": "durante",
+      "alt": "Posa di una fascia satinata sulla vetrata di un locale, con la spatola.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "servizio-vetri",
+        "processo"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#e8e8f8",
+      "blur": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAABwBQCdASoYAB4APt1kqE+opaOiKAqpEBuJZAC7BAgApwFMkOAA4R+4lKiHTdhhB1+O5MlgAP7uQ7qs2k2wf25vgZqOcqdZiUu15l4n9BfBuFT8d60+Mxpnn2CCmSI3/ivHcnt0vXr7xwcLfcnPrhDGXy7UWcHt5Ump9d246vJdkZi7Yt0diC22athpGXZb+1hTCr/ACwjPRBsrTInaB84N6rBD6aGXX+JyglscmXoSd5hab7+eF9GWscv6Z7flbVr9c/Gzod7rHJraVvhodKRG/vA+mRvrwrgAAA==",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "5195550f993e1f32"
+    },
+    {
+      "id": "interior-satinata-dopo",
+      "world": "interior",
+      "project": "pellicole-solari",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DJD8KDWsLWQ/",
+      "src": "materiale/da-instagram/interior/pellicole-solari/ig-2025-04-30-DJD8KDWsLWQ-04.jpg",
+      "phase": "dopo",
+      "alt": "La porta vetrata con la fascia satinata applicata.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "servizio-vetri"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#d8d8d8",
+      "blur": "data:image/webp;base64,UklGRtYAAABXRUJQVlA4IMoAAAAQBQCdASoYAB4APt1ipU6opaMiKA1REBuJQBWAAexOGwist311+cP/7SifkH8JBJYAAP7VF9vfivjnoYJV1DMzvF6uTdrRL+5zQJi41uLMTRQQID1VPnb40J+LBXfbLuUzAitUREvYKVJn+0pfnb0pkaxq39Kb78hd9ybIdJbyETRkD01BUTvbaIImcDKWrRcSr2FF9DJSffMtv3iZPTpROiPLxlTyqX5SPQzVHttYcy7NKTlXh+SxA/Sks4ebZ2jWAYH/FpIZPQAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "9fc15214612725a9"
+    },
+    {
+      "id": "interior-vetrata-cestello",
+      "world": "interior",
+      "project": "pellicole-solari",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DQL8ufwDtFQ/",
+      "src": "materiale/da-instagram/interior/pellicole-solari/ig-2025-10-24-DQL8ufwDtFQ-03.jpg",
+      "phase": "durante",
+      "alt": "Applicazione della pellicola sulle vetrate di una facciata, da un cestello elevatore.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "servizio-vetri"
+      ],
+      "ai": false,
+      "width": 1024,
+      "height": 1280,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#c89848",
+      "blur": "data:image/webp;base64,UklGRiwBAABXRUJQVlA4ICABAAAwBgCdASoYAB4APt1cpUyopSOiMAgBEBuJbACpI8CVjayZCJaL7M3yI+7g//5z+lKQvr0NH+MeC7AAAOHoFZgdA0fY9G+9KlwYOTq2io6SPbaI4cv/IjeH1cAhvRDX6wDJ2RzJvLMp7kJEcueYUJchcRyzvwfFr1uRycfiPq7QYiQPSksdlBH5mLTIdfgoQPTkUHLmDa/3J1J9xGp3ER9+ID86wAxFjERGjTWBFA4CkGwm/Ak9PHU+JL9JypXS7uFgnbA95t8E79OnP28Rmi/Jz2CUOGQucYJo2QNMf6cQICPGM53n17Sv/wFnFwyIMtWYRsw37VdXmvcJvDBieDWta2tUFkQa+X5uvSmXOL4VkOCS/FnKEhVz7X42qWmwwAA=",
+      "variants": [
+        640,
+        1024
+      ],
+      "webp": [
+        640,
+        1024
+      ],
+      "hash": "eccad5b064773a1d"
+    },
+    {
       "id": "interior-porta-prima",
       "world": "interior",
       "project": "porta-ingresso-effetto-pietra",
@@ -2141,6 +2714,294 @@
         640,
         1280
       ]
+    },
+    {
+      "id": "interior-salone-marmo",
+      "world": "interior",
+      "project": "salone-effetto-marmo",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DSR_JuyjLwp/",
+      "src": "materiale/da-instagram/interior/salone-effetto-marmo/ig-2025-12-15-DSR_JuyjLwp-04.jpg",
+      "phase": "dopo",
+      "alt": "Un salone con le pareti rivestite effetto marmo bianco e lo specchio ovale.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "ai": false,
+      "width": 1440,
+      "height": 1801,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#989898",
+      "blur": "data:image/webp;base64,UklGRgABAABXRUJQVlA4IPQAAADwBQCdASoYAB4APt1kqU+opSOiKAqpEBuJZwAGaBpNWgCR74uoc/sXNxyDeN0WuDBeua+vUxA0oADLQzY000KeVVEflEXlFZ8tMF64urtSGtad6hQJ2Q6yGR3D8fF1clnamffsBcTu8vXyGYprB0l4Pcqvo1u2S7GcATkcqyawoIoCZghjT1PScrXIgvHYcjCw1TZCtkyc4HkJN+BWqZiJvPBdb9/RulMNk3bgsxoGTVsoKu61BkkjlcM9h0g4HiKfgTlJA9tNArEnL0onOhZO5nyCDOt8TsIaOAlbCpML238sLkeYju5IGWFDNVrr9OnZoQAA",
+      "variants": [
+        640,
+        1280,
+        1440
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "a3ed805961063556"
+    },
+    {
+      "id": "interior-parete-marmo-posa",
+      "world": "interior",
+      "project": "salone-effetto-marmo",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DZUau2VDsiY/",
+      "src": "materiale/da-instagram/interior/salone-effetto-marmo/ig-2026-06-08-DZUau2VDsiY-02.jpg",
+      "phase": "dettaglio",
+      "alt": "Rifilatura della pellicola effetto marmo sullo spigolo della parete.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "processo"
+      ],
+      "ai": false,
+      "width": 1280,
+      "height": 1600,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#e8e8e8",
+      "blur": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABQBQCdASoYAB4APt1gpk6opaMiKA1REBuJYgCuHEXgKDGXxkceUxmPzEo4r7oBwly4SQAA/vTfBba6o++XcWMtq/ambabLP7zLnxUWdSvMECX1YqnOX8USTSXzViUeg554Pnfmvd316FUB2WcFyd1jXn0loMm19Si8EGK0duvKb/olwom8oH5xwX02NO+wA6/FqcESNr3qeL1wc1QLAcDm4AeHQZaNWZi+4b3ROviE6J5+eU3erm2e3AAAAA==",
+      "variants": [
+        640,
+        1280
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "99656cb07b81eadd"
+    },
+    {
+      "id": "interior-stand-fiera",
+      "world": "interior",
+      "project": "stand-fiera",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DVLhsytDLmm/",
+      "src": "materiale/da-instagram/interior/stand-fiera/ig-2026-02-25-DVLhsytDLmm-01.jpg",
+      "phase": "dopo",
+      "alt": "Uno stand fieristico allestito con pannelli grafici, bancone brandizzato e luci viola.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "card"
+      ],
+      "note": "Si legge il marchio dell'espositore: TODO-PAOLO se si può nominare.",
+      "ai": false,
+      "width": 927,
+      "height": 695,
+      "aspect": 1.334,
+      "orientation": "orizzontale",
+      "color": "#383838",
+      "blur": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBQCdASoYABIAPt1aqE6opKOmMBgIARAbiUAYnT/88AAiHHdVXmXoxt+umwKr3768wAD+UfRHK6oJYhgr2nR05dBCheMF+4jTQxSRV7CAlaGYfS+hmkutRGQTDxoaT+V8Z3KdwHeB7SdSsm0yoMsK6652gjIjB6scFTHJJ4PxsSpJxXGEK8RldxrYe9NnPEObmBC31B5f5e4c/vEYeUfIvpvAAAAA",
+      "variants": [
+        640,
+        927
+      ],
+      "webp": [
+        640,
+        927
+      ],
+      "hash": "c1087a8cbf49efee"
+    },
+    {
+      "id": "interior-tt-engineering-vetrate",
+      "world": "interior",
+      "project": "tt-engineering-lecce",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DLZSVX4MpOq/",
+      "src": "materiale/da-instagram/interior/tt-engineering-lecce/ig-2025-06-27-DLZSVX4MpOq-01.jpg",
+      "phase": "durante",
+      "alt": "Davanti alle vetrate degli uffici di T&T Engineering a Lecce, prima della pellicola a specchio.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 3,
+      "uses": [
+        "servizio-vetri"
+      ],
+      "ai": false,
+      "width": 1024,
+      "height": 1280,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#c8b8b8",
+      "blur": "data:image/webp;base64,UklGRhYBAABXRUJQVlA4IAoBAABwBgCdASoYAB4APt1iq08opaQiKAqpEBuJaAC4MpkvmBVIpcTaOp3jRrNGOPqteCPaUSupxeGngIgbK5wA/A7Jv0mLvGuNEv2DEcUu1bPDZoKl4OLeYWelr2oOKwFr6N7+Edh6YcflY9LWi0cjrk+wO+Dxf0f7UbNnVcFttWu09Ykdf4NyvNcCF1O+zezF5UQIJoOEXHg5HgEP0tqq41FjQ0krovb5TBDz7acrY2tsKx54wd7dT2tl1UObxC9T6Q7IKKThOmfLjdxt4F/74Td/zFcJcO2nsO5uyV+D+34DWnw2HPN3OfEI4g5/5c+EyC83iANa20X+YiPlut17ycbIfIkkyRkTDTAAAA==",
+      "variants": [
+        640,
+        1024
+      ],
+      "webp": [
+        640,
+        1024
+      ],
+      "hash": "85f5b71728cb9970"
+    },
+    {
+      "id": "interior-tt-engineering-posa",
+      "world": "interior",
+      "project": "tt-engineering-lecce",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DLZSVX4MpOq/",
+      "src": "materiale/da-instagram/interior/tt-engineering-lecce/ig-2025-06-27-DLZSVX4MpOq-06.jpg",
+      "phase": "durante",
+      "alt": "La pellicola a controllo solare stesa sulla vetrata con la spatola.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "servizio-vetri",
+        "processo"
+      ],
+      "ai": false,
+      "width": 1024,
+      "height": 1280,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#78b8c8",
+      "blur": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAABQBgCdASoYAB4APt1apUyopSOiMAgBEBuJbACdIKo4oWk+5mApXLPbSPqKtMGNULBCJWLQvel0Sl8JAADww+jzbuXHxy+4JXVkN0NpgLE4PfJcKNCdBC4rVn8qlYaf8xWGu6bVklxJrgAffgx4R22BLXA7Y3vZNkj7PYRle1GBOuouFehYM7NJsswzsLnTmdzqj08XjTbhpa6bqJeIoFk3+K4WXzwbQ/x+EEUtRznQchnWe+oKc3NixIIPyqKkXsH2olx8wIacpdyRGRJHp2DpChVz8ytD57hDxC4Ss+dPdpNt6rsVDckC19Mvi/rIRHry3JFw3atosIw9aTUxdXujs+xjSVLu8fw9jgtP67R3icQA",
+      "variants": [
+        640,
+        1024
+      ],
+      "webp": [
+        640,
+        1024
+      ],
+      "hash": "473b4bc2054bd915"
+    },
+    {
+      "id": "interior-vetrina-fiocco",
+      "world": "interior",
+      "project": "vetrine-stagionali",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DTASh2Djq7K/",
+      "src": "materiale/da-instagram/interior/vetrine-stagionali/ig-2026-01-02-DTASh2Djq7K-05.jpg",
+      "phase": "dopo",
+      "alt": "Una vetrina di Natale con un grande fiocco rosso in pellicola che la incarta come un regalo.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 5,
+      "uses": [
+        "card",
+        "case-cover"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#d8d8e8",
+      "blur": "data:image/webp;base64,UklGRigBAABXRUJQVlA4IBwBAABQBgCdASoYAB4APt1gqE4opaOiMBgIARAbiWoAnTLjgOhujXidAgAAIY0JnaCg5vvbqPIEQe6SKWctQAD9rEcCZ7FQXGnWsK6KkNPxrOxGd/oj5y+zEuGzs/TM3hpjSjCi+rF/MMinLDJHRIFYKBpzunbu4Y3BEb8Mc+dSoQl6767XBGB9p/KNNQlGlCjdWR3ZW+NtN4Ji16NH5x1plWN1AQCn0ZBGuKo4nLKvbhRADme/30+x6vKD1XfxgMLGki9MZbX6WIN69BDmXhrxtuFytu3KqA2cJrw0oDHO9EzCaIKIhrDaB+q83lJ3EHMBo/qBmwi+SoXoAG4uf7fRj4qtJHShRhTV9YKt73/gLTlM/Nl8gpYcprV4LogAAA==",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "960f31f0a8aee11e"
+    },
+    {
+      "id": "interior-vetrina-magic",
+      "world": "interior",
+      "project": "vetrine-stagionali",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DTASh2Djq7K/",
+      "src": "materiale/da-instagram/interior/vetrine-stagionali/ig-2026-01-02-DTASh2Djq7K-04.jpg",
+      "phase": "dopo",
+      "alt": "Vetrofania natalizia con la scritta «Magic starts here» sul vetro di un negozio di abbigliamento.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#686858",
+      "blur": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4IPIAAACwBgCdASoYAB4APt1apE0opSMiMBgMARAbiUAYH5BBNUuwYUHgWllKJoeBFOzSuGW0guADM7hx6Naarr3pAAD5ZG4FnbI0brD9JtHLSTGxvnUsD5qnSvpEKLL7v1Zk/m+Eyg48V00/aiw1qwtfNWksKK1zXjRC8LDJPpNK+BnpEbcV2MFSXhrcPSJZ+2SIMEZJbhTPK3J1dz2Pl5qWLt7H2nvJBpE6b0Xl6t1YNzeylf9HWo6SYJ04KA3m0Ws9DDrdr69/Ih7wABU0veg1hE3ZSXqmrZBQY2sg97FlYXBii5Be2wl+ccShFZaHYtJRKboAAA==",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "e6daa51460ccb037"
+    },
+    {
+      "id": "interior-vetrina-happy-holidays",
+      "world": "interior",
+      "project": "vetrine-stagionali",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DTASh2Djq7K/",
+      "src": "materiale/da-instagram/interior/vetrine-stagionali/ig-2026-01-02-DTASh2Djq7K-01.jpg",
+      "phase": "dopo",
+      "alt": "Una vetrina con l'albero stilizzato e la scritta «Happy holidays» in pellicola rossa.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#988888",
+      "blur": "data:image/webp;base64,UklGRjABAABXRUJQVlA4ICQBAACQBgCdASoYAB4APt1kqE+opSOiKAqpEBuJZACuPIpJgEYA62hEstMKVn2UXdss6QTPQBO9iLLbIy5HzmTAAP5r1g2sneDjxyGssaM9LdofyqctjhS/VDfexoQjx7yH96M56frVZh+8ZdYpjg/NWOEJ4plm+BtFKSwnHR6+NfeqaEfNGRaTffBgVFDn9HCBMx+dCZy1F/NvGvMBt5LYmzJw//7950FQ0pM6nVcCFDIAWJOViIDz8SxJdevfgTBj0YsHu0UBcXdb47IHqQiUfAZ2EPYuwnINS6T6kQP8bmxCSXvqUJJ9aOEhjTZOhSDDbIhro0zW4cHQzUTRduCwZmhA2W2EIAqanGC0aZTaT73FnR+mVSK4mKqKPixvFS69MJQR9wAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "a31ca2ff0d041e97"
     },
     {
       "id": "interior-airone-vetrata",
@@ -5100,6 +5961,116 @@
       "duration": 3.1
     },
     {
+      "id": "garage-idea-80-tracciatura",
+      "world": "garage",
+      "project": "idea-80-idea-marine",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DJ_KiSBNj3q/",
+      "src": "materiale/da-instagram/garage/idea-80-idea-marine/ig-2025-05-23-DJ_KiSBNj3q-04.jpg",
+      "phase": "durante",
+      "alt": "In laboratorio si traccia la sagoma del finestrino dell'imbarcazione sulla pellicola nera.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "processo",
+        "case-cover"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#f8f8f8",
+      "blur": "data:image/webp;base64,UklGRmABAABXRUJQVlA4IFQBAABQBwCdASoYAB4APtVaoUyoJSMiMAwBABqJbACxDBp9FCOegFjAlU7bwhHEyN8h1DTw112nR4NWJvVUtD1PJ480caPAAP7lBxPDxjHWuK+rSpcrYtl5WgEK+VNrni8oXFvOnF4XbfiPfUjg2JYzeCJYbKBaCv3WGdTdRtTkRrMxzmGSpqnU7G4/eTooPmPZda4vAQSnx+W49xxuVOP55pozC0zovxES+E0G6yL4cfkM0MRwMNNXQw2spnaLLA5Vw94+68QXkiX95oPvWSakpRaxNpxWZQhdZFFq1YfvFFX6+qXvejxJkb2/P9EyY3tVuqbhCJ+7JcnQjoJ3bEp8IkbFo49iL7zy4kWy6iXDwYbJjSDyh0/jzryIpg0Fwf0Yku/EGGwBuz3qf5XUO83NVzlPcui/fzVSmrZ4kAZZVgNUafO8pUVYAAfgB1slmRC/YWSxrgAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "cd10a601d96580f9"
+    },
+    {
+      "id": "garage-idea-80-taglio",
+      "world": "garage",
+      "project": "idea-80-idea-marine",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DJ_KiSBNj3q/",
+      "src": "materiale/da-instagram/garage/idea-80-idea-marine/ig-2025-05-23-DJ_KiSBNj3q-06.jpg",
+      "phase": "dettaglio",
+      "alt": "Il taglierino segue il bordo curvo della pellicola nera per la finestratura della barca.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 5,
+      "uses": [
+        "processo",
+        "card"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#f8f8f8",
+      "blur": "data:image/webp;base64,UklGRvoAAABXRUJQVlA4IO4AAAAwBgCdASoYAB4APt1YqE6opKOiMBgIARAbiUAX6yQxNUWulWbfflP/pR1sKQKPcztt+fCNM/3GUAjQAP7tkyhDt49XV+AMWvFvWykO4E56UN+Z7hgLFyoTJzBJ6d+WQ1xEZrll6D/+w9Ijkw0LxoU7SE5Cy+h4fStXCS4eEa4vF+RdOPSaBLwhkxIUJr/nNAO9rHAUVZX3RohOPATmtI6rPLd8oZ8vjqzu8MCwD7pDMcJsETXIv5fuPilUN6zHOMHWxaNtw56f9PITI/T3YNfOvhgucvQbETs/YFtrlPOL+RZ33o+gMJNyGKs0AAAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "13c930fc2f47b818"
+    },
+    {
+      "id": "garage-idea-80-pannello",
+      "world": "garage",
+      "project": "idea-80-idea-marine",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DJ_KiSBNj3q/",
+      "src": "materiale/da-instagram/garage/idea-80-idea-marine/ig-2025-05-23-DJ_KiSBNj3q-03.jpg",
+      "phase": "durante",
+      "alt": "Il pannello del finestrino rivestito, tenuto in verticale accanto al plotter.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#e8e8d8",
+      "blur": "data:image/webp;base64,UklGRvoAAABXRUJQVlA4IO4AAACwBQCdASoYAB4APt1mq1EopSOiqAgBEBuJQBYditGdXHyAhN7QljWMV9P/mjsHbJW0h7HvWAAA/sXPn5IJ9i7bMZA2R3oy9nusAhM78lvr0QB9nTvJl6xKQ0B3ARYdT5vzsltW89RmtqcJ1zbSwtvP9cmzcHXIOdb0olu3rK3e/HSTZd9bB+v2xFTz0DT+C7HH8u9wH4O/M18uMpbyuIOquiZlOkCOcqb8Vvlx7pqIQSD9Ze6gLD0FnNvqLUuPjSxih8dnZTwoNAB1bIvmqg632Q0SW36oTtsLborzMw0vC97oSn6SwNu5K52oAAAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "a8b142238ffd6a52"
+    },
+    {
       "id": "garage-ktm-790-di-serie",
       "world": "garage",
       "project": "ktm-790-sdentato",
@@ -6664,6 +7635,296 @@
       ]
     },
     {
+      "id": "garage-ppf-panda",
+      "world": "garage",
+      "project": "ppf-panda",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/reel/DL4L4eVByv2/",
+      "src": "materiale/da-instagram/garage/ppf-panda/ig-2025-07-09-DL4L4eVByv2-01.jpg",
+      "phase": "durante",
+      "alt": "Si pulisce la carrozzeria rossa della Panda prima della pellicola protettiva trasparente.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 3,
+      "uses": [
+        "servizio-ppf",
+        "card"
+      ],
+      "ai": false,
+      "width": 1080,
+      "height": 1920,
+      "aspect": 0.563,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRiwBAABXRUJQVlA4ICABAACQBgCdASoYACsAPt1aqk2opKQiMBVaqRAbiWoAv1kgB0ymhMzWPXosnDvZdE0Zeex2Sv0+4s3t1NljLpIAAP70kTjw7O+HGkf1Mye1cmch/RUeRoCeNmyHMyYalo/mn0SdMAVii5uoO77I4CunSTQHBeWvGsERsrgbHW6bZxSWcfvd7tsO3BEEF0+i5nsbssdgFKG4XqfrzGTP+IB1G/QKT57J5jITuE3KnjqcPvbN4QbBfClG8gLER1g14r4L5XkvL/9OfeFc+8wCF2kMtEVbf7hJ334YD93uLxXv78y5Jckong9eaLppt6uDargPela+iDF3/JyK+CaaOPzzTbFdLnJdkRU4zhTPoWcB87XMrpPEDXmJ1BBBnkSeoza+pgA=",
+      "variants": [
+        640,
+        1080
+      ],
+      "webp": [
+        640,
+        1080
+      ],
+      "hash": "e6ca1769b8b31c05"
+    },
+    {
+      "id": "garage-pullman-tre-quarti",
+      "world": "garage",
+      "project": "pullman-tour-panoramico",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMH9gDcNAPh/",
+      "src": "materiale/da-instagram/garage/pullman-tour-panoramico/ig-2025-07-15-DMH9gDcNAPh-09.jpg",
+      "phase": "dopo",
+      "alt": "Un pullman rosso con la nuova livrea grafica, visto di tre quarti anteriore.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 4,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "note": "Cliente non nel brief: TODO-PAOLO se si può nominare.",
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#484848",
+      "blur": "data:image/webp;base64,UklGRgABAABXRUJQVlA4IPQAAABwBgCdASoYAB4APt1grE8opSSiKAqpEBuJagCdFRGGeCaLC3hP9fJ2760QIOJqnVsBn/Yd3ESfFldmoYAA+K4P0Qj9Px2kV3I/diYQ/u/ZaRIW3utcpidDwBaf0JWj4D5v3x/B7MbubbRbdkcQFSxBAQ/m7DnHxSc9enWyzzefCzaCJ9e16OMe8PCl69EwfSGl3SOO9cKkcM3eBdSp6GQsFbibQp3ypLKeOysBW6JomWhA/eqMzEWnTeHqlOheifcPr/K7dz0Hh0Nv2xPEujxhPsz8i+viPE2pf9bh+JYP1EuZyHgsqUU14w5/vfNaCG1aHRAA",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "2bc3c73d273babea"
+    },
+    {
+      "id": "garage-pullman-frontale",
+      "world": "garage",
+      "project": "pullman-tour-panoramico",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMH9gDcNAPh/",
+      "src": "materiale/da-instagram/garage/pullman-tour-panoramico/ig-2025-07-15-DMH9gDcNAPh-07.jpg",
+      "phase": "dopo",
+      "alt": "Il frontale del pullman con la scritta della livrea sopra il parabrezza.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#a8a898",
+      "blur": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAABQBQCdASoYAB4APtVYokyoJSMiMAwBABqJbACuHYxEtLJl9cipdQ+VIx3KgnC0b5D4c5wAra2SslsyhDn7vOkZjLl1oM+mqPOMJoQE0xm4uz4DUcQaCHyC8rdneO6iGjwOg99w9vv9cNdLaWbkPmw3Oav9MW/093TqkVfEezDyrqH7/wT0a1vywITXc2Zqvuy7opR6eMx1RdFWZ2wmX0WjLqqmitX8e6fQsemm9MZaBnzIZyTXbItKEQVheJxSyFR/Dendj9T7MK5DDXUE7+dENPwJjwAA",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "98849bbe21cb62f4"
+    },
+    {
+      "id": "garage-pullman-prima",
+      "world": "garage",
+      "project": "pullman-tour-panoramico",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DMH9gDcNAPh/",
+      "src": "materiale/da-instagram/garage/pullman-tour-panoramico/ig-2025-07-15-DMH9gDcNAPh-04.jpg",
+      "phase": "prima",
+      "alt": "La fiancata del pullman prima del restyling, con la vecchia grafica.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "bassa",
+      "score": 3,
+      "uses": [
+        "prima-dopo"
+      ],
+      "ai": false,
+      "width": 1200,
+      "height": 1500,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#888898",
+      "blur": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAACQBQCdASoYAB4APt1kqU+opSOiKAqpEBuJaAC2+uov/gEFW92zlQs7bHihWcJ97IgMXI5lAADOOz/ThO8Vfc4d4MKryZtVzbbzPNfG+dw1a0uCBe0EV0UYZT+KWMZpGEDS+rzhPxZcBMG7QfuRo+kE3r2orVdMKb1g9/Q9Ypes0eBujrTeJzmFftEIPfhj4HTBjdILa3vGM2YLpsEP+AzxASs/MW/zxdshl8ypZzODNdZm1Ok+lk12iLlELxh3g1DAYPz2bmsNoSqLB3EkLUQRP6NhNnesCzm0JgAA",
+      "variants": [
+        640,
+        1200
+      ],
+      "webp": [
+        640,
+        1200
+      ],
+      "hash": "34836e53d2cb322a"
+    },
+    {
+      "id": "garage-sea-doo-cofano",
+      "world": "garage",
+      "project": "sea-doo",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DIa0tYgNQWw/",
+      "src": "materiale/da-instagram/garage/sea-doo/ig-2025-04-14-DIa0tYgNQWw-01.jpg",
+      "phase": "dopo",
+      "alt": "Il cofano della moto d'acqua Sea-Doo rivestito nero e giallo fluo, con l'illustrazione di un personaggio anime al centro.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "case-cover",
+        "card"
+      ],
+      "note": "Il personaggio sul cofano è di terzi: si mostra solo come foto del lavoro.",
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRloBAABXRUJQVlA4IE4BAADQBgCdASoYAB4APt1apkyopSOiMAgBEBuJZgCw+iM3xx6QzixymBI3E52yAUKArE4/7tnBUGg4awXuWYKhfQAA/sB8JQ79YpHeASdYdiaLXgDKCruKKtJy+NAan17eqegFd2PVv0uXtMp8mEGMY9t9HVZy1LjYZo9ZbiJZyPEiTyEj3z3dbjw3k8W5WagIIOqCz7RZkC/YOS/fVy7FzIcrbXACFIDn/BIRwdoP7mYdV7RGFqx78F0W8a+xWIYcaQs1sYZOGM5zsmPRCJxDa9nMb8crX3gTr5WjJfuQu2rRJL3SfVM6MuP04kveolA1y4GXQ/m1Fxqd098y3+Z5zipdVDgLycOKDJY7uw5jecPogxH/zT1BS1Z89HNHyKths2pIZJem8MmQZT64xVjjd4mLfF///B+rY3nd9Mbcn1RPM9fZ+N5wcIDqZf59iAAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "efd5a0ddd1184ba5"
+    },
+    {
+      "id": "garage-sea-doo-officina",
+      "world": "garage",
+      "project": "sea-doo",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DIa0tYgNQWw/",
+      "src": "materiale/da-instagram/garage/sea-doo/ig-2025-04-14-DIa0tYgNQWw-02.jpg",
+      "phase": "dettaglio",
+      "alt": "La prua del Sea-Doo nera e gialla fluo sotto i LED a chevron dell'officina.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 5,
+      "uses": [
+        "officina-ref",
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRiQBAABXRUJQVlA4IBgBAADQBQCdASoYAB4APt1kqk+opaOiKAqpEBuJZgAIFegA64zNxAcaCPCT+zLCXFsg0frrtUUZ0SgAAP74gpl6PKJx1j8X7PEIO6jKtZlYc4UuHnxn5xJ4YKlBdEN/FqGtgEuRS7jJ0dFrSSOS5iuE0O4focCJvtWc0K3phFitsBEWZe+osURiwaJPctm4M42R1Q45LPXxjaiOuC5ow49uJCbaPODmiG2nzCVreHZ1pQ+BCTZiMvFLL9T68SY/qjR2KBYRIalJkcu95mcch0/Zm4PuAbUFLkjP5CFSVPz1wk51rCrTQxt9tE2Hca3CqzX79fHjZwUp21vRJxX+m1T/+HjKQb9RN19OXupUgGk/hxidURyLqsySAAAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "eb7bdb046eaac729"
+    },
+    {
+      "id": "garage-sea-doo-carrello",
+      "world": "garage",
+      "project": "sea-doo",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DIa0tYgNQWw/",
+      "src": "materiale/da-instagram/garage/sea-doo/ig-2025-04-14-DIa0tYgNQWw-03.jpg",
+      "phase": "dopo",
+      "alt": "Il Sea-Doo rivestito sul carrello, visto di tre quarti.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAACQBQCdASoYAB4APt1mq1CopSOiqAgBEBuJQBhQAkXY9np3xXfU2vJAWiOAZTg6DfYb9nqsgAD+8Xqx3Deepfg/e4w1TqBWaIMkfkK26H4ZC32mgPDRpnJZ3sMx6vdkHIrYAqRT3HN6DuayPUrMXzBiJIYp6yr+Rpu5a8BcxEtzPbb/hWPc+vBoqQymO4VI6WzjhksmotenAO8nYbuA/4Lsi4QKNDhjpruLNo9stV7BKVh5hW/du5AwWrk6jdXSmoY0TeCW4ch6dMN+vacIWWTZOoIljn2fQAA=",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "af12383cb9abfe38"
+    },
+    {
+      "id": "garage-sea-doo-poppa",
+      "world": "garage",
+      "project": "sea-doo",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DIa0tYgNQWw/",
+      "src": "materiale/da-instagram/garage/sea-doo/ig-2025-04-14-DIa0tYgNQWw-04.jpg",
+      "phase": "dettaglio",
+      "alt": "La poppa del Sea-Doo con le grafiche gialle fluo.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 3,
+      "uses": [
+        "case-gallery"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#080808",
+      "blur": "data:image/webp;base64,UklGRiYBAABXRUJQVlA4IBoBAABwBQCdASoYAB4APt1irE8opSSiKAqpEBuJQBibAUXQrgb8qOQmdyErzzxg2+VOEXIbk6EAAP6z/3F9pH6Wlq9r5YdFhlZ8VZyIVb0ciDhEyj7hfxo96jNi/67U7FSrGJ5bs15a4nZmjCMg5pCG0X347li4CPN/foMRpkS9DcnQKKlaRylEUwjANzezWQ1zypLH+0Z9e4cAB8o5gK/1zBytSE1pmehIA0RmIwxJ8wBnlvMxC5cCYYxaHBX4pBlL5+kz99BkXxpC6EFKrP6Rwc80XfSlu/l3r7TbSteRR5Tz1+Vr5J3obb28murXhYQiZ7R9vgV4qcFsSiIrcoPOrt8Hww9rY3Q/P4NB3zR/tu65TEnP/n/hGPdkNgA=",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "80bee6a47b4a29db"
+    },
+    {
       "id": "officina-attrezzi-pistola",
       "world": "officina",
       "project": "attrezzi",
@@ -6764,6 +8025,152 @@
       "width": 2160,
       "height": 3840,
       "duration": 11.9
+    },
+    {
+      "id": "officina-lucidatura-chevron",
+      "world": "officina",
+      "project": "paolo-al-lavoro",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DUIbfLkjnRT/",
+      "src": "materiale/da-instagram/officina/paolo-al-lavoro/ig-2026-01-30-DUIbfLkjnRT-01.jpg",
+      "phase": "persone",
+      "alt": "Nell'officina buia, sotto i LED a chevron, si lucida la carrozzeria nera di un'auto.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 5,
+      "uses": [
+        "chi-siamo",
+        "hero-garage"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#383848",
+      "blur": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAABwBQCdASoYAB4APt1cpkyopSOiMAgBEBuJZwDBzYz43zKz3ZPHZBu997Adj3IpUd5Ebh7QAP55Pmyku6mR/Csuh8xQ70IkPz9+2EZQO4gsBRNsc4N+CaWO5CGulA1FaeN/aWcQZX139OE3WOtCy1Avinfg9WBiLpCb237NyFCHlywjrn2zOpHx+NwBOE1WS/vyyXvASpT9b/x45yWNYJeL4zyicHMnMSkLMmgFCWnYdlHndftxRj+az63xSbheUJghT4JCGnbiKca4Cz30ifiLHp9gBY4GH4riSVklBKVkkAAA",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "0be24ae1fbff922d"
+    },
+    {
+      "id": "officina-lucidatura-sorriso",
+      "world": "officina",
+      "project": "paolo-al-lavoro",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DUIbfLkjnRT/",
+      "src": "materiale/da-instagram/officina/paolo-al-lavoro/ig-2026-01-30-DUIbfLkjnRT-02.jpg",
+      "phase": "persone",
+      "alt": "Al lavoro sulla carrozzeria nera, con i riflessi dei LED a chevron.",
+      "credits": null,
+      "people": "staff",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "chi-siamo"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#383848",
+      "blur": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAABwBQCdASoYAB4APt1cqE6opKOiMBgIARAbiWUAwN2MYm+ybXlSxvxKl0gSX8urVLWq5aCAAP1T96+H9UyAoDYJe3LYBueRw7OgSf6wZCPaSWFjLh3iWisHgqBTUMxFmW+fJzKwqcghKAp/U3plazhm4Jk0FKY1kcnfvdygNX2pJtlsoT23PjdELsuDPGeybvAOTFV2L2UJJNX5ZUOUYHF1PiT12tjWByq+4SAAGGJO9YQitpZzWAvT3+lTUPsGSXdKtEenfGo0/4F0W4sQM68Z1CdW56pBno9D5KNa9+1tfPfAAAA=",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "0794ef1d46d98ea8"
+    },
+    {
+      "id": "campionario-pellicole-auto-ventaglio",
+      "world": "campionario",
+      "project": "pellicole-auto",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DWY0rAiDh8E/",
+      "src": "materiale/da-instagram/campionario/pellicole-auto/ig-2026-03-27-DWY0rAiDh8E-03.jpg",
+      "phase": "dettaglio",
+      "alt": "Le mazzette delle pellicole colorate per auto aperte a ventaglio sul banco.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 4,
+      "uses": [
+        "campionario-ref",
+        "configuratore-ref"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#e8e8c8",
+      "blur": "data:image/webp;base64,UklGRlYBAABXRUJQVlA4IEoBAACwBgCdASoYAB4APt1apUyopSOiMAgBEBuJbAC1GoPKqpgpmKeoW98JR1Vy58DhwqIfVdYP7sbPrak67QYxOAD+38IpVtVmUEmFrsmP/bFbEixF2og3vImmFcjnxOPDon/Dcl/Z60tC0CUwupCKijjvSZu1NI25iPC+lIwYHrxhcHPHFed4fXomAYcalFN1CJI1EXl8Wi1vP7Le/nMAwYsmw4eWOt5x32KQXZpd3eEvAxWXAMZC8bYDAtyLSzxHvnDaDHo5sbfHS4dCDxwPA4jugGCLbh74BVyjjQ2zBeXVbT6Vz4SCRYzctZ34Li0PqAFUg7bbx9P3WgMxJaZNABUVyi9cy8yeGhZa8zJw1f60sVvf/aDETOb6x2cJLg380ZS073ijYuRMX7+0i2/ER4GQwxBEwmk64yJvPlUsizEXbfv2uSwOQYSHgAA=",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "98247ba1f9b6a0f0"
+    },
+    {
+      "id": "campionario-pellicole-auto-mano",
+      "world": "campionario",
+      "project": "pellicole-auto",
+      "kind": "image",
+      "source": "instagram",
+      "post": "https://www.instagram.com/p/DWY0rAiDh8E/",
+      "src": "materiale/da-instagram/campionario/pellicole-auto/ig-2026-03-27-DWY0rAiDh8E-01.jpg",
+      "phase": "dettaglio",
+      "alt": "Il campionario delle pellicole auto aperto tra le dita: tinte unite, opache e cangianti.",
+      "credits": null,
+      "people": "nessuno",
+      "overlay": false,
+      "quality": "media",
+      "score": 3,
+      "uses": [
+        "campionario-ref"
+      ],
+      "ai": false,
+      "width": 1638,
+      "height": 2048,
+      "aspect": 0.8,
+      "orientation": "verticale",
+      "color": "#e8e8b8",
+      "blur": "data:image/webp;base64,UklGRnwBAABXRUJQVlA4IHABAADQBwCdASoYAB4APt1YpEyopSOiMAgBEBuJbACdMoMw6cBhTumAbzTXHtcFcXLM0gTOIdQYXEz4IVfxVRZcyi3MCCkZq9GyQAD+GWs2jlcONwFyJfB+rU1q+vbYwQ9dSEvD8goyQOfh9DVB0dySCF0Pb4XyEmQjHqXRP1ksCk/+3EJqOeHZmIE3JvgtthZAzj7ewEzX52a4MSULGRkeswUeZPncKxPqiqyMsD5zmiXidwOdzaU22U6YHWLvHE8vJHmS/SBIkGYbIp8lRzSX8KSXwIwhmkgPk59nPEDnPfhqi30MvhkhBKCQPZFVEgZmCwu7g7hW9BPFNdSE3IANCef+If4Jvkve78vhsNlEag4f+nw8h6y03fecNmqaGt+wVWP4W2n2TV00wtZ3FADod/iSMon88DZFN0tVMg/X4tkbufaYA0uOswNueIHoIXi3eQJdWsdkPXEkVuoCRm311juwvFKdn2g61qzdxl/gR/0AAA==",
+      "variants": [
+        640,
+        1280,
+        1638
+      ],
+      "webp": [
+        640,
+        1280
+      ],
+      "hash": "29b6bda43835e3c9"
     }
   ]
 }
