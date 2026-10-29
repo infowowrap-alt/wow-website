@@ -45,6 +45,18 @@ scarica le anteprime di ogni foto e video. Sul computer servono anche ImageMagic
 plugin HEVC di libheif per aprire le foto HEIC dell'iPhone (`apt install libheif-plugin-libde265`
 su Linux; sul Mac `brew install imagemagick libheif`).
 
+### Instagram
+
+Per i lavori che non hanno originali (soprattutto 2024-2025) si usano le foto dei post.
+`materiale/da-instagram/indice-post.json` elenca i post; `content/instagram.json` contiene
+le foto scelte con alt e classificazione.
+
+```sh
+NODE_USE_ENV_PROXY=1 node scripts/media/instagram-download.mjs .cache/instagram   # scarica le foto dei post
+npm run instagram -- --from .cache/instagram                                      # copia le scelte e aggiorna il catalogo
+npm run media
+```
+
 ### Pagina di caricamento
 
 Paolo carica foto e video dalla galleria del telefono nella pagina privata

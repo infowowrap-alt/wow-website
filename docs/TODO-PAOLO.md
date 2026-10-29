@@ -20,7 +20,7 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 
 ## Aggiunti nella Fase 0
 
-- [ ] **Carica foto e video** dalla galleria del telefono con la pagina "Materiale WOW": https://claude.ai/artifact/GPgPzJtK23GuwpAarBCzRC (una cartella per progetto; priorità: video originali, officina con i LED, Cigarette, Sea-Doo, cucine, mobili, campionario).
+- [x] **Materiale**: arrivato con l'album iCloud condiviso (1702 foto e video, 21 aprile – 25 ottobre 2026). Per i lavori fuori da quelle date, o mancanti, resta la pagina "Materiale WOW": https://claude.ai/artifact/GPgPzJtK23GuwpAarBCzRC (mancano soprattutto: Sea-Doo in foto, cucine, mobili, International School, Ohana Park, T&T, campionario).
 - [ ] **Logo WOW viola**: esiste (lo vedo sulla targa della BMW E92 e nei reel delle flotte). Mi serve il file originale, meglio se vettoriale.
 - [ ] **Colori Garage** (`#21152D`, `#7C0ED7`, `#E5FF00`, oggi "da confermare"): li confermi o li ricavo dal logo WOW viola quando arriva?
 - [x] **Modelli 3D dei veicoli**: budget 0 €, si usano modelli CC0 (o CC-BY con credito). Si possono sostituire in seguito grazie alla mappa delle mesh.
@@ -31,3 +31,13 @@ Lista viva: la aggiorno a ogni fase. Spunta quello che mi hai dato o confermato.
 - [ ] **Video ritratto** tuo in officina (10-20 s, anche col telefono) per la sezione "Paolo" della home.
 - [ ] **Audio** di una pellicola che si stacca, registrato in silenzio vicino al microfono (facoltativo, per la transizione).
 - [ ] **Firefly**: nel tuo Creative Cloud ci sono 64 generazioni (squarcio viola, officina a fumetto). Le uso solo come riferimento; in alcune ci sono marchi (BMW) e personaggi riconoscibili, quindi non finiscono nel sito.
+
+## Dall'album iCloud (Fase 1)
+
+- [ ] **Clienti da nominare?** Nelle foto si leggono nomi e loghi di lavori che non erano nel brief. Per ognuno dimmi se posso citarlo nel sito: auto di soccorso della Croce Amica; chiosco sul lungomare con la Grande Onda (insegna "Taschino"?); vetrofania con airone e serpente della scuola di kung fu; vetrina di Edil Rollo; facciata della scuola di ballo (Dance Studios); camion rossi dei "70 furgoni" (si vede il logo del cliente); porta d'ingresso effetto pietra (casa privata: la mostro senza dettagli personali).
+- [ ] **Foto della BMW al raduno** (quelle da fotocamera, 6000×4000): sono di @_denicola.simone_ o di @desalvatorealan? Mi serve il credito giusto.
+- [ ] **Casco della KTM** decorato a squame: è un lavoro WOW?
+- [ ] **SUV nero nell'officina** (album n. 128-129): che lavoro è (oscuramento, PPF)?
+- [ ] **Dacia bianca** nei video cinematografici in officina (album n. 1243-1259): che lavoro è? Per ora uso solo i riflessi dei LED, senza dire cosa si è fatto.
+- [ ] **Sea-Doo**: nell'album ci sono solo video della stampa olografica; se hai foto della moto d'acqua finita, caricale.
+- [ ] **Foto private**: nell'album c'erano anche una foto di una bambina, una SIM e del cibo. Le ho escluse e non finiscono da nessuna parte; se vuoi toglile dall'album condiviso.
